@@ -153,6 +153,7 @@ CREATE TABLE navigation_nodes (
 
     -- Node metadata
     name VARCHAR(255),
+    entrance_role VARCHAR(50),  -- 'main', 'rideshare_pickup', 'valet', etc.
     accessibility_features TEXT[],
 
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -280,6 +281,57 @@ INSERT INTO properties (name, location, area, owner, has_floor_plan) VALUES
 ('The Cosmopolitan', ST_SetSRID(ST_MakePoint(-115.1742, 36.1095), 4326)::geography, 'Mid Strip', 'MGM Resorts International', TRUE),
 ('Wynn Las Vegas', ST_SetSRID(ST_MakePoint(-115.1657, 36.1278), 4326)::geography, 'North Strip', 'Wynn Resorts', TRUE),
 ('Mandalay Bay', ST_SetSRID(ST_MakePoint(-115.1743, 36.0909), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE);
+
+-- Pre-calculated distances between casino properties
+CREATE TABLE property_distances (
+    id SERIAL PRIMARY KEY,
+    from_property_name VARCHAR(100) NOT NULL,
+    to_property_name VARCHAR(100) NOT NULL,
+    distance_meters FLOAT NOT NULL,
+    UNIQUE(from_property_name, to_property_name)
+);
+
+CREATE INDEX idx_property_distances_from ON property_distances(from_property_name);
+CREATE INDEX idx_property_distances_to ON property_distances(to_property_name);
+
+-- Populate property distances from properties table
+INSERT INTO property_distances (from_property_name, to_property_name, distance_meters)
+SELECT
+    p1.name, p2.name,
+    ST_Distance(p1.location, p2.location)
+FROM properties p1
+CROSS JOIN properties p2
+WHERE p1.id != p2.id;
+
+-- Function to find nearest entrance/exit node to a given POI
+CREATE OR REPLACE FUNCTION find_nearest_entrance(
+    poi_id_param VARCHAR,
+    entrance_role_param VARCHAR DEFAULT 'main'
+)
+RETURNS TABLE (
+    node_id INTEGER,
+    node_name VARCHAR,
+    node_lat FLOAT,
+    node_lng FLOAT,
+    distance_meters FLOAT
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT
+        nn.id AS node_id,
+        nn.name AS node_name,
+        ST_Y(nn.location::geometry)::FLOAT AS node_lat,
+        ST_X(nn.location::geometry)::FLOAT AS node_lng,
+        ST_Distance(nn.location, p.location)::FLOAT AS distance_meters
+    FROM navigation_nodes nn
+    JOIN pois p ON p.id = poi_id_param
+    JOIN properties prop ON nn.property_id = prop.id AND prop.name = p.casino_property
+    WHERE nn.node_type = 'entrance'
+      AND (entrance_role_param = 'main' OR nn.entrance_role = entrance_role_param)
+    ORDER BY ST_Distance(nn.location, p.location)
+    LIMIT 1;
+END;
+$$ LANGUAGE plpgsql;
 
 -- Grant permissions
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO scapp;
