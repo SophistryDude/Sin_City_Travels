@@ -27,6 +27,9 @@ class CustomJSONProvider(DefaultJSONProvider):
 app = Flask(__name__)
 app.json = CustomJSONProvider(app)
 
+# Initialize DB pool (works with both gunicorn and direct python run)
+init_pool()
+
 
 @app.route('/')
 def index():
