@@ -18,7 +18,8 @@ Sin City Travels helps visitors navigate the complex layouts of Las Vegas casino
 - ✅ Downloaded floor plans for 31 major casino properties (7.3 MB)
 - ✅ Collected OpenStreetMap data for Las Vegas Strip (94 hotels, 36 casinos)
 - ✅ Created POI collection infrastructure with Yelp API integration
-- 🚧 Collecting restaurant, bar, and attraction POI data (8 POIs created, 60+ documented)
+- ✅ Collected restaurant POI data (37 POIs created across 8 major properties)
+- 📋 Michelin-starred and celebrity chef restaurants documented
 - 📋 Researching 3D mapping technologies
 
 ## Features (Planned)
@@ -68,18 +69,21 @@ Sin City Travels helps visitors navigate the complex layouts of Las Vegas casino
 - Downloaded via Overpass API (523 KB GeoJSON)
 
 ### Points of Interest (POIs)
-- **8 restaurant POIs** created with complete data:
-  - Golden Steer Steakhouse (off-Strip)
-  - Hakkasan (MGM Grand) - Michelin-starred
-  - Craftsteak (MGM Grand) - Tom Colicchio
-  - Morimoto (MGM Grand) - Japanese/Sushi
-  - Bavette's (Park MGM) - French steakhouse
-  - Picasso (Bellagio) - AAA 5-Diamond
-  - Spago (Bellagio) - Wolfgang Puck
-  - Le Cirque (Bellagio) - AAA 5-Diamond
+- **37 restaurant POIs** created with complete data across 8 major properties:
+  - **MGM Grand** (3): Hakkasan (Michelin), Craftsteak, Morimoto
+  - **Park MGM** (1): Bavette's Steakhouse
+  - **Bellagio** (3): Picasso (AAA 5-Diamond), Spago, Le Cirque (AAA 5-Diamond)
+  - **Caesars Palace** (5): Hell's Kitchen, Nobu, Guy Savoy (Michelin 2-star), Amalfi, Peter Luger
+  - **Aria** (5): Carbone, Jean Georges Steakhouse, CATCH, Bardot Brasserie, Din Tai Fung
+  - **The Venetian** (4): Bouchon, TAO, CARNEVINO, CUT
+  - **The Cosmopolitan** (5): é by José Andrés, Zuma, Scarpetta, Momofuku, Jaleo
+  - **Wynn/Encore** (5): Wing Lei (Michelin), SW Steakhouse, Mizumi, Delilah, Sinatra
+  - **Mandalay Bay** (5): Orla, STRIPSTEAK, Kumi, Border Grill, Aureole
+  - **Off-Strip** (1): Golden Steer Steakhouse
 
-- **60+ restaurants documented** across MGM Grand, Park MGM, Bellagio
-- **Bulk collection script** ready for Yelp API (targets 500-1,500 POIs)
+- **15+ celebrity chefs** featured: Wolfgang Puck, Gordon Ramsay, José Andrés, Bobby Flay, Thomas Keller, Michael Mina, David Chang, and more
+- **3 Michelin-starred restaurants** documented
+- **Alternative collection methods** implemented (web scraping + manual curation)
 
 See [docs/](docs/) for detailed guides on Yelp API setup, POI collection plan, and data tracking.
 
