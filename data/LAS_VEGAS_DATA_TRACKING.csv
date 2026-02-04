@@ -1,0 +1,28 @@
+Property Name,Location,OSM Data,Google Indoor Maps,Floor Plan PDF,Official Website Map,Interactive Map,3D Model,Priority,Data Quality,Sources,Notes,Contact Status
+Caesars Palace,Central Strip,Yes,No,Yes,Yes,No,No,Tier 1,⭐⭐⭐⭐⭐,"SmarterVegas, VegasMaps, Getawayk",Multiple high-quality sources available,Not contacted
+Bellagio,Central Strip,Yes,No,Yes,Yes,Yes,No,Tier 1,⭐⭐⭐⭐⭐,"SmarterVegas, VegasUnzipped, ArcGIS",Has interactive ArcGIS map,Not contacted
+MGM Grand,South Strip,Yes,No,Yes,Yes,No,No,Tier 1,⭐⭐⭐⭐,"SmarterVegas, VegasUnzipped",Property maps available,Not contacted
+Aria Resort & Casino,South Strip,Yes,No,Yes,Yes,No,No,Tier 1,⭐⭐⭐⭐,SmarterVegas,Modern property with clear layout,Not contacted
+The Venetian Las Vegas,North Strip,Yes,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Needs verification on SmarterVegas,Not contacted
+The Palazzo,North Strip,Yes,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Part of Venetian complex,Not contacted
+Wynn Las Vegas Casino,North Strip,Yes,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Check official website,Not contacted
+Encore at Wynn,North Strip,Yes,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Part of Wynn complex,Not contacted
+Cosmopolitan of Las Vegas,South Strip,No,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Not in OSM - needs manual add,Not contacted
+Mandalay Bay,South Strip,Yes,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Check MGM Resorts website,Not contacted
+Paris Las Vegas,Central Strip,Yes,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Check Caesars Entertainment,Not contacted
+Planet Hollywood,Central Strip,Yes,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Check Caesars Entertainment,Not contacted
+Park MGM,South Strip,Yes,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Check MGM Resorts website,Not contacted
+New York New York,South Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Check MGM Resorts website,Not contacted
+Excalibur Hotel & Casino,South Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Check MGM Resorts website,Not contacted
+Luxor Las Vegas,South Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Check MGM Resorts website,Not contacted
+Flamingo Las Vegas,Central Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Check Caesars Entertainment,Not contacted
+The LINQ,Central Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Check Caesars Entertainment,Not contacted
+Horseshoe Las Vegas,Central Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Formerly Bally's,Not contacted
+Treasure Island,North Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Independent property,Not contacted
+Circus Circus Las Vegas,North Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Check official website,Not contacted
+The Strat,North Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Formerly Stratosphere,Not contacted
+Resorts World Las Vegas,Off-Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,New property (2021),Not contacted
+Sahara Las Vegas,North Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Formerly SLS,Not contacted
+Hard Rock Las Vegas,Central Strip,Yes,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Formerly The Mirage,Not contacted
+Vdara Hotel & Spa,South Strip,No,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Not in OSM - needs manual add,Not contacted
+Tropicana Las Vegas,South Strip,No,No,Unknown,Unknown,No,No,Tier 3,Unknown,,Possibly demolished/renamed,Not contacted
