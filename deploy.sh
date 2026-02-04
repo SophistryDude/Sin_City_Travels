@@ -16,7 +16,7 @@ set -euo pipefail
 #        chmod +x deploy.sh
 #        sudo ./deploy.sh
 #
-# After running, the app will be available at http://<your-ec2-ip>/
+# After running, the app will be available at http://<your-ec2-ip>:8888/
 # ─────────────────────────────────────────────────────────────────────────────
 
 APP_DIR="/opt/sincitytravels"
@@ -24,7 +24,8 @@ REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 DB_NAME="sincitytravels"
 DB_USER="scapp"
 DB_PASS="$(openssl rand -base64 18)"
-APP_PORT=5000
+APP_PORT=5050
+NGINX_PORT=8888
 
 echo "══════════════════════════════════════════════════"
 echo "  Sin City Travels — EC2 Deployment"
@@ -142,7 +143,7 @@ echo "► Step 7: Configuring Nginx..."
 
 cat > /etc/nginx/sites-available/sincitytravels <<NGXEOF
 server {
-    listen 8080;
+    listen ${NGINX_PORT};
     server_name _;
 
     # Sin City Travels demo
@@ -180,12 +181,12 @@ echo ""
 echo "══════════════════════════════════════════════════"
 echo "  Deployment complete!"
 echo ""
-echo "  App URL:     http://$(curl -s ifconfig.me 2>/dev/null || echo '<your-ec2-ip>'):8080/"
+echo "  App URL:     http://$(curl -s ifconfig.me 2>/dev/null || echo '<your-ec2-ip>'):${NGINX_PORT}/"
 echo "  DB Password: ${DB_PASS}"
 echo "  Service:     sudo systemctl status sincitytravels"
 echo "  Logs:        sudo journalctl -u sincitytravels -f"
 echo ""
 echo "  IMPORTANT: Save the DB password above!"
-echo "  IMPORTANT: Make sure port 8080 is open in your"
+echo "  IMPORTANT: Make sure port ${NGINX_PORT} is open in your"
 echo "             EC2 security group."
 echo "══════════════════════════════════════════════════"
