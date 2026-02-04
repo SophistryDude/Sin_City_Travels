@@ -2,8 +2,9 @@
 
 **Project Type**: Indoor Navigation & Wayfinding App for Las Vegas Casinos
 **Created**: February 3, 2026
-**Status**: Phase 1 Complete - Data Collection & Infrastructure
+**Status**: Phase 2 Complete - Interactive Web Demo Deployed
 **Repository**: https://github.com/SophistryDude/Sin_City_Travels
+**Live Demo**: http://3.140.78.15:8888/
 
 ---
 
@@ -34,13 +35,17 @@ Build a model using Google Maps API that helps people figure out efficient walki
 - ✅ OpenStreetMap data for Las Vegas Strip (94 hotels, 36 casinos, 523 KB GeoJSON)
 - ✅ Data tracking CSV for all properties
 
-**Points of Interest (POIs)**: 43 POIs created
+**Points of Interest (POIs)**: 49 POIs created
 - **Restaurants** (37): Fine dining, celebrity chefs, Michelin-starred
   - MGM Grand (3), Park MGM (1), Bellagio (3), Caesars Palace (5)
   - Aria (5), The Venetian (4), The Cosmopolitan (5)
   - Wynn/Encore (5), Mandalay Bay (5), Off-Strip (1)
 - **Shopping** (4): Forum Shops, Grand Canal Shoppes, Crystals, Miracle Mile
 - **Entertainment** (2): "O" and KÀ by Cirque du Soleil
+- **Nightlife** (6): Speakeasies, craft cocktail bars, hidden gems
+  - The Laundry Room, Herbs & Rye, Ghost Donkey
+  - Frankie's Tiki Room, The Underground at The Mob Museum
+  - Parasol Up / Parasol Down (Wynn)
 
 **Celebrity Chefs Featured**: 15+
 - Wolfgang Puck, Gordon Ramsay, José Andrés, Bobby Flay, Thomas Keller
@@ -63,7 +68,7 @@ Build a model using Google Maps API that helps people figure out efficient walki
 **Database Schema**:
 ```sql
 Tables Created:
-├── pois                 # 43 POIs with spatial indexing
+├── pois                 # 49 POIs with spatial indexing
 ├── properties           # 9 major casino properties
 ├── navigation_nodes     # Indoor navigation graph nodes
 ├── navigation_edges     # Connections for pathfinding
@@ -83,24 +88,86 @@ Tables Created:
   - Navigation edges (walkways, stairs, elevators)
   - Synthetic routes between POIs for ML training
 
+### Phase 2: Interactive Web Demo ✅ COMPLETE
+
+**Live Demo**: http://3.140.78.15:8888/
+
+**Flask Web Application** (`demo/`):
+- Interactive Leaflet.js map of the Las Vegas Strip
+- 49 POIs rendered as color-coded markers by category
+- Category filter buttons (Restaurant, Shopping, Entertainment, Nightlife)
+- Click-to-view detail panel with full POI information
+- "Recommended Spots" sidebar panel showcasing speakeasies & hidden gems
+- Route navigation panel with walk/rideshare cost estimates
+- "Find Nearby" geolocation-based POI discovery
+- Responsive dark-themed UI
+
+**Backend** (`demo/app.py` - 750 lines):
+- Flask REST API with 10+ endpoints
+- `/api/pois` - All POIs with optional category filter
+- `/api/pois/recommended` - Curated recommended spots (tagged)
+- `/api/pois/<id>` - Single POI detail
+- `/api/pois/nearby` - Proximity search with distance
+- `/api/route` - Route calculation with walk/rideshare breakdown
+- `/api/properties` - Casino property data
+- `/api/walkable-pairs` - Walkable POI pairs within threshold
+- Connection pooling with retry logic and lazy initialization
+- Custom JSON provider for Decimal serialization
+
+**Frontend** (`demo/static/`):
+- `js/map.js` - Leaflet map with category-colored markers, highlight animations
+- `js/sidebar.js` - Category filters, detail panel, recommended spots cards
+- `js/navigate.js` - Route display with polylines and step markers
+- `js/api.js` - API client module
+- `js/app.js` - Application initialization
+- `css/style.css` - Dark theme, responsive panels, card styles
+
+**Deployment** (`deploy.sh`):
+- Automated EC2 deployment script (Ubuntu/Debian)
+- Installs PostGIS, creates database/user, imports POI data
+- Sets up Python venv with gunicorn (port 5050)
+- Configures systemd service with auto-restart
+- Nginx reverse proxy on port 8888
+- Environment file with generated DB password
+
+**Infrastructure**:
+- EC2 instance (3.140.78.15) running Ubuntu
+- PostgreSQL 16 + PostGIS 3.4 (local)
+- gunicorn WSGI server (2 workers, 30s timeout)
+- Nginx reverse proxy with static file caching
+- systemd service management
+- ufw firewall (ports 22, 8888)
+
+**Nightlife POIs Added** (6 new):
+- The Laundry Room (speakeasy, Downtown)
+- Herbs & Rye (craft cocktail bar, Off-Strip)
+- Ghost Donkey (speakeasy, The Cosmopolitan)
+- Frankie's Tiki Room (tiki bar, Off-Strip)
+- The Underground at The Mob Museum (speakeasy, Downtown)
+- Parasol Up / Parasol Down (cocktail lounge, Wynn)
+
 ---
 
 ## Technology Stack
 
 ### Current (Implemented)
 - **Database**: PostgreSQL 16 + PostGIS 3.4
-- **Container Orchestration**: Kubernetes / Docker Compose
+- **Backend**: Python Flask + gunicorn WSGI
+- **Frontend**: Leaflet.js interactive map, vanilla JS
+- **Deployment**: EC2 + Nginx + systemd
+- **Container Orchestration**: Kubernetes / Docker Compose (local dev)
 - **Data Format**: JSON, GeoJSON
 - **Scripting**: Python 3.x
 - **Spatial Queries**: PostGIS geography/geometry
+- **Connection Management**: psycopg2 connection pooling with retry logic
 
 ### Planned
-- **Frontend**: React Native (iOS/Android)
+- **Mobile App**: React Native (iOS/Android)
 - **3D Visualization**: Three.js / React Three Fiber
-- **Backend API**: Node.js / Python Flask
 - **Outdoor Navigation**: Google Maps API
 - **Indoor Positioning**: Bluetooth beacons / WiFi triangulation
 - **ML/Pathfinding**: A* algorithm, Dijkstra, or ML-based routing
+- **SSL/HTTPS**: Let's Encrypt for production
 
 ---
 
@@ -120,10 +187,26 @@ sin-city-travels/
 │   │   ├── restaurants/      # 37 restaurant POI JSON files
 │   │   ├── shopping/         # 4 shopping center JSON files
 │   │   ├── shows/            # 2 show JSON files
+│   │   ├── nightlife/        # 6 nightlife POI JSON files
 │   │   ├── MGM_RESORTS_RESTAURANTS_SUMMARY.md
 │   │   └── POI_COLLECTION_SUMMARY.md
 │   ├── LAS_VEGAS_DATA_TRACKING.csv
 │   └── OSM_DATA_SUMMARY.md
+├── demo/                     # Interactive web demo (Flask)
+│   ├── app.py                # Flask backend (750 lines, 10+ API endpoints)
+│   ├── config.py             # DB, map, navigation, rideshare config
+│   ├── db.py                 # Connection pooling with retry logic
+│   ├── requirements.txt      # flask, gunicorn, psycopg2-binary
+│   ├── templates/
+│   │   └── index.html        # Main page with Leaflet map
+│   └── static/
+│       ├── css/style.css     # Dark theme, responsive panels
+│       └── js/
+│           ├── api.js        # API client module
+│           ├── app.js        # Application initialization
+│           ├── map.js        # Leaflet map, markers, highlights
+│           ├── navigate.js   # Route display with polylines
+│           └── sidebar.js    # Filters, detail panel, recommendations
 ├── docs/
 │   ├── DATA_COLLECTION_PLAN.md
 │   ├── YELP_API_SETUP.md (paid subscription required)
@@ -139,6 +222,7 @@ sin-city-travels/
 │   ├── import_pois.py        # Import POIs to PostgreSQL
 │   ├── generate_synthetic_routes.py  # Generate navigation data
 │   └── README.md
+├── deploy.sh                 # Automated EC2 deployment script
 ├── docker-compose.yml        # Local development environment
 ├── README.md                 # Project overview
 └── project_context.md        # This file
@@ -248,45 +332,45 @@ CREATE TABLE synthetic_routes (
 
 ## Quick Start Guide
 
-### 1. Start Database (Local)
+### Option A: Deploy to EC2 (Production)
 ```bash
-# Start PostgreSQL + PostGIS + PGAdmin
+# On EC2 instance (Ubuntu/Debian with PostgreSQL + Nginx)
+git clone https://github.com/SophistryDude/Sin_City_Travels.git
+cd Sin_City_Travels
+chmod +x deploy.sh
+sudo ./deploy.sh
+```
+The script handles everything: PostGIS install, DB setup, POI import, venv creation, systemd service, and Nginx config. App will be at `http://<your-ec2-ip>:8888/`.
+
+### Option B: Local Development
+```bash
+# 1. Start PostgreSQL + PostGIS
 cd sin-city-travels
 docker-compose up -d
 
-# Check status
-docker-compose ps
+# 2. Import POI data
+pip install psycopg2-binary
+python scripts/import_pois.py
 
-# View logs
-docker-compose logs -f postgres
+# 3. Generate synthetic navigation data
+pip install numpy
+python scripts/generate_synthetic_routes.py
+
+# 4. Run the Flask demo app
+cd demo
+pip install -r requirements.txt
+python app.py
+# Open http://localhost:5000
 ```
 
-**Access**:
+**Database Access**:
 - PostgreSQL: `localhost:5432`
 - Database: `sincitytravels`
 - User: `scapp`
 - Password: `changeme_in_production`
 - PGAdmin: `http://localhost:5050` (admin@sincity.local / admin)
 
-### 2. Import POI Data
-```bash
-# Install dependencies
-pip install psycopg2-binary
-
-# Import all 43 POIs
-python scripts/import_pois.py
-```
-
-### 3. Generate Synthetic Navigation Data
-```bash
-# Install dependencies
-pip install psycopg2-binary numpy
-
-# Generate nodes, edges, and routes
-python scripts/generate_synthetic_routes.py
-```
-
-### 4. Query Database
+### Query Examples
 ```sql
 -- Connect to database
 psql -h localhost -U scapp -d sincitytravels
@@ -310,7 +394,7 @@ SELECT calculate_poi_distance('poi_001', 'poi_002');
 
 ## Next Steps
 
-### Phase 2: MVP Development
+### Phase 3: Enhanced Navigation
 
 #### A. Google Maps API Integration
 **Goal**: Combine indoor + outdoor navigation
@@ -373,12 +457,19 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 - 2D indoor maps (SVG from PDFs)
 - Uber/Lyft integration
 
-### Phase 3: 3D Visualization
+#### D. Production Hardening
+- SSL/HTTPS via Let's Encrypt
+- Domain name setup
+- Database backups (pg_dump cron)
+- Monitoring and alerting
+- Rate limiting on API endpoints
+
+### Phase 4: 3D Visualization
 - 3D models of casino interiors (Three.js)
 - Augmented reality navigation
 - Real-time positioning (Bluetooth beacons)
 
-### Phase 4: Expansion
+### Phase 5: Expansion
 - Cover all 31+ Strip properties
 - Add Downtown Las Vegas
 - Off-strip attractions
@@ -527,7 +618,6 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 ### TODO
 - API documentation (OpenAPI/Swagger)
 - Mobile app architecture
-- Deployment guide
 - Contributing guidelines
 - User manual
 
@@ -536,7 +626,7 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 ## Team & Contributors
 
 **Project Lead**: SophistryDude
-**AI Assistant**: Claude Sonnet 4.5 (February 3, 2026)
+**AI Assistants**: Claude Sonnet 4.5 (Phase 1), Claude Opus 4.5 (Phase 2)
 
 ---
 
@@ -551,6 +641,11 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 | Feb 3, 2026 | Database schema designed |
 | Feb 3, 2026 | Kubernetes infrastructure created |
 | Feb 3, 2026 | Synthetic route generation |
+| Feb 4, 2026 | Interactive web demo built (Flask + Leaflet.js) |
+| Feb 4, 2026 | Nightlife POIs added (6 speakeasies/bars) |
+| Feb 4, 2026 | Recommended Spots feature implemented |
+| Feb 4, 2026 | EC2 deployment (deploy.sh + Nginx + systemd) |
+| Feb 4, 2026 | Live demo at http://3.140.78.15:8888/ |
 | **TBD** | Google Maps API integration |
 | **TBD** | ML pathfinding model training |
 | **TBD** | Mobile app MVP |
@@ -561,12 +656,13 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 ## Contact & Links
 
 - **GitHub**: https://github.com/SophistryDude/Sin_City_Travels
+- **Live Demo**: http://3.140.78.15:8888/
 - **Database**: PostgreSQL 16 + PostGIS 3.4
-- **POIs**: 43 (37 restaurants, 4 shopping, 2 shows)
+- **POIs**: 49 (37 restaurants, 4 shopping, 2 shows, 6 nightlife)
 - **Properties**: 9 major Strip casinos
 - **Floor Plans**: 31 casinos (7.3 MB PDFs)
 
 ---
 
-**Last Updated**: February 3, 2026
-**Version**: 1.0 (Phase 1 Complete)
+**Last Updated**: February 4, 2026
+**Version**: 2.0 (Phase 2 Complete - Interactive Web Demo Deployed)
