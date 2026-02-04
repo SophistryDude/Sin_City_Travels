@@ -2,11 +2,15 @@
 """Sin City Travels - Interactive Web Demo"""
 import math
 import os
+import re
 import sys
+import time as _time
 from decimal import Decimal
 
 from flask import Flask, render_template, jsonify, request
 from flask.json.provider import DefaultJSONProvider
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 sys.path.insert(0, os.path.dirname(__file__))
 from config import (
@@ -27,9 +31,73 @@ class CustomJSONProvider(DefaultJSONProvider):
 app = Flask(__name__)
 app.json = CustomJSONProvider(app)
 
+# Rate limiting (in-memory, no Redis needed for single-server)
+limiter = Limiter(
+    get_remote_address,
+    app=app,
+    default_limits=["200 per hour", "50 per minute"],
+    storage_uri="memory://",
+)
+
+# ─── Validation ──────────────────────────────────────────────────────────────
+
+VALID_CATEGORIES = {'restaurant', 'shopping', 'entertainment', 'nightlife',
+                    'pool_spa', 'attraction', 'casino', 'hotel'}
+POI_ID_PATTERN = re.compile(r'^[a-zA-Z0-9_-]{1,20}$')
+
+
+def validate_poi_id(poi_id):
+    return bool(POI_ID_PATTERN.match(poi_id))
+
+
+# ─── Error handlers ─────────────────────────────────────────────────────────
+
+@app.errorhandler(400)
+def bad_request(e):
+    return jsonify({'error': str(e.description)}), 400
+
+
+@app.errorhandler(404)
+def not_found(e):
+    return jsonify({'error': 'Not found'}), 404
+
+
+@app.errorhandler(429)
+def ratelimit_handler(e):
+    return jsonify({'error': 'Rate limit exceeded', 'retry_after': e.description}), 429
+
+
+@app.errorhandler(500)
+def internal_error(e):
+    app.logger.error(f'Internal error: {e}')
+    return jsonify({'error': 'Internal server error'}), 500
+
+
 # Initialize DB pool (works with both gunicorn and direct python run)
 init_pool()
 
+
+# ─── Health check ────────────────────────────────────────────────────────────
+
+@app.route('/api/health')
+@limiter.exempt
+def api_health():
+    health = {
+        'status': 'ok',
+        'timestamp': _time.strftime('%Y-%m-%dT%H:%M:%SZ', _time.gmtime()),
+        'version': '2.5',
+    }
+    try:
+        query("SELECT 1 AS ok", fetchone=True)
+        health['database'] = 'connected'
+    except Exception:
+        health['status'] = 'degraded'
+        health['database'] = 'disconnected'
+    status_code = 200 if health['status'] == 'ok' else 503
+    return jsonify(health), status_code
+
+
+# ─── Routes ──────────────────────────────────────────────────────────────────
 
 @app.route('/')
 def index():
@@ -37,8 +105,11 @@ def index():
 
 
 @app.route('/api/pois')
+@limiter.limit("60 per minute")
 def api_pois():
     category = request.args.get('category')
+    if category and category not in VALID_CATEGORIES:
+        return jsonify({'error': f'Invalid category. Must be one of: {", ".join(sorted(VALID_CATEGORIES))}'}), 400
     sql = """
         SELECT id, name, category::text, subcategory::text, casino_property,
                ST_Y(location::geometry) AS lat, ST_X(location::geometry) AS lng,
@@ -83,11 +154,26 @@ def api_properties():
 
 
 @app.route('/api/nearby')
+@limiter.limit("30 per minute")
 def api_nearby():
-    lat = float(request.args['lat'])
-    lng = float(request.args['lng'])
-    radius = float(request.args.get('radius', 500))
+    try:
+        lat = float(request.args['lat'])
+        lng = float(request.args['lng'])
+    except (KeyError, ValueError, TypeError):
+        return jsonify({'error': 'lat and lng are required and must be numbers'}), 400
+
+    if not (-90 <= lat <= 90) or not (-180 <= lng <= 180):
+        return jsonify({'error': 'lat must be -90..90, lng must be -180..180'}), 400
+
+    try:
+        radius = float(request.args.get('radius', 500))
+    except (ValueError, TypeError):
+        return jsonify({'error': 'radius must be a number'}), 400
+    radius = min(radius, 5000)  # cap at 5 km
+
     category = request.args.get('category') or None
+    if category and category not in VALID_CATEGORIES:
+        return jsonify({'error': f'Invalid category. Must be one of: {", ".join(sorted(VALID_CATEGORIES))}'}), 400
 
     if category:
         sql = "SELECT * FROM find_nearby_pois(%s, %s, %s, %s::poi_category)"
@@ -100,6 +186,8 @@ def api_nearby():
 
 @app.route('/api/route/<start_id>/<end_id>')
 def api_route(start_id, end_id):
+    if not validate_poi_id(start_id) or not validate_poi_id(end_id):
+        return jsonify({'error': 'Invalid POI ID format'}), 400
     # Get synthetic route
     route_sql = """
         SELECT sr.id, sr.total_distance_meters, sr.estimated_time_seconds,
@@ -173,6 +261,8 @@ def api_route(start_id, end_id):
 
 @app.route('/api/distance/<poi1_id>/<poi2_id>')
 def api_distance(poi1_id, poi2_id):
+    if not validate_poi_id(poi1_id) or not validate_poi_id(poi2_id):
+        return jsonify({'error': 'Invalid POI ID format'}), 400
     sql = "SELECT calculate_poi_distance(%s, %s) AS distance_meters"
     result = query(sql, (poi1_id, poi2_id), fetchone=True)
     return jsonify(result)
@@ -429,13 +519,18 @@ def get_indoor_waypoints(poi_id, entrance_node_id, property_name, reverse=False)
 
 
 @app.route('/api/navigate', methods=['POST'])
+@limiter.limit("20 per minute")
 def api_navigate():
-    data = request.get_json()
+    data = request.get_json(silent=True)
+    if not data:
+        return jsonify({'error': 'Request body must be JSON'}), 400
     start_poi_id = data.get('start_poi_id')
     end_poi_id = data.get('end_poi_id')
 
     if not start_poi_id or not end_poi_id:
         return jsonify({'error': 'start_poi_id and end_poi_id required'}), 400
+    if not validate_poi_id(start_poi_id) or not validate_poi_id(end_poi_id):
+        return jsonify({'error': 'Invalid POI ID format'}), 400
     if start_poi_id == end_poi_id:
         return jsonify({'error': 'Start and end POI must be different'}), 400
 
