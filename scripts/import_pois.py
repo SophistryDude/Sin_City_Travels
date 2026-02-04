@@ -174,17 +174,22 @@ def import_all_pois():
                 with open(poi_file, 'r', encoding='utf-8') as f:
                     poi_data = json.load(f)
 
+                # Use savepoint so one error doesn't abort the whole transaction
+                cur.execute("SAVEPOINT poi_import")
                 success = import_poi(cur, poi_data, poi_file)
                 if success:
+                    cur.execute("RELEASE SAVEPOINT poi_import")
                     print(f"  ✅ {poi_data['name']}")
                     imported += 1
                 else:
+                    cur.execute("ROLLBACK TO SAVEPOINT poi_import")
                     skipped += 1
 
             except json.JSONDecodeError as e:
                 print(f"  ❌ Invalid JSON in {poi_file.name}: {e}")
                 errors += 1
             except Exception as e:
+                cur.execute("ROLLBACK TO SAVEPOINT poi_import")
                 print(f"  ❌ Error processing {poi_file.name}: {e}")
                 errors += 1
 

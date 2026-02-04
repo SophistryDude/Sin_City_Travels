@@ -81,10 +81,10 @@ def generate_navigation_nodes(cur, property_id, property_name, center_lng, cente
             'property_id': property_id,
             'node_type': 'entrance',
             'level': 'ground',
-            'lng': lng,
-            'lat': lat,
-            'indoor_x': np.cos(angle) * 100,
-            'indoor_y': np.sin(angle) * 100,
+            'lng': float(lng),
+            'lat': float(lat),
+            'indoor_x': float(np.cos(angle) * 100),
+            'indoor_y': float(np.sin(angle) * 100),
             'indoor_level': 0,
             'name': f"{property_name} Entrance {i+1}",
             'accessibility_features': ['wheelchair_accessible', 'automatic_doors']
@@ -102,10 +102,10 @@ def generate_navigation_nodes(cur, property_id, property_name, center_lng, cente
             'property_id': property_id,
             'node_type': 'elevator',
             'level': 'ground',
-            'lng': lng,
-            'lat': lat,
-            'indoor_x': np.cos(angle) * 50,
-            'indoor_y': np.sin(angle) * 50,
+            'lng': float(lng),
+            'lat': float(lat),
+            'indoor_x': float(np.cos(angle) * 50),
+            'indoor_y': float(np.sin(angle) * 50),
             'indoor_level': 0,
             'name': f"Elevator {i+1}",
             'accessibility_features': ['wheelchair_accessible', 'elevator']
@@ -123,10 +123,10 @@ def generate_navigation_nodes(cur, property_id, property_name, center_lng, cente
             'property_id': property_id,
             'node_type': 'junction',
             'level': 'ground',
-            'lng': lng,
-            'lat': lat,
-            'indoor_x': random.uniform(-100, 100),
-            'indoor_y': random.uniform(-100, 100),
+            'lng': float(lng),
+            'lat': float(lat),
+            'indoor_x': float(random.uniform(-100, 100)),
+            'indoor_y': float(random.uniform(-100, 100)),
             'indoor_level': 0,
             'name': f"Junction {i+1}",
             'accessibility_features': ['wheelchair_accessible']
@@ -214,12 +214,12 @@ def generate_navigation_edges(cur, property_id):
                 accessibility = 5
 
             edges.append({
-                'from_node_id': node_id,
-                'to_node_id': other_id,
+                'from_node_id': int(node_id),
+                'to_node_id': int(other_id),
                 'edge_type': edge_type,
-                'distance_meters': distance_meters,
-                'estimated_time_seconds': estimated_time,
-                'accessibility_rating': accessibility,
+                'distance_meters': float(distance_meters),
+                'estimated_time_seconds': int(estimated_time),
+                'accessibility_rating': int(accessibility),
                 'is_bidirectional': True
             })
 
@@ -285,15 +285,15 @@ def generate_synthetic_routes(cur, property_id, property_name):
         accessibility_score = 3 if has_stairs else 5
 
         routes.append({
-            'property_id': property_id,
+            'property_id': int(property_id),
             'start_poi_id': start_poi[0],
             'end_poi_id': end_poi[0],
-            'total_distance_meters': total_distance,
-            'estimated_time_seconds': estimated_time,
+            'total_distance_meters': float(total_distance),
+            'estimated_time_seconds': int(estimated_time),
             'path_nodes': path_nodes,
-            'has_stairs': has_stairs,
-            'has_elevator': has_elevator,
-            'accessibility_score': accessibility_score
+            'has_stairs': bool(has_stairs),
+            'has_elevator': bool(has_elevator),
+            'accessibility_score': int(accessibility_score)
         })
 
     # Insert routes
