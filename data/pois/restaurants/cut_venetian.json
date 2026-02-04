@@ -1,0 +1,62 @@
+{
+  "id": "poi_022",
+  "name": "CUT by Wolfgang Puck",
+  "category": "restaurant",
+  "subcategory": "fine_dining_steakhouse",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3325 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Palazzo (Venetian)",
+    "coordinates": {
+      "lat": 36.1242,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "phone": "(702) 607-6300",
+    "website": "https://www.venetianlasvegas.com/restaurants/cut.html",
+    "reservations": "https://www.opentable.com/cut-las-vegas"
+  },
+  "hours": {
+    "sunday": "5:30 PM - 10:00 PM",
+    "monday": "5:30 PM - 10:00 PM",
+    "tuesday": "5:30 PM - 10:00 PM",
+    "wednesday": "5:30 PM - 10:00 PM",
+    "thursday": "5:30 PM - 10:00 PM",
+    "friday": "5:30 PM - 10:00 PM",
+    "saturday": "5:30 PM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$150-$250"
+  },
+  "description": "Wolfgang Puck's renowned steakhouse featuring perfectly seared steaks and sophisticated clientele. One of the best steakhouses in Las Vegas.",
+  "cuisine": ["steakhouse", "american", "contemporary"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "premium_steaks",
+    "sophisticated_atmosphere",
+    "reservations_required",
+    "award_winning"
+  ],
+  "chef": "Wolfgang Puck",
+  "dress_code": "business_casual",
+  "tags": [
+    "celebrity_chef",
+    "wolfgang_puck",
+    "steakhouse",
+    "luxury",
+    "upscale",
+    "sophisticated"
+  ],
+  "data_sources": [
+    "lasvegasrestaurants",
+    "venetian_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:15:00Z",
+  "updated_at": "2026-02-03T21:15:00Z"
+}

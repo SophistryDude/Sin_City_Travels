@@ -1,0 +1,71 @@
+{
+  "id": "poi_023",
+  "name": "é by José Andrés",
+  "category": "restaurant",
+  "subcategory": "fine_dining_spanish",
+  "casino_property": "The Cosmopolitan",
+  "location": {
+    "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Cosmopolitan of Las Vegas",
+    "coordinates": {
+      "lat": 36.1095,
+      "lng": -115.1742
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(877) 893-2003",
+    "website": "https://www.cosmopolitanlasvegas.com/restaurants/e-by-jose-andres",
+    "reservations": "https://www.opentable.com/e-by-jose-andres"
+  },
+  "hours": {
+    "sunday": "5:30 PM & 8:30 PM seatings",
+    "monday": "5:30 PM & 8:30 PM seatings",
+    "tuesday": "5:30 PM & 8:30 PM seatings",
+    "wednesday": "5:30 PM & 8:30 PM seatings",
+    "thursday": "5:30 PM & 8:30 PM seatings",
+    "friday": "5:30 PM & 8:30 PM seatings",
+    "saturday": "5:30 PM & 8:30 PM seatings"
+  },
+  "pricing": {
+    "price_range": "$$$$+",
+    "average_per_person": "$400-$600"
+  },
+  "description": "Exclusive Spanish avant-garde tasting menu experience in a private room seating only nine guests. One of Las Vegas's most exclusive dining experiences with reservations taken months in advance.",
+  "cuisine": ["spanish", "avant_garde", "tasting_menu", "molecular_gastronomy"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "tasting_menu",
+    "avant_garde",
+    "exclusive",
+    "private_dining",
+    "reservations_required",
+    "limited_seating"
+  ],
+  "chef": "José Andrés",
+  "dress_code": "formal",
+  "tags": [
+    "celebrity_chef",
+    "jose_andres",
+    "spanish_cuisine",
+    "luxury",
+    "exclusive",
+    "tasting_menu",
+    "molecular_gastronomy",
+    "michelin_worthy"
+  ],
+  "special_features": {
+    "seating": "9 guests maximum",
+    "seatings_per_night": "2 (5:30 PM and 8:30 PM)",
+    "reservation_lead_time": "Months in advance"
+  },
+  "data_sources": [
+    "cosmopolitan_website",
+    "opentable",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:30:00Z",
+  "updated_at": "2026-02-03T21:30:00Z"
+}

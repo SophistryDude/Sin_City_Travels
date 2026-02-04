@@ -1,0 +1,63 @@
+{
+  "id": "poi_019",
+  "name": "Bouchon",
+  "category": "restaurant",
+  "subcategory": "fine_dining_french",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3355 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Venetian Resort",
+    "coordinates": {
+      "lat": 36.1212,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "phone": "(702) 414-6200",
+    "website": "https://www.venetianlasvegas.com/restaurants/bouchon.html",
+    "reservations": "https://www.opentable.com/bouchon-las-vegas"
+  },
+  "hours": {
+    "sunday": "8:00 AM - 10:00 PM",
+    "monday": "8:00 AM - 10:00 PM",
+    "tuesday": "8:00 AM - 10:00 PM",
+    "wednesday": "8:00 AM - 10:00 PM",
+    "thursday": "8:00 AM - 10:00 PM",
+    "friday": "8:00 AM - 10:00 PM",
+    "saturday": "8:00 AM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$80-$150"
+  },
+  "description": "Authentic French bistro by world-renowned Chef Thomas Keller, featuring classic bistro fare and an extensive oyster bar. Known for exceptional breakfast and brunch.",
+  "cuisine": ["french", "bistro", "french_classics"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "oyster_bar",
+    "french_bistro",
+    "breakfast",
+    "brunch",
+    "reservations_recommended"
+  ],
+  "chef": "Thomas Keller",
+  "dress_code": "smart_casual",
+  "tags": [
+    "celebrity_chef",
+    "thomas_keller",
+    "french_cuisine",
+    "bistro",
+    "upscale",
+    "oyster_bar"
+  ],
+  "data_sources": [
+    "lasvegasrestaurants",
+    "venetian_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:15:00Z",
+  "updated_at": "2026-02-03T21:15:00Z"
+}

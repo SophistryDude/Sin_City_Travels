@@ -1,0 +1,62 @@
+{
+  "id": "poi_027",
+  "name": "Jaleo",
+  "category": "restaurant",
+  "subcategory": "fine_dining_spanish",
+  "casino_property": "The Cosmopolitan",
+  "location": {
+    "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Cosmopolitan of Las Vegas",
+    "coordinates": {
+      "lat": 36.1095,
+      "lng": -115.1742
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 698-7950",
+    "website": "https://www.cosmopolitanlasvegas.com/restaurants/jaleo",
+    "reservations": "https://www.opentable.com/jaleo-las-vegas"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 10:00 PM",
+    "monday": "5:00 PM - 10:00 PM",
+    "tuesday": "5:00 PM - 10:00 PM",
+    "wednesday": "5:00 PM - 10:00 PM",
+    "thursday": "5:00 PM - 10:00 PM",
+    "friday": "5:00 PM - 11:00 PM",
+    "saturday": "5:00 PM - 11:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$",
+    "average_per_person": "$60-$100"
+  },
+  "description": "José Andrés's celebrated tapas restaurant serving flavorful Spanish food for dinner nightly. Features traditional and contemporary Spanish small plates.",
+  "cuisine": ["spanish", "tapas", "mediterranean"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "tapas",
+    "spanish_cuisine",
+    "small_plates",
+    "reservations_recommended"
+  ],
+  "chef": "José Andrés",
+  "dress_code": "smart_casual",
+  "tags": [
+    "celebrity_chef",
+    "jose_andres",
+    "spanish_cuisine",
+    "tapas",
+    "upscale",
+    "small_plates"
+  ],
+  "data_sources": [
+    "cosmopolitan_website",
+    "opentable",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:30:00Z",
+  "updated_at": "2026-02-03T21:30:00Z"
+}

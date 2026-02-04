@@ -1,0 +1,66 @@
+{
+  "id": "poi_021",
+  "name": "CARNEVINO",
+  "category": "restaurant",
+  "subcategory": "fine_dining_italian_steakhouse",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3325 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Palazzo (Venetian)",
+    "coordinates": {
+      "lat": 36.1242,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "phone": "(702) 789-4141",
+    "website": "https://www.venetianlasvegas.com/restaurants/carnevino.html",
+    "reservations": "https://www.opentable.com/carnevino"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 10:00 PM",
+    "monday": "5:00 PM - 10:00 PM",
+    "tuesday": "5:00 PM - 10:00 PM",
+    "wednesday": "5:00 PM - 10:00 PM",
+    "thursday": "5:00 PM - 10:00 PM",
+    "friday": "5:00 PM - 10:00 PM",
+    "saturday": "5:00 PM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$100-$200"
+  },
+  "description": "Italian steakhouse by Chefs Mario Batali and Joe Bastianich featuring six to eight month house dry-aged steaks and authentic Italian preparations.",
+  "cuisine": ["italian", "steakhouse", "contemporary_italian"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "dry_aged_steaks",
+    "house_aging",
+    "italian_steakhouse",
+    "reservations_recommended"
+  ],
+  "chef": "Mario Batali & Joe Bastianich",
+  "dress_code": "business_casual",
+  "tags": [
+    "celebrity_chef",
+    "mario_batali",
+    "italian_cuisine",
+    "steakhouse",
+    "upscale",
+    "dry_aged"
+  ],
+  "special_features": {
+    "aging_period": "6-8 months",
+    "aging_method": "house dry-aged"
+  },
+  "data_sources": [
+    "lasvegasrestaurants",
+    "venetian_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:15:00Z",
+  "updated_at": "2026-02-03T21:15:00Z"
+}

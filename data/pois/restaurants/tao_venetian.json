@@ -1,0 +1,66 @@
+{
+  "id": "poi_020",
+  "name": "TAO",
+  "category": "restaurant",
+  "subcategory": "fine_dining_asian",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3355 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Venetian Resort",
+    "coordinates": {
+      "lat": 36.1212,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "phone": "(702) 388-8588",
+    "website": "https://www.venetianlasvegas.com/restaurants/tao.html",
+    "reservations": "https://www.opentable.com/tao-las-vegas"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 11:00 PM",
+    "monday": "5:00 PM - 11:00 PM",
+    "tuesday": "5:00 PM - 11:00 PM",
+    "wednesday": "5:00 PM - 11:00 PM",
+    "thursday": "5:00 PM - 11:00 PM",
+    "friday": "5:00 PM - 11:30 PM",
+    "saturday": "5:00 PM - 11:30 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$80-$150"
+  },
+  "description": "Pan-Asian restaurant featuring cuisine from China, Japan, Thailand, and Korea. Known for dramatic décor with a 16-foot Buddha statue and upscale nightclub atmosphere.",
+  "cuisine": ["pan_asian", "chinese", "japanese", "thai", "korean"],
+  "features": [
+    "fine_dining",
+    "pan_asian",
+    "dramatic_decor",
+    "buddha_statue",
+    "nightclub_atmosphere",
+    "celebrity_hotspot",
+    "reservations_recommended"
+  ],
+  "dress_code": "upscale_casual",
+  "tags": [
+    "pan_asian",
+    "upscale",
+    "nightlife",
+    "celebrity_hotspot",
+    "iconic",
+    "dramatic"
+  ],
+  "special_features": {
+    "opened": "2005",
+    "decor": "16-foot Buddha statue"
+  },
+  "data_sources": [
+    "lasvegasrestaurants",
+    "venetian_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:15:00Z",
+  "updated_at": "2026-02-03T21:15:00Z"
+}
