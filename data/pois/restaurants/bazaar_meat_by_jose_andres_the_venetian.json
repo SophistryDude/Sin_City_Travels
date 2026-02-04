@@ -1,0 +1,47 @@
+{
+  "id": "poi_453",
+  "name": "Bazaar Meat by Jose Andres",
+  "category": "restaurant",
+  "subcategory": "spanish",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3355 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Venetian",
+    "coordinates": {
+      "lat": 36.1212,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/bazaar_meat_by_jose_andres.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "the_venetian",
+    "spanish",
+    "steak",
+    "tapas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:20:28Z",
+  "cuisine": [
+    "spanish",
+    "steak",
+    "tapas"
+  ],
+  "cuisine_raw": "Spanish, Steak, Tapas",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

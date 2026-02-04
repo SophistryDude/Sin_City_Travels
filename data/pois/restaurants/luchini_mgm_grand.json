@@ -1,0 +1,45 @@
+{
+  "id": "poi_247",
+  "name": "Luchini",
+  "category": "restaurant",
+  "subcategory": "italian",
+  "casino_property": "MGM Grand",
+  "location": {
+    "address": "3799 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "MGM Grand",
+    "coordinates": {
+      "lat": 36.1024,
+      "lng": -115.1698
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/luchini.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "mgm_grand",
+    "american",
+    "italian"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:27:27Z",
+  "cuisine": [
+    "american",
+    "italian"
+  ],
+  "cuisine_raw": "American, Italian",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

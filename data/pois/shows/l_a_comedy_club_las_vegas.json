@@ -1,0 +1,41 @@
+{
+  "id": "poi_573",
+  "name": "L.A. Comedy Club",
+  "category": "entertainment",
+  "subcategory": "comedy",
+  "casino_property": "The STRAT",
+  "location": {
+    "address": "2000 Las Vegas Blvd S, Las Vegas, NV 89104",
+    "casino": "The STRAT",
+    "coordinates": {
+      "lat": 36.1474,
+      "lng": -115.1557
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/la_comedy_club/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "comedy",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:11:51Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

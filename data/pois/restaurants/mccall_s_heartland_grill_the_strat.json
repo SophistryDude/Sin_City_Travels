@@ -1,0 +1,46 @@
+{
+  "id": "poi_442",
+  "name": "McCall's Heartland Grill",
+  "category": "restaurant",
+  "subcategory": "seafood",
+  "casino_property": "The STRAT",
+  "location": {
+    "address": "2000 Las Vegas Blvd S, Las Vegas, NV 89104",
+    "casino": "The STRAT",
+    "coordinates": {
+      "lat": 36.1474,
+      "lng": -115.1557
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/mccalls_heartland_grill.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "the_strat",
+    "american",
+    "seafood",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "seafood",
+    "steak"
+  ],
+  "cuisine_raw": "American, Seafood, Steak",
+  "pricing": {
+    "price_range": "$$$$"
+  }
+}

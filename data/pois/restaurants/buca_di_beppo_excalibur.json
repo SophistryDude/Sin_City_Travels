@@ -1,0 +1,44 @@
+{
+  "id": "poi_150",
+  "name": "Buca di Beppo",
+  "category": "restaurant",
+  "subcategory": "italian",
+  "casino_property": "Excalibur",
+  "location": {
+    "address": "3850 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Excalibur",
+    "coordinates": {
+      "lat": 36.0987,
+      "lng": -115.1754
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/buca_di_beppo_at_excalibur.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "excalibur",
+    "american",
+    "italian"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "italian"
+  ],
+  "cuisine_raw": "American, Italian",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

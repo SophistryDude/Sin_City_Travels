@@ -1,0 +1,41 @@
+{
+  "id": "poi_621",
+  "name": "Drai's Nightclub",
+  "category": "nightlife",
+  "subcategory": "nightclub",
+  "casino_property": "The Cromwell",
+  "location": {
+    "address": "3595 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Cromwell",
+    "coordinates": {
+      "lat": 36.1168,
+      "lng": -115.1722
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/nightclubs/drais_nightclub.aspx"
+  },
+  "description": "",
+  "features": [
+    "nightclub",
+    "dancing",
+    "dj",
+    "nightlife"
+  ],
+  "tags": [
+    "nightclub",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T19:53:50Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "poi_900",
+  "name": "VISTA Cocktail Lounge",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/vista_cocktail_lounge.aspx",
+    "phone": "(702) 731-7852"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:26:50Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

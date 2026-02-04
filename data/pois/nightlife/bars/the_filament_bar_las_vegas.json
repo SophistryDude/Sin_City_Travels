@@ -1,0 +1,40 @@
+{
+  "id": "poi_864",
+  "name": "The Filament Bar",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Off-Strip",
+  "location": {
+    "address": "Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Off-Strip",
+    "coordinates": {
+      "lat": 36.1147,
+      "lng": -115.1728
+    },
+    "level": "ground",
+    "area": "Off-Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/the_filament_bar.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T21:03:09Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

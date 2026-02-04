@@ -1,0 +1,39 @@
+{
+  "id": "poi_939",
+  "name": "Hershey's Chocolate World",
+  "category": "attraction",
+  "subcategory": "shopping_experience",
+  "casino_property": "New York New York",
+  "location": {
+    "address": "3790 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "New York New York",
+    "coordinates": {
+      "lat": 36.1022,
+      "lng": -115.1745
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/attractions/hersheys_chocolate_world.aspx"
+  },
+  "description": "",
+  "features": [
+    "attraction",
+    "experience"
+  ],
+  "tags": [
+    "shopping experience",
+    "attraction",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:54:09Z",
+  "updated_at": "2026-02-04T19:54:09Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

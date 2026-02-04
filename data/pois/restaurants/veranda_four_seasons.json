@@ -1,0 +1,44 @@
+{
+  "id": "poi_200",
+  "name": "Veranda",
+  "category": "restaurant",
+  "subcategory": "italian",
+  "casino_property": "Four Seasons",
+  "location": {
+    "address": "3960 Las Vegas Blvd S, Las Vegas, NV 89119",
+    "casino": "Four Seasons",
+    "coordinates": {
+      "lat": 36.0909,
+      "lng": -115.1753
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/veranda.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "four_seasons",
+    "american",
+    "italian"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "italian"
+  ],
+  "cuisine_raw": "American, Italian",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

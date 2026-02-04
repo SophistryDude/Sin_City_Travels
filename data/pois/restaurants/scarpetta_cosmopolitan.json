@@ -3,10 +3,10 @@
   "name": "Scarpetta",
   "category": "restaurant",
   "subcategory": "fine_dining_italian",
-  "casino_property": "The Cosmopolitan",
+  "casino_property": "Cosmopolitan",
   "location": {
     "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "casino": "The Cosmopolitan of Las Vegas (Level 3, Boulevard Tower)",
+    "casino": "Cosmopolitan",
     "coordinates": {
       "lat": 36.1095,
       "lng": -115.1742
@@ -33,7 +33,11 @@
     "average_per_person": "$80-$150"
   },
   "description": "Modern Italian cuisine with views of the iconic Bellagio fountains. One of the Cosmopolitan's most romantic restaurants, known for exceptional pasta and ambiance.",
-  "cuisine": ["italian", "modern_italian", "contemporary"],
+  "cuisine": [
+    "italian",
+    "modern_italian",
+    "contemporary"
+  ],
   "features": [
     "fine_dining",
     "bellagio_fountain_views",

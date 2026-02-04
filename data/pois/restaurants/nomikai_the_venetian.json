@@ -1,0 +1,45 @@
+{
+  "id": "poi_483",
+  "name": "Nomikai",
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3355 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Venetian",
+    "coordinates": {
+      "lat": 36.1212,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/nomikai.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sushi_bar"
+  ],
+  "tags": [
+    "the_venetian",
+    "japanese",
+    "sushi"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:28:24Z",
+  "cuisine": [
+    "japanese",
+    "sushi"
+  ],
+  "cuisine_raw": "Japanese, Sushi",
+  "pricing": {
+    "price_range": "$$$$"
+  }
+}

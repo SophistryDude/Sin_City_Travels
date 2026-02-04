@@ -1,0 +1,40 @@
+{
+  "id": "poi_744",
+  "name": "Hard Shake",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Waldorf Astoria",
+  "location": {
+    "address": "3752 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Waldorf Astoria",
+    "coordinates": {
+      "lat": 36.107,
+      "lng": -115.1755
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/hard_shake.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:59:59Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

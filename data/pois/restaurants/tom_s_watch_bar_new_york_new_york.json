@@ -1,0 +1,41 @@
+{
+  "id": "poi_296",
+  "name": "Tom's Watch Bar",
+  "category": "restaurant",
+  "subcategory": "bar_restaurant",
+  "casino_property": "New York New York",
+  "location": {
+    "address": "3790 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "New York New York",
+    "coordinates": {
+      "lat": 36.1022,
+      "lng": -115.1745
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/toms_watch_bar.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "new_york_new_york",
+    "american"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american"
+  ],
+  "cuisine_raw": "American",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

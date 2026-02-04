@@ -3,10 +3,10 @@
   "name": "Jaleo",
   "category": "restaurant",
   "subcategory": "fine_dining_spanish",
-  "casino_property": "The Cosmopolitan",
+  "casino_property": "Cosmopolitan",
   "location": {
     "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "casino": "The Cosmopolitan of Las Vegas",
+    "casino": "Cosmopolitan",
     "coordinates": {
       "lat": 36.1095,
       "lng": -115.1742
@@ -33,7 +33,11 @@
     "average_per_person": "$60-$100"
   },
   "description": "José Andrés's celebrated tapas restaurant serving flavorful Spanish food for dinner nightly. Features traditional and contemporary Spanish small plates.",
-  "cuisine": ["spanish", "tapas", "mediterranean"],
+  "cuisine": [
+    "spanish",
+    "tapas",
+    "mediterranean"
+  ],
   "features": [
     "celebrity_chef",
     "fine_dining",

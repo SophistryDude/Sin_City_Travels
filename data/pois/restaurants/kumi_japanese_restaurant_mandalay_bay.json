@@ -1,0 +1,45 @@
+{
+  "id": "poi_268",
+  "name": "Kumi Japanese Restaurant",
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "casino_property": "Mandalay Bay",
+  "location": {
+    "address": "3950 Las Vegas Blvd S, Las Vegas, NV 89119",
+    "casino": "Mandalay Bay",
+    "coordinates": {
+      "lat": 36.0909,
+      "lng": -115.1743
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/kumi_japanese_restaurant.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sushi_bar"
+  ],
+  "tags": [
+    "mandalay_bay",
+    "japanese",
+    "sushi"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:26:47Z",
+  "cuisine": [
+    "japanese",
+    "sushi"
+  ],
+  "cuisine_raw": "Japanese, Sushi",
+  "pricing": {
+    "price_range": "$$$$"
+  }
+}

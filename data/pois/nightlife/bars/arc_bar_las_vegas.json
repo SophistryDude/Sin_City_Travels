@@ -1,0 +1,40 @@
+{
+  "id": "poi_648",
+  "name": "Arc Bar",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Paris",
+  "location": {
+    "address": "3655 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Paris",
+    "coordinates": {
+      "lat": 36.1125,
+      "lng": -115.1707
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/arc_bar.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:57:26Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

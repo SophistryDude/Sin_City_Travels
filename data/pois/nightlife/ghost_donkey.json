@@ -3,12 +3,16 @@
   "name": "Ghost Donkey",
   "category": "nightlife",
   "subcategory": "speakeasy",
-  "casino_property": "The Cosmopolitan",
+  "casino_property": "Cosmopolitan",
   "location": {
     "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "coordinates": { "lat": 36.1095, "lng": -115.1737 },
+    "coordinates": {
+      "lat": 36.1095,
+      "lng": -115.1742
+    },
     "level": "Level 2",
-    "area": "Mid Strip"
+    "area": "Mid Strip",
+    "casino": "Cosmopolitan"
   },
   "contact": {
     "phone": "(702) 698-7000",
@@ -46,7 +50,10 @@
     "recommended",
     "secret_bar"
   ],
-  "data_sources": ["cosmopolitan_website", "yelp"],
+  "data_sources": [
+    "cosmopolitan_website",
+    "yelp"
+  ],
   "created_at": "2026-02-03T23:30:00Z",
   "updated_at": "2026-02-03T23:30:00Z"
 }

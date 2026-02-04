@@ -1,0 +1,42 @@
+{
+  "id": "poi_068",
+  "name": "Salt & Ivy",
+  "category": "restaurant",
+  "subcategory": "american",
+  "casino_property": "Aria",
+  "location": {
+    "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Aria",
+    "coordinates": {
+      "lat": 36.1067,
+      "lng": -115.1761
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/salt_and_ivy.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "aria",
+    "american"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:18Z",
+  "updated_at": "2026-02-04T20:30:15Z",
+  "cuisine": [
+    "american"
+  ],
+  "cuisine_raw": "American",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "poi_515",
+  "name": "Tea Lounge",
+  "category": "restaurant",
+  "subcategory": "restaurant",
+  "casino_property": "Waldorf Astoria",
+  "location": {
+    "address": "3752 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Waldorf Astoria",
+    "coordinates": {
+      "lat": 36.107,
+      "lng": -115.1755
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/tea_lounge.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "waldorf_astoria",
+    "british"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "british"
+  ],
+  "cuisine_raw": "British",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -3,12 +3,16 @@
   "name": "The Laundry Room",
   "category": "nightlife",
   "subcategory": "speakeasy",
-  "casino_property": null,
+  "casino_property": "Off-Strip",
   "location": {
-    "address": "525 E Fremont St, Las Vegas, NV 89101",
-    "coordinates": { "lat": 36.1692, "lng": -115.1363 },
+    "address": "1511 S Main St, Las Vegas, NV 89104",
+    "coordinates": {
+      "lat": 36.1324,
+      "lng": -115.1738
+    },
     "level": "ground",
-    "area": "Downtown / Fremont East"
+    "area": "Off-Strip",
+    "casino": "Off-Strip"
   },
   "contact": {
     "phone": "(702) 701-1466",
@@ -46,7 +50,10 @@
     "recommended",
     "local_favorite"
   ],
-  "data_sources": ["official_website", "yelp"],
+  "data_sources": [
+    "official_website",
+    "yelp"
+  ],
   "created_at": "2026-02-03T23:30:00Z",
   "updated_at": "2026-02-03T23:30:00Z"
 }

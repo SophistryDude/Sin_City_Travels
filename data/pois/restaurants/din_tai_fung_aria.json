@@ -3,10 +3,10 @@
   "name": "Din Tai Fung",
   "category": "restaurant",
   "subcategory": "casual_asian",
-  "casino_property": "Aria Resort Casino",
+  "casino_property": "Aria",
   "location": {
     "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
-    "casino": "Aria Resort & Casino",
+    "casino": "Aria",
     "coordinates": {
       "lat": 36.1067,
       "lng": -115.1761
@@ -32,7 +32,12 @@
     "average_per_person": "$30-$50"
   },
   "description": "World-renowned Taiwanese restaurant famous for Shanghai-style soup dumplings (xiaolongbao) made with Kurobuta pork. International chain with Michelin recognition.",
-  "cuisine": ["taiwanese", "chinese", "dumplings", "asian"],
+  "cuisine": [
+    "taiwanese",
+    "chinese",
+    "dumplings",
+    "asian"
+  ],
   "features": [
     "famous_dumplings",
     "soup_dumplings",

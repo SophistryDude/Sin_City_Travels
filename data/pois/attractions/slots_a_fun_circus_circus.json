@@ -1,0 +1,39 @@
+{
+  "id": "poi_968",
+  "name": "Slots-A-Fun",
+  "category": "attraction",
+  "subcategory": "experience",
+  "casino_property": "Circus Circus",
+  "location": {
+    "address": "2880 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Circus Circus",
+    "coordinates": {
+      "lat": 36.1367,
+      "lng": -115.1631
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/attractions/slots-a-fun.aspx"
+  },
+  "description": "",
+  "features": [
+    "attraction",
+    "experience"
+  ],
+  "tags": [
+    "experience",
+    "attraction",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:54:09Z",
+  "updated_at": "2026-02-04T19:54:09Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

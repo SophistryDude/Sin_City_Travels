@@ -3,10 +3,10 @@
   "name": "é by José Andrés",
   "category": "restaurant",
   "subcategory": "fine_dining_spanish",
-  "casino_property": "The Cosmopolitan",
+  "casino_property": "Cosmopolitan",
   "location": {
     "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "casino": "The Cosmopolitan of Las Vegas",
+    "casino": "Cosmopolitan",
     "coordinates": {
       "lat": 36.1095,
       "lng": -115.1742
@@ -33,7 +33,12 @@
     "average_per_person": "$400-$600"
   },
   "description": "Exclusive Spanish avant-garde tasting menu experience in a private room seating only nine guests. One of Las Vegas's most exclusive dining experiences with reservations taken months in advance.",
-  "cuisine": ["spanish", "avant_garde", "tasting_menu", "molecular_gastronomy"],
+  "cuisine": [
+    "spanish",
+    "avant_garde",
+    "tasting_menu",
+    "molecular_gastronomy"
+  ],
   "features": [
     "celebrity_chef",
     "fine_dining",

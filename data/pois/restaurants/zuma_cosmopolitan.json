@@ -3,10 +3,10 @@
   "name": "Zuma",
   "category": "restaurant",
   "subcategory": "fine_dining_japanese",
-  "casino_property": "The Cosmopolitan",
+  "casino_property": "Cosmopolitan",
   "location": {
     "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "casino": "The Cosmopolitan of Las Vegas",
+    "casino": "Cosmopolitan",
     "coordinates": {
       "lat": 36.1095,
       "lng": -115.1742
@@ -33,7 +33,12 @@
     "average_per_person": "$80-$150"
   },
   "description": "Vibrant contemporary Japanese izakaya blending traditional Japanese dining with a modern twist. International chain known for exceptional sushi and robata grill.",
-  "cuisine": ["japanese", "izakaya", "sushi", "robata"],
+  "cuisine": [
+    "japanese",
+    "izakaya",
+    "sushi",
+    "robata"
+  ],
   "features": [
     "fine_dining",
     "contemporary_japanese",

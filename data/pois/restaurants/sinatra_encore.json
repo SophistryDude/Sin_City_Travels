@@ -1,0 +1,43 @@
+{
+  "id": "poi_148",
+  "name": "Sinatra",
+  "category": "restaurant",
+  "subcategory": "italian",
+  "casino_property": "Encore",
+  "location": {
+    "address": "3121 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Encore",
+    "coordinates": {
+      "lat": 36.1289,
+      "lng": -115.165
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/sinatra.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "encore",
+    "italian"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:30:25Z",
+  "cuisine": [
+    "italian"
+  ],
+  "cuisine_raw": "Italian",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

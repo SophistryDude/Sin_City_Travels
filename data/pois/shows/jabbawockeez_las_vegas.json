@@ -1,0 +1,41 @@
+{
+  "id": "poi_536",
+  "name": "Jabbawockeez",
+  "category": "entertainment",
+  "subcategory": "show",
+  "casino_property": "MGM Grand",
+  "location": {
+    "address": "3799 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "MGM Grand",
+    "coordinates": {
+      "lat": 36.1024,
+      "lng": -115.1698
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/jabbawockeez/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "show",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:11:41Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

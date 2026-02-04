@@ -35,17 +35,22 @@ Build a model using Google Maps API that helps people figure out efficient walki
 - ✅ OpenStreetMap data for Las Vegas Strip (94 hotels, 36 casinos, 523 KB GeoJSON)
 - ✅ Data tracking CSV for all properties
 
-**Points of Interest (POIs)**: 49 POIs created
-- **Restaurants** (37): Fine dining, celebrity chefs, Michelin-starred
-  - MGM Grand (3), Park MGM (1), Bellagio (3), Caesars Palace (5)
-  - Aria (5), The Venetian (4), The Cosmopolitan (5)
-  - Wynn/Encore (5), Mandalay Bay (5), Off-Strip (1)
+**Points of Interest (POIs)**: 994 POIs across 63 properties
+- **Restaurants** (518): Fine dining, casual, buffets, celebrity chefs
+  - 37 hand-curated originals (Michelin-starred, celebrity chef venues)
+  - 481 scraped from SmarterVegas.com covering 40+ properties
+  - All mapped to correct casino properties with enriched metadata
+- **Nightlife** (296): Nightclubs, bars, lounges
+  - 16 nightclubs (XS, Hakkasan, Zouk, EBC, etc.)
+  - 274 bars/lounges across 58 properties
+  - 6 original curated speakeasies (The Laundry Room, Herbs & Rye, etc.)
+- **Shows/Entertainment** (90): Resident shows, Cirque du Soleil, comedy, music
+  - 72 enriched with property mappings from SmarterVegas
+  - Covers residencies, magic shows, comedy clubs, tribute acts
+- **Attractions** (86): Experiences, museums, thrill rides, golf
+  - 32 off-strip attractions (AREA15, Neon Museum, etc.)
+  - 54 on-property attractions
 - **Shopping** (4): Forum Shops, Grand Canal Shoppes, Crystals, Miracle Mile
-- **Entertainment** (2): "O" and KÀ by Cirque du Soleil
-- **Nightlife** (6): Speakeasies, craft cocktail bars, hidden gems
-  - The Laundry Room, Herbs & Rye, Ghost Donkey
-  - Frankie's Tiki Room, The Underground at The Mob Museum
-  - Parasol Up / Parasol Down (Wynn)
 
 **Celebrity Chefs Featured**: 15+
 - Wolfgang Puck, Gordon Ramsay, José Andrés, Bobby Flay, Thomas Keller
@@ -68,8 +73,8 @@ Build a model using Google Maps API that helps people figure out efficient walki
 **Database Schema**:
 ```sql
 Tables Created:
-├── pois                 # 49 POIs with spatial indexing
-├── properties           # 9 major casino properties
+├── pois                 # 994 POIs with spatial indexing
+├── properties           # 63 casino/hotel properties (Strip, Downtown, Off-Strip)
 ├── navigation_nodes     # Indoor navigation graph nodes
 ├── navigation_edges     # Connections for pathfinding
 └── synthetic_routes     # ML training data
@@ -94,8 +99,8 @@ Tables Created:
 
 **Flask Web Application** (`demo/`):
 - Interactive Leaflet.js map of the Las Vegas Strip
-- 49 POIs rendered as color-coded markers by category
-- Category filter buttons (Restaurant, Shopping, Entertainment, Nightlife)
+- 994 POIs rendered as color-coded markers by category
+- Category filter buttons (Restaurant, Shopping, Entertainment, Nightlife, Attraction)
 - Click-to-view detail panel with full POI information
 - "Recommended Spots" sidebar panel showcasing speakeasies & hidden gems
 - Route navigation panel with walk/rideshare cost estimates
@@ -138,13 +143,13 @@ Tables Created:
 - systemd service management
 - ufw firewall (ports 22, 8888)
 
-**Nightlife POIs Added** (6 new):
-- The Laundry Room (speakeasy, Downtown)
-- Herbs & Rye (craft cocktail bar, Off-Strip)
-- Ghost Donkey (speakeasy, The Cosmopolitan)
-- Frankie's Tiki Room (tiki bar, Off-Strip)
-- The Underground at The Mob Museum (speakeasy, Downtown)
-- Parasol Up / Parasol Down (cocktail lounge, Wynn)
+**Phase 2.5: Massive POI Expansion** (945 new POIs):
+- Web scraping pipeline built (`scripts/scrape_pois.py`)
+- Scraped SmarterVegas.com for 580+ restaurants, 310 nightlife venues, 88 shows, 86 attractions
+- Enrichment script (`scripts/enrich_pois.py`) for property detection and metadata
+- Nightlife property mapping via listing page structure (by-property section headers)
+- Property name normalization across all POIs
+- Database schema updated: 63 properties, subcategory changed to VARCHAR(100)
 
 ---
 
@@ -184,10 +189,13 @@ sin-city-travels/
 │   │   ├── MGM_Grand/
 │   │   └── ... (28 more)
 │   ├── pois/
-│   │   ├── restaurants/      # 37 restaurant POI JSON files
+│   │   ├── restaurants/      # 518 restaurant POI JSON files
 │   │   ├── shopping/         # 4 shopping center JSON files
-│   │   ├── shows/            # 2 show JSON files
-│   │   ├── nightlife/        # 6 nightlife POI JSON files
+│   │   ├── shows/            # 90 show/entertainment JSON files
+│   │   ├── attractions/      # 86 attraction JSON files
+│   │   ├── nightlife/        # 6 original curated nightlife POIs
+│   │   │   ├── bars/         # 274 bar/lounge JSON files
+│   │   │   └── nightclubs/   # 16 nightclub JSON files
 │   │   ├── MGM_RESORTS_RESTAURANTS_SUMMARY.md
 │   │   └── POI_COLLECTION_SUMMARY.md
 │   ├── LAS_VEGAS_DATA_TRACKING.csv
@@ -218,9 +226,11 @@ sin-city-travels/
 │   ├── init-db.sql           # Complete database schema
 │   └── README.md             # Infrastructure documentation
 ├── scripts/
-│   ├── bulk_collect_pois.js  # Yelp API bulk collection (not used - paid)
-│   ├── import_pois.py        # Import POIs to PostgreSQL
+│   ├── scrape_pois.py        # SmarterVegas.com scraper (restaurants, shows, nightlife, attractions)
+│   ├── enrich_pois.py        # POI enrichment (property mapping, descriptions, metadata)
+│   ├── import_pois.py        # Import POIs to PostgreSQL (recursive subdirectory walk)
 │   ├── generate_synthetic_routes.py  # Generate navigation data
+│   ├── bulk_collect_pois.js  # Yelp API bulk collection (not used - paid)
 │   └── README.md
 ├── deploy.sh                 # Automated EC2 deployment script
 ├── docker-compose.yml        # Local development environment
@@ -470,9 +480,9 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 - Real-time positioning (Bluetooth beacons)
 
 ### Phase 5: Expansion
-- Cover all 31+ Strip properties
-- Add Downtown Las Vegas
-- Off-strip attractions
+- ~~Cover all 31+ Strip properties~~ ✅ (36 Strip properties now covered)
+- ~~Add Downtown Las Vegas~~ ✅ (7 Downtown properties)
+- ~~Off-strip attractions~~ ✅ (20 Off-Strip properties)
 - User-generated content (reviews, photos)
 
 ---
@@ -646,6 +656,9 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 | Feb 4, 2026 | Recommended Spots feature implemented |
 | Feb 4, 2026 | EC2 deployment (deploy.sh + Nginx + systemd) |
 | Feb 4, 2026 | Live demo at http://3.140.78.15:8888/ |
+| Feb 4, 2026 | POI expansion: 49 → 994 POIs via SmarterVegas scraping |
+| Feb 4, 2026 | Property expansion: 9 → 63 properties (Strip + Downtown + Off-Strip) |
+| Feb 4, 2026 | Walking directions reviewed for all 63 properties |
 | **TBD** | Google Maps API integration |
 | **TBD** | ML pathfinding model training |
 | **TBD** | Mobile app MVP |
@@ -658,11 +671,11 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 - **GitHub**: https://github.com/SophistryDude/Sin_City_Travels
 - **Live Demo**: http://3.140.78.15:8888/
 - **Database**: PostgreSQL 16 + PostGIS 3.4
-- **POIs**: 49 (37 restaurants, 4 shopping, 2 shows, 6 nightlife)
-- **Properties**: 9 major Strip casinos
+- **POIs**: 994 (518 restaurants, 296 nightlife, 90 shows, 86 attractions, 4 shopping)
+- **Properties**: 63 (36 Strip, 7 Downtown, 20 Off-Strip)
 - **Floor Plans**: 31 casinos (7.3 MB PDFs)
 
 ---
 
 **Last Updated**: February 4, 2026
-**Version**: 2.0 (Phase 2 Complete - Interactive Web Demo Deployed)
+**Version**: 2.5 (Phase 2.5 - POI Expansion: 994 POIs across 63 properties)

@@ -1,0 +1,41 @@
+{
+  "id": "poi_626",
+  "name": "Mala Vida Latin Nights",
+  "category": "nightlife",
+  "subcategory": "nightclub",
+  "casino_property": "Sahara",
+  "location": {
+    "address": "2535 Las Vegas Blvd S, Las Vegas, NV 89104",
+    "casino": "Sahara",
+    "coordinates": {
+      "lat": 36.1413,
+      "lng": -115.1567
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/nightclubs/mala_vida_latin_nights.aspx"
+  },
+  "description": "",
+  "features": [
+    "nightclub",
+    "dancing",
+    "dj",
+    "nightlife"
+  ],
+  "tags": [
+    "nightclub",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:27:16Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

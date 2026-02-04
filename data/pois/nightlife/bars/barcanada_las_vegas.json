@@ -1,0 +1,40 @@
+{
+  "id": "poi_660",
+  "name": "BarCanada",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "The D",
+  "location": {
+    "address": "Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The D",
+    "coordinates": {
+      "lat": 36.1147,
+      "lng": -115.1728
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/barcanada.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:57:45Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

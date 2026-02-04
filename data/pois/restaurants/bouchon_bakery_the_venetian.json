@@ -1,0 +1,45 @@
+{
+  "id": "poi_457",
+  "name": "Bouchon Bakery",
+  "category": "restaurant",
+  "subcategory": "quick_bites",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3355 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Venetian",
+    "coordinates": {
+      "lat": 36.1212,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/bouchon_bakery_at_the_venetian.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "quick_service"
+  ],
+  "tags": [
+    "the_venetian",
+    "quickbites",
+    "cafe"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:21:21Z",
+  "cuisine": [
+    "quickbites",
+    "cafe"
+  ],
+  "cuisine_raw": "Quickbites, Cafe",
+  "pricing": {
+    "price_range": "$"
+  }
+}

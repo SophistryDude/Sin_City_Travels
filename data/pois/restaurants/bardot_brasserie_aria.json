@@ -3,10 +3,10 @@
   "name": "Bardot Brasserie",
   "category": "restaurant",
   "subcategory": "fine_dining_french",
-  "casino_property": "Aria Resort Casino",
+  "casino_property": "Aria",
   "location": {
     "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
-    "casino": "Aria Resort & Casino",
+    "casino": "Aria",
     "coordinates": {
       "lat": 36.1067,
       "lng": -115.1761
@@ -33,7 +33,11 @@
     "average_per_person": "$50-$100"
   },
   "description": "Classic French cuisine with a contemporary twist by Chef Michael Mina. Features weekend brunch and traditional brasserie dishes.",
-  "cuisine": ["french", "brasserie", "contemporary_french"],
+  "cuisine": [
+    "french",
+    "brasserie",
+    "contemporary_french"
+  ],
   "features": [
     "celebrity_chef",
     "fine_dining",

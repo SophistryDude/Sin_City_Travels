@@ -3,10 +3,10 @@
   "name": "Momofuku",
   "category": "restaurant",
   "subcategory": "fine_dining_asian",
-  "casino_property": "The Cosmopolitan",
+  "casino_property": "Cosmopolitan",
   "location": {
     "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "casino": "The Cosmopolitan of Las Vegas",
+    "casino": "Cosmopolitan",
     "coordinates": {
       "lat": 36.1095,
       "lng": -115.1742
@@ -33,7 +33,12 @@
     "average_per_person": "$60-$100"
   },
   "description": "Founded by celebrity Chef David Chang, Momofuku brings award-winning Asian-inspired dishes in an elegant atmosphere. Features innovative ramen, pork buns, and contemporary Asian cuisine.",
-  "cuisine": ["asian", "ramen", "contemporary_asian", "korean"],
+  "cuisine": [
+    "asian",
+    "ramen",
+    "contemporary_asian",
+    "korean"
+  ],
   "features": [
     "celebrity_chef",
     "fine_dining",

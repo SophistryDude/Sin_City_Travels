@@ -1,0 +1,43 @@
+{
+  "id": "poi_398",
+  "name": "The Noodle Den",
+  "category": "restaurant",
+  "subcategory": "chinese",
+  "casino_property": "Sahara",
+  "location": {
+    "address": "2535 Las Vegas Blvd S, Las Vegas, NV 89104",
+    "casino": "Sahara",
+    "coordinates": {
+      "lat": 36.1413,
+      "lng": -115.1567
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/the_noodle_den.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "sahara",
+    "asian",
+    "chinese"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "asian",
+    "chinese"
+  ],
+  "cuisine_raw": "Asian, Chinese",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "poi_770",
+  "name": "Lobby Bar at Excalibur",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Excalibur",
+  "location": {
+    "address": "3850 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Excalibur",
+    "coordinates": {
+      "lat": 36.0987,
+      "lng": -115.1754
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/lobby_bar_at_excalibur.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T21:00:40Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

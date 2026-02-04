@@ -1,0 +1,44 @@
+{
+  "id": "poi_348",
+  "name": "Pampas Brazilian Grille",
+  "category": "restaurant",
+  "subcategory": "american",
+  "casino_property": "Planet Hollywood",
+  "location": {
+    "address": "3663 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Planet Hollywood",
+    "coordinates": {
+      "lat": 36.1097,
+      "lng": -115.1708
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/pampas_brazilian_grille.aspx",
+    "phone": "(702) 737-4748"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "planet_hollywood",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:28:55Z",
+  "cuisine": [
+    "steak"
+  ],
+  "cuisine_raw": "Steak",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

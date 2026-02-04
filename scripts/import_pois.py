@@ -159,7 +159,7 @@ def import_all_pois():
     skipped = 0
     errors = 0
 
-    # Import POIs by category
+    # Import POIs by category (recursively walk subdirectories)
     for category_dir in sorted(poi_dir.iterdir()):
         if not category_dir.is_dir() or category_dir.name.startswith('.'):
             continue
@@ -167,7 +167,9 @@ def import_all_pois():
         category_name = category_dir.name.replace('_', ' ').title()
         print(f"\n📁 {category_name}")
 
-        for poi_file in sorted(category_dir.glob("*.json")):
+        # Use rglob to recursively find JSON files in subdirectories
+        # (e.g., nightlife/bars/*.json, nightlife/nightclubs/*.json)
+        for poi_file in sorted(category_dir.rglob("*.json")):
             total_files += 1
 
             try:

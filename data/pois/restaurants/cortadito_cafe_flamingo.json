@@ -1,0 +1,44 @@
+{
+  "id": "poi_171",
+  "name": "Cortadito Cafe",
+  "category": "restaurant",
+  "subcategory": "quick_bites",
+  "casino_property": "Flamingo",
+  "location": {
+    "address": "3555 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Flamingo",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1714
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/cortadito_cafe.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "quick_service"
+  ],
+  "tags": [
+    "flamingo",
+    "quickbites",
+    "cafe"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "quickbites",
+    "cafe"
+  ],
+  "cuisine_raw": "Quickbites, Cafe",
+  "pricing": {
+    "price_range": "$"
+  }
+}

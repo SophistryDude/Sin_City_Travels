@@ -3,13 +3,13 @@
   "name": "Sinatra",
   "category": "restaurant",
   "subcategory": "fine_dining_italian",
-  "casino_property": "Wynn Las Vegas",
+  "casino_property": "Wynn",
   "location": {
     "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "casino": "Encore at Wynn Las Vegas",
+    "casino": "Wynn",
     "coordinates": {
-      "lat": 36.1308,
-      "lng": -115.1656
+      "lat": 36.1264,
+      "lng": -115.166
     },
     "level": "ground",
     "area": "North Strip"
@@ -33,7 +33,11 @@
     "average_per_person": "$100-$200"
   },
   "description": "A tribute to Ol' Blue Eyes serving modern twists on classic Italian cooking, from osso bucco to spaghetti and clams. Features memorabilia from Frank Sinatra's personal collection.",
-  "cuisine": ["italian", "classic_italian", "contemporary_italian"],
+  "cuisine": [
+    "italian",
+    "classic_italian",
+    "contemporary_italian"
+  ],
   "features": [
     "fine_dining",
     "frank_sinatra_tribute",

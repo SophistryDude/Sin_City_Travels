@@ -1,0 +1,40 @@
+{
+  "id": "poi_606",
+  "name": "The Magic of Jen Kramer",
+  "category": "entertainment",
+  "subcategory": "magic",
+  "casino_property": "Westgate",
+  "location": {
+    "address": "3000 Paradise Rd, Las Vegas, NV 89109",
+    "casino": "Westgate",
+    "coordinates": {
+      "lat": 36.134,
+      "lng": -115.153
+    },
+    "level": "ground",
+    "area": "Off-Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/the_magic_of_jen_kramer/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "magic",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T21:03:20Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

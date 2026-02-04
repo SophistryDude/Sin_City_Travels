@@ -3,15 +3,16 @@
   "name": "Golden Steer Steakhouse",
   "category": "restaurant",
   "subcategory": "fine_dining_steakhouse",
-  "casino_property": null,
+  "casino_property": "Off-Strip",
   "location": {
     "address": "308 W Sahara Ave, Las Vegas, NV 89102",
     "coordinates": {
-      "lat": 36.1441,
-      "lng": -115.1486
+      "lat": 36.1292,
+      "lng": -115.176
     },
     "level": "ground",
-    "area": "Off-Strip"
+    "area": "Off-Strip",
+    "casino": "Off-Strip"
   },
   "contact": {
     "phone": "(702) 384-4470",
@@ -40,7 +41,11 @@
     }
   },
   "description": "Las Vegas' oldest and most iconic steakhouse, serving guests since 1958. Classic Vegas ambiance with red leather booths named after celebrities like Frank Sinatra and Marilyn Monroe. Known for tableside Caesar salad preparation, flaming desserts, and USDA Prime Certified Beef.",
-  "cuisine": ["steakhouse", "american", "classic_vegas"],
+  "cuisine": [
+    "steakhouse",
+    "american",
+    "classic_vegas"
+  ],
   "features": [
     "historic_landmark",
     "celebrity_booths",

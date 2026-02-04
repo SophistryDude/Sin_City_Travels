@@ -1,0 +1,43 @@
+{
+  "id": "poi_488",
+  "name": "Smith & Wollensky",
+  "category": "restaurant",
+  "subcategory": "restaurant",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3355 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Venetian",
+    "coordinates": {
+      "lat": 36.1212,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/smith_and_wollensky.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "the_venetian",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:30:31Z",
+  "cuisine": [
+    "steak"
+  ],
+  "cuisine_raw": "Steak",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "poi_078",
+  "name": "Jasmine",
+  "category": "restaurant",
+  "subcategory": "chinese",
+  "casino_property": "Bellagio",
+  "location": {
+    "address": "3600 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Bellagio",
+    "coordinates": {
+      "lat": 36.1127,
+      "lng": -115.1765
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/jasmine.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "bellagio",
+    "chinese"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:18Z",
+  "updated_at": "2026-02-04T20:26:28Z",
+  "cuisine": [
+    "chinese"
+  ],
+  "cuisine_raw": "Chinese",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

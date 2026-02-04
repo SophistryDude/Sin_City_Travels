@@ -1,0 +1,44 @@
+{
+  "id": "poi_338",
+  "name": "Gen Korean BBQ",
+  "category": "restaurant",
+  "subcategory": "korean",
+  "casino_property": "Planet Hollywood",
+  "location": {
+    "address": "3663 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Planet Hollywood",
+    "coordinates": {
+      "lat": 36.1097,
+      "lng": -115.1708
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/gen_korean_bbq.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "planet_hollywood",
+    "asian",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "asian",
+    "steak"
+  ],
+  "cuisine_raw": "Asian, Steak",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

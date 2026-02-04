@@ -1,0 +1,41 @@
+{
+  "id": "poi_577",
+  "name": "Magic Mike",
+  "category": "entertainment",
+  "subcategory": "magic",
+  "casino_property": "Sahara",
+  "location": {
+    "address": "2535 Las Vegas Blvd S, Las Vegas, NV 89104",
+    "casino": "Sahara",
+    "coordinates": {
+      "lat": 36.1413,
+      "lng": -115.1567
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/magic_mike/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "magic",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:12:00Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

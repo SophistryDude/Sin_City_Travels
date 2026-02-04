@@ -1,0 +1,40 @@
+{
+  "id": "poi_635",
+  "name": "108 Drinks",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "The STRAT",
+  "location": {
+    "address": "2000 Las Vegas Blvd S, Las Vegas, NV 89104",
+    "casino": "The STRAT",
+    "coordinates": {
+      "lat": 36.1474,
+      "lng": -115.1557
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/108_drinks.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:19:48Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

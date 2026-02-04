@@ -1,0 +1,40 @@
+{
+  "id": "poi_729",
+  "name": "Furnace",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Downtown Grand",
+  "location": {
+    "address": "206 N 3rd St, Las Vegas, NV 89101",
+    "casino": "Downtown Grand",
+    "coordinates": {
+      "lat": 36.1699,
+      "lng": -115.1424
+    },
+    "level": "ground",
+    "area": "Downtown"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/furnace.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:59:35Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

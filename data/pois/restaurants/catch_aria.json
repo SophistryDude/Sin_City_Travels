@@ -3,10 +3,10 @@
   "name": "CATCH",
   "category": "restaurant",
   "subcategory": "fine_dining_japanese",
-  "casino_property": "Aria Resort Casino",
+  "casino_property": "Aria",
   "location": {
     "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
-    "casino": "Aria Resort & Casino",
+    "casino": "Aria",
     "coordinates": {
       "lat": 36.1067,
       "lng": -115.1761
@@ -33,7 +33,12 @@
     "average_per_person": "$60-$120"
   },
   "description": "Asian-influenced sushi and seafood restaurant popular with celebrities. Features contemporary Japanese cuisine in a stylish, high-energy atmosphere.",
-  "cuisine": ["japanese", "sushi", "seafood", "asian_fusion"],
+  "cuisine": [
+    "japanese",
+    "sushi",
+    "seafood",
+    "asian_fusion"
+  ],
   "features": [
     "fine_dining",
     "sushi_bar",

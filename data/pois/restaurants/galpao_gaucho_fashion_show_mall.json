@@ -1,0 +1,42 @@
+{
+  "id": "poi_162",
+  "name": "Galpao Gaucho",
+  "category": "restaurant",
+  "subcategory": "restaurant",
+  "casino_property": "Fashion Show Mall",
+  "location": {
+    "address": "3200 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Fashion Show Mall",
+    "coordinates": {
+      "lat": 36.1268,
+      "lng": -115.17
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/galpao_gaucho.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "fashion_show_mall",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "steak"
+  ],
+  "cuisine_raw": "Steak",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

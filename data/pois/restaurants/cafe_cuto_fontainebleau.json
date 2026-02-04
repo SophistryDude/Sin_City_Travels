@@ -1,0 +1,41 @@
+{
+  "id": "poi_178",
+  "name": "Cafe Cuto",
+  "category": "restaurant",
+  "subcategory": "cafe_bakery",
+  "casino_property": "Fontainebleau",
+  "location": {
+    "address": "2777 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Fontainebleau",
+    "coordinates": {
+      "lat": 36.1361,
+      "lng": -115.1568
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/cafe_cuto.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "fontainebleau",
+    "cafe"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "cafe"
+  ],
+  "cuisine_raw": "Cafe",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

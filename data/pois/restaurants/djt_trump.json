@@ -1,0 +1,41 @@
+{
+  "id": "poi_507",
+  "name": "DJT",
+  "category": "restaurant",
+  "subcategory": "american",
+  "casino_property": "Trump",
+  "location": {
+    "address": "2000 Fashion Show Dr, Las Vegas, NV 89109",
+    "casino": "Trump",
+    "coordinates": {
+      "lat": 36.127,
+      "lng": -115.1686
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/djt.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "trump",
+    "american"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american"
+  ],
+  "cuisine_raw": "American",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

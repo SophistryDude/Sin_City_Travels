@@ -1,0 +1,43 @@
+{
+  "id": "poi_181",
+  "name": "Chyna Club",
+  "category": "restaurant",
+  "subcategory": "chinese",
+  "casino_property": "Fontainebleau",
+  "location": {
+    "address": "2777 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Fontainebleau",
+    "coordinates": {
+      "lat": 36.1361,
+      "lng": -115.1568
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/chyna_club.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "fontainebleau",
+    "asian",
+    "chinese"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "asian",
+    "chinese"
+  ],
+  "cuisine_raw": "Asian, Chinese",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

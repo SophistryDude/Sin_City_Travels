@@ -1,0 +1,43 @@
+{
+  "id": "poi_108",
+  "name": "Stanton Social Prime",
+  "category": "restaurant",
+  "subcategory": "restaurant",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/stanton_social_prime.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "caesars_palace",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:18Z",
+  "updated_at": "2026-02-04T20:30:36Z",
+  "cuisine": [
+    "steak"
+  ],
+  "cuisine_raw": "Steak",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

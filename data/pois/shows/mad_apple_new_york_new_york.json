@@ -1,0 +1,41 @@
+{
+  "id": "poi_539",
+  "name": "Mad Apple",
+  "category": "entertainment",
+  "subcategory": "show",
+  "casino_property": "New York New York",
+  "location": {
+    "address": "3790 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "New York New York",
+    "coordinates": {
+      "lat": 36.1022,
+      "lng": -115.1745
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/mad_apple_by_cirque_du_soleil/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "show",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:11:59Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

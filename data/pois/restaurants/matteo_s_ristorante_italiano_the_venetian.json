@@ -1,0 +1,43 @@
+{
+  "id": "poi_481",
+  "name": "Matteo's Ristorante Italiano",
+  "category": "restaurant",
+  "subcategory": "italian",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3355 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Venetian",
+    "coordinates": {
+      "lat": 36.1212,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/matteos_ristorante_italiano.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "the_venetian",
+    "italian"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:27:42Z",
+  "cuisine": [
+    "italian"
+  ],
+  "cuisine_raw": "Italian",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

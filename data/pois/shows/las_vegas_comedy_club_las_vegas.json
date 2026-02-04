@@ -1,0 +1,41 @@
+{
+  "id": "poi_575",
+  "name": "Las Vegas Comedy Club",
+  "category": "entertainment",
+  "subcategory": "comedy",
+  "casino_property": "Planet Hollywood",
+  "location": {
+    "address": "3663 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Planet Hollywood",
+    "coordinates": {
+      "lat": 36.1097,
+      "lng": -115.1708
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/las_vegas_comedy_club/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "comedy",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:11:54Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

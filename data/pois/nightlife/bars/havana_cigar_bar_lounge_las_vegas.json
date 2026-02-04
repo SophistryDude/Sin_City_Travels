@@ -1,0 +1,40 @@
+{
+  "id": "poi_745",
+  "name": "Havana Cigar Bar & Lounge",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Boulder Station",
+  "location": {
+    "address": "Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Boulder Station",
+    "coordinates": {
+      "lat": 36.1147,
+      "lng": -115.1728
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/havana_cigar_bar_and_lounge.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T21:00:00Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

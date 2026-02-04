@@ -1,0 +1,41 @@
+{
+  "id": "poi_628",
+  "name": "OMNIA Nightclub",
+  "category": "nightlife",
+  "subcategory": "nightclub",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/nightclubs/omnia_nightclub.aspx"
+  },
+  "description": "",
+  "features": [
+    "nightclub",
+    "dancing",
+    "dj",
+    "nightlife"
+  ],
+  "tags": [
+    "nightclub",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T19:53:50Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

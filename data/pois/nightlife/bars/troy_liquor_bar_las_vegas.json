@@ -1,0 +1,40 @@
+{
+  "id": "poi_891",
+  "name": "Troy Liquor Bar",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Golden Nugget",
+  "location": {
+    "address": "129 E Fremont St, Las Vegas, NV 89101",
+    "casino": "Golden Nugget",
+    "coordinates": {
+      "lat": 36.1708,
+      "lng": -115.1445
+    },
+    "level": "ground",
+    "area": "Downtown"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/troy_liquor_bar.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T21:03:52Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

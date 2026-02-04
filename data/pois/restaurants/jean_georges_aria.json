@@ -3,10 +3,10 @@
   "name": "Jean Georges Steakhouse",
   "category": "restaurant",
   "subcategory": "fine_dining_steakhouse",
-  "casino_property": "Aria Resort Casino",
+  "casino_property": "Aria",
   "location": {
     "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
-    "casino": "Aria Resort & Casino",
+    "casino": "Aria",
     "coordinates": {
       "lat": 36.1067,
       "lng": -115.1761
@@ -33,7 +33,11 @@
     "average_per_person": "$100-$200"
   },
   "description": "Award-winning chef Jean-Georges Vongerichten's steakhouse featuring world-class meats and innovative preparations in an elegant setting.",
-  "cuisine": ["steakhouse", "american", "contemporary"],
+  "cuisine": [
+    "steakhouse",
+    "american",
+    "contemporary"
+  ],
   "features": [
     "celebrity_chef",
     "fine_dining",

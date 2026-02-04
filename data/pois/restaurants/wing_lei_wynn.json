@@ -3,13 +3,13 @@
   "name": "Wing Lei",
   "category": "restaurant",
   "subcategory": "fine_dining_chinese",
-  "casino_property": "Wynn Las Vegas",
+  "casino_property": "Wynn",
   "location": {
     "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "casino": "Wynn Las Vegas",
+    "casino": "Wynn",
     "coordinates": {
-      "lat": 36.1278,
-      "lng": -115.1657
+      "lat": 36.1264,
+      "lng": -115.166
     },
     "level": "ground",
     "area": "North Strip"
@@ -40,7 +40,12 @@
     }
   },
   "description": "The first Chinese restaurant in the United States to earn a Michelin star, serving exceptional Cantonese, Shanghai and Szechuan dishes in an elegant setting.",
-  "cuisine": ["chinese", "cantonese", "shanghai", "szechuan"],
+  "cuisine": [
+    "chinese",
+    "cantonese",
+    "shanghai",
+    "szechuan"
+  ],
   "features": [
     "michelin_starred",
     "fine_dining",

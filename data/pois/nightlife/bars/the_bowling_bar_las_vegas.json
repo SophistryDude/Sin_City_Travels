@@ -1,0 +1,40 @@
+{
+  "id": "poi_858",
+  "name": "The Bowling Bar",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Red Rock",
+  "location": {
+    "address": "11011 W Charleston Blvd, Las Vegas, NV 89135",
+    "casino": "Red Rock",
+    "coordinates": {
+      "lat": 36.1696,
+      "lng": -115.312
+    },
+    "level": "ground",
+    "area": "Off-Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/the_bowling_bar.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T21:03:00Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

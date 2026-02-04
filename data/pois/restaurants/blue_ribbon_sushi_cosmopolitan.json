@@ -1,0 +1,45 @@
+{
+  "id": "poi_126",
+  "name": "Blue Ribbon Sushi",
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "casino_property": "Cosmopolitan",
+  "location": {
+    "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Cosmopolitan",
+    "coordinates": {
+      "lat": 36.1095,
+      "lng": -115.1742
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/blue_ribbon_sushi_bar_and_grill_at_cosmopolitan.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sushi_bar"
+  ],
+  "tags": [
+    "cosmopolitan",
+    "asian",
+    "sushi"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:21:01Z",
+  "cuisine": [
+    "asian",
+    "sushi"
+  ],
+  "cuisine_raw": "Asian, Sushi",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

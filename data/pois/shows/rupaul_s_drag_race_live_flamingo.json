@@ -1,0 +1,41 @@
+{
+  "id": "poi_597",
+  "name": "RuPaul's Drag Race LIVE!",
+  "category": "entertainment",
+  "subcategory": "show",
+  "casino_property": "Flamingo",
+  "location": {
+    "address": "3555 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Flamingo",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1714
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/rupauls_drag_race_live/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "show",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:12:36Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

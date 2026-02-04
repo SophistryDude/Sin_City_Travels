@@ -1,0 +1,43 @@
+{
+  "id": "poi_403",
+  "name": "Chayo Mexican Kitchen",
+  "category": "restaurant",
+  "subcategory": "mexican",
+  "casino_property": "The LINQ",
+  "location": {
+    "address": "3535 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The LINQ",
+    "coordinates": {
+      "lat": 36.1176,
+      "lng": -115.171
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/chayo_mexican_kitchen_tequila_bar.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "the_linq",
+    "mexican",
+    "tapas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "mexican",
+    "tapas"
+  ],
+  "cuisine_raw": "Mexican, Tapas",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

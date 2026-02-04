@@ -1,0 +1,43 @@
+{
+  "id": "poi_446",
+  "name": "Swim & Social Cafe",
+  "category": "restaurant",
+  "subcategory": "cafe_bakery",
+  "casino_property": "The STRAT",
+  "location": {
+    "address": "2000 Las Vegas Blvd S, Las Vegas, NV 89104",
+    "casino": "The STRAT",
+    "coordinates": {
+      "lat": 36.1474,
+      "lng": -115.1557
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/swim_and_social_cafe.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "the_strat",
+    "american",
+    "cafe"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "cafe"
+  ],
+  "cuisine_raw": "American, Cafe",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

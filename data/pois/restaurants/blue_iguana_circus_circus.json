@@ -1,0 +1,41 @@
+{
+  "id": "poi_117",
+  "name": "Blue Iguana",
+  "category": "restaurant",
+  "subcategory": "mexican",
+  "casino_property": "Circus Circus",
+  "location": {
+    "address": "2880 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Circus Circus",
+    "coordinates": {
+      "lat": 36.1367,
+      "lng": -115.1631
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/blue_iguana.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "circus_circus",
+    "mexican"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:18Z",
+  "updated_at": "2026-02-04T19:53:18Z",
+  "cuisine": [
+    "mexican"
+  ],
+  "cuisine_raw": "Mexican",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

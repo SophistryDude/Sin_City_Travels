@@ -1,0 +1,40 @@
+{
+  "id": "poi_663",
+  "name": "BetMGM Sportsbook Bar",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "MGM Grand",
+  "location": {
+    "address": "3799 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "MGM Grand",
+    "coordinates": {
+      "lat": 36.1024,
+      "lng": -115.1698
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/betmgm_sportsbook_bar_at_mgm_grand.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:57:49Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

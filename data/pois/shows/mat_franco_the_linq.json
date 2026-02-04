@@ -1,0 +1,41 @@
+{
+  "id": "poi_580",
+  "name": "Mat Franco",
+  "category": "entertainment",
+  "subcategory": "magic",
+  "casino_property": "The LINQ",
+  "location": {
+    "address": "3535 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The LINQ",
+    "coordinates": {
+      "lat": 36.1176,
+      "lng": -115.171
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/mat_franco/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "magic",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:12:05Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "poi_408",
+  "name": "Gordon Ramsay Fish & Chips",
+  "category": "restaurant",
+  "subcategory": "seafood",
+  "casino_property": "The LINQ",
+  "location": {
+    "address": "3535 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The LINQ",
+    "coordinates": {
+      "lat": 36.1176,
+      "lng": -115.171
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/gordon_ramsay_fish_and_chips.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "the_linq",
+    "british",
+    "seafood"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "british",
+    "seafood"
+  ],
+  "cuisine_raw": "British, Seafood",
+  "pricing": {
+    "price_range": "$$$$"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "poi_538",
+  "name": "Mac King Comedy Show",
+  "category": "entertainment",
+  "subcategory": "comedy",
+  "casino_property": "Excalibur",
+  "location": {
+    "address": "3850 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Excalibur",
+    "coordinates": {
+      "lat": 36.0987,
+      "lng": -115.1754
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/mac_king_comedy_show/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "comedy",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:11:57Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

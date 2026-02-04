@@ -1,0 +1,39 @@
+{
+  "id": "poi_912",
+  "name": "Arte Museum",
+  "category": "attraction",
+  "subcategory": "museum_exhibit",
+  "casino_property": "Cosmopolitan",
+  "location": {
+    "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Cosmopolitan",
+    "coordinates": {
+      "lat": 36.1095,
+      "lng": -115.1742
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/attractions/arte_museum.aspx"
+  },
+  "description": "",
+  "features": [
+    "attraction",
+    "experience"
+  ],
+  "tags": [
+    "museum exhibit",
+    "attraction",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:54:09Z",
+  "updated_at": "2026-02-04T19:54:09Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

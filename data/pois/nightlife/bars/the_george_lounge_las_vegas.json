@@ -1,0 +1,40 @@
+{
+  "id": "poi_866",
+  "name": "The George Lounge",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Durango",
+  "location": {
+    "address": "5770 S Durango Dr, Las Vegas, NV 89113",
+    "casino": "Durango",
+    "coordinates": {
+      "lat": 36.1464,
+      "lng": -115.2797
+    },
+    "level": "ground",
+    "area": "Off-Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/the_george_lounge.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T21:03:13Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

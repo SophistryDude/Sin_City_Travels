@@ -1,0 +1,45 @@
+{
+  "id": "poi_336",
+  "name": "Flights",
+  "category": "restaurant",
+  "subcategory": "spanish",
+  "casino_property": "Planet Hollywood",
+  "location": {
+    "address": "3663 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Planet Hollywood",
+    "coordinates": {
+      "lat": 36.1097,
+      "lng": -115.1708
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/flights.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "planet_hollywood",
+    "american",
+    "tapas",
+    "variety"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "tapas",
+    "variety"
+  ],
+  "cuisine_raw": "American, Tapas, Variety",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "poi_149",
+  "name": "Wazuzu",
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "casino_property": "Encore",
+  "location": {
+    "address": "3121 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Encore",
+    "coordinates": {
+      "lat": 36.1289,
+      "lng": -115.165
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/wazuzu.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sushi_bar"
+  ],
+  "tags": [
+    "encore",
+    "asian",
+    "sushi"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:32:39Z",
+  "cuisine": [
+    "asian",
+    "sushi"
+  ],
+  "cuisine_raw": "Asian, Sushi",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

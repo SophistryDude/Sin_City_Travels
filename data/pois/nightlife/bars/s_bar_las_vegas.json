@@ -1,0 +1,40 @@
+{
+  "id": "poi_828",
+  "name": "S Bar",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Mandalay Bay",
+  "location": {
+    "address": "3950 Las Vegas Blvd S, Las Vegas, NV 89119",
+    "casino": "Mandalay Bay",
+    "coordinates": {
+      "lat": 36.0909,
+      "lng": -115.1743
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/s_bar.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T21:02:12Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

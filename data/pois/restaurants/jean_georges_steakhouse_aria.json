@@ -1,0 +1,43 @@
+{
+  "id": "poi_058",
+  "name": "Jean Georges Steakhouse",
+  "category": "restaurant",
+  "subcategory": "steakhouse",
+  "casino_property": "Aria",
+  "location": {
+    "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Aria",
+    "coordinates": {
+      "lat": 36.1067,
+      "lng": -115.1761
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/jean_georges_steakhouse.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "aria",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:18Z",
+  "updated_at": "2026-02-04T20:26:33Z",
+  "cuisine": [
+    "steak"
+  ],
+  "cuisine_raw": "Steak",
+  "pricing": {
+    "price_range": "$$$$"
+  }
+}

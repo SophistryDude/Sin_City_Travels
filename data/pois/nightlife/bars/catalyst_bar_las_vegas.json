@@ -1,0 +1,40 @@
+{
+  "id": "poi_686",
+  "name": "Catalyst Bar",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "The LINQ",
+  "location": {
+    "address": "3535 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The LINQ",
+    "coordinates": {
+      "lat": 36.1176,
+      "lng": -115.171
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/catalyst_bar.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:58:26Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

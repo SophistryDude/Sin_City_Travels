@@ -1,0 +1,43 @@
+{
+  "id": "poi_511",
+  "name": "Vice Versa",
+  "category": "restaurant",
+  "subcategory": "spanish",
+  "casino_property": "Vdara",
+  "location": {
+    "address": "2600 W Harmon Ave, Las Vegas, NV 89158",
+    "casino": "Vdara",
+    "coordinates": {
+      "lat": 36.108,
+      "lng": -115.1773
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/vice_versa.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "vdara",
+    "american",
+    "tapas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "tapas"
+  ],
+  "cuisine_raw": "American, Tapas",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

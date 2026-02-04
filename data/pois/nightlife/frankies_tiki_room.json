@@ -3,12 +3,16 @@
   "name": "Frankie's Tiki Room",
   "category": "nightlife",
   "subcategory": "tiki_bar",
-  "casino_property": null,
+  "casino_property": "Off-Strip",
   "location": {
     "address": "1712 W Charleston Blvd, Las Vegas, NV 89102",
-    "coordinates": { "lat": 36.1590, "lng": -115.1614 },
+    "coordinates": {
+      "lat": 36.1433,
+      "lng": -115.1713
+    },
     "level": "ground",
-    "area": "Off-Strip"
+    "area": "Off-Strip",
+    "casino": "Off-Strip"
   },
   "contact": {
     "phone": "(702) 385-3110",
@@ -46,7 +50,10 @@
     "recommended",
     "vegas_institution"
   ],
-  "data_sources": ["official_website", "yelp"],
+  "data_sources": [
+    "official_website",
+    "yelp"
+  ],
   "created_at": "2026-02-03T23:30:00Z",
   "updated_at": "2026-02-03T23:30:00Z"
 }

@@ -3,12 +3,16 @@
   "name": "Parasol Up / Parasol Down",
   "category": "nightlife",
   "subcategory": "cocktail_lounge",
-  "casino_property": "Wynn Las Vegas",
+  "casino_property": "Wynn",
   "location": {
     "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "coordinates": { "lat": 36.1264, "lng": -115.1660 },
+    "coordinates": {
+      "lat": 36.1264,
+      "lng": -115.166
+    },
     "level": "Atrium Level / Lower Level",
-    "area": "North Strip"
+    "area": "North Strip",
+    "casino": "Wynn"
   },
   "contact": {
     "phone": "(702) 770-7000",
@@ -46,7 +50,10 @@
     "recommended",
     "local_favorite"
   ],
-  "data_sources": ["wynn_website", "yelp"],
+  "data_sources": [
+    "wynn_website",
+    "yelp"
+  ],
   "created_at": "2026-02-03T23:30:00Z",
   "updated_at": "2026-02-03T23:30:00Z"
 }

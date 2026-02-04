@@ -1,0 +1,46 @@
+{
+  "id": "poi_159",
+  "name": "California Pizza Kitchen",
+  "category": "restaurant",
+  "subcategory": "pizza",
+  "casino_property": "Fashion Show Mall",
+  "location": {
+    "address": "3200 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Fashion Show Mall",
+    "coordinates": {
+      "lat": 36.1268,
+      "lng": -115.17
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/california_pizza_kitchen.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "fashion_show_mall",
+    "american",
+    "italian",
+    "pizza"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "italian",
+    "pizza"
+  ],
+  "cuisine_raw": "American, Italian, Pizza",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

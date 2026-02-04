@@ -1,0 +1,43 @@
+{
+  "id": "poi_509",
+  "name": "Market Cafe Vdara",
+  "category": "restaurant",
+  "subcategory": "cafe_bakery",
+  "casino_property": "Vdara",
+  "location": {
+    "address": "2600 W Harmon Ave, Las Vegas, NV 89158",
+    "casino": "Vdara",
+    "coordinates": {
+      "lat": 36.108,
+      "lng": -115.1773
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/market_cafe_vdara.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "vdara",
+    "american",
+    "cafe"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "cafe"
+  ],
+  "cuisine_raw": "American, Cafe",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

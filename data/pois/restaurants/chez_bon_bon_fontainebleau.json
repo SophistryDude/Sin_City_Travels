@@ -1,0 +1,44 @@
+{
+  "id": "poi_180",
+  "name": "Chez Bon Bon",
+  "category": "restaurant",
+  "subcategory": "cafe_bakery",
+  "casino_property": "Fontainebleau",
+  "location": {
+    "address": "2777 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Fontainebleau",
+    "coordinates": {
+      "lat": 36.1361,
+      "lng": -115.1568
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/chez_bon_bon.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "fontainebleau",
+    "cafe",
+    "french"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "cafe",
+    "french"
+  ],
+  "cuisine_raw": "Cafe, French",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

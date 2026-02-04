@@ -1,0 +1,41 @@
+{
+  "id": "poi_382",
+  "name": "Mulberry Street Pizzeria",
+  "category": "restaurant",
+  "subcategory": "pizza",
+  "casino_property": "Resorts World",
+  "location": {
+    "address": "3000 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Resorts World",
+    "coordinates": {
+      "lat": 36.138,
+      "lng": -115.1652
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/mulberry_street_pizzeria.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "resorts_world",
+    "pizza"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "pizza"
+  ],
+  "cuisine_raw": "Pizza",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

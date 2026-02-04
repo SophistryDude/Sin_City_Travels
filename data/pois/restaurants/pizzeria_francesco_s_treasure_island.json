@@ -1,0 +1,44 @@
+{
+  "id": "poi_505",
+  "name": "Pizzeria Francesco's",
+  "category": "restaurant",
+  "subcategory": "pizza",
+  "casino_property": "Treasure Island",
+  "location": {
+    "address": "3300 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Treasure Island",
+    "coordinates": {
+      "lat": 36.1247,
+      "lng": -115.1709
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/pizzeria_francescos.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "treasure_island",
+    "italian",
+    "pizza"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "italian",
+    "pizza"
+  ],
+  "cuisine_raw": "Italian, Pizza",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "poi_581",
+  "name": "Menopause: The Musical",
+  "category": "entertainment",
+  "subcategory": "show",
+  "casino_property": "Harrah's",
+  "location": {
+    "address": "3475 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Harrah's",
+    "coordinates": {
+      "lat": 36.119,
+      "lng": -115.1726
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/menopause_the_musical/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "show",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:12:07Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

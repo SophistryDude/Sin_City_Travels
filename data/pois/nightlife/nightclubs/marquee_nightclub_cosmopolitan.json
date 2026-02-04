@@ -1,0 +1,41 @@
+{
+  "id": "poi_627",
+  "name": "Marquee Nightclub",
+  "category": "nightlife",
+  "subcategory": "nightclub",
+  "casino_property": "Cosmopolitan",
+  "location": {
+    "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Cosmopolitan",
+    "coordinates": {
+      "lat": 36.1095,
+      "lng": -115.1742
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/nightclubs/marquee_nightclub.aspx"
+  },
+  "description": "",
+  "features": [
+    "nightclub",
+    "dancing",
+    "dj",
+    "nightlife"
+  ],
+  "tags": [
+    "nightclub",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T19:53:50Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

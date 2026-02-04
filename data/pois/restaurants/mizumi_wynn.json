@@ -3,13 +3,13 @@
   "name": "Mizumi",
   "category": "restaurant",
   "subcategory": "fine_dining_japanese",
-  "casino_property": "Wynn Las Vegas",
+  "casino_property": "Wynn",
   "location": {
     "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
-    "casino": "Wynn Las Vegas",
+    "casino": "Wynn",
     "coordinates": {
-      "lat": 36.1278,
-      "lng": -115.1657
+      "lat": 36.1264,
+      "lng": -115.166
     },
     "level": "ground",
     "area": "North Strip"
@@ -33,7 +33,12 @@
     "average_per_person": "$100-$200"
   },
   "description": "Serves pristine sushi and sashimi, robatayaki bar specialties and modern Japanese cuisine, with a teppanyaki room where chefs cook tableside.",
-  "cuisine": ["japanese", "sushi", "teppanyaki", "robatayaki"],
+  "cuisine": [
+    "japanese",
+    "sushi",
+    "teppanyaki",
+    "robatayaki"
+  ],
   "features": [
     "fine_dining",
     "sushi_bar",

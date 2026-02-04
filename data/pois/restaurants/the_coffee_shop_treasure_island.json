@@ -1,0 +1,43 @@
+{
+  "id": "poi_506",
+  "name": "The Coffee Shop",
+  "category": "restaurant",
+  "subcategory": "cafe_bakery",
+  "casino_property": "Treasure Island",
+  "location": {
+    "address": "3300 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Treasure Island",
+    "coordinates": {
+      "lat": 36.1247,
+      "lng": -115.1709
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/the_coffee_shop.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "treasure_island",
+    "american",
+    "cafe"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "cafe"
+  ],
+  "cuisine_raw": "American, Cafe",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "poi_584",
+  "name": "Mystere",
+  "category": "entertainment",
+  "subcategory": "show",
+  "casino_property": "Treasure Island",
+  "location": {
+    "address": "3300 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Treasure Island",
+    "coordinates": {
+      "lat": 36.1247,
+      "lng": -115.1709
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/mystere_by_cirque_du_soleil/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "show",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:12:13Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "poi_684",
+  "name": "CASBAR Lounge",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Sahara",
+  "location": {
+    "address": "2535 Las Vegas Blvd S, Las Vegas, NV 89104",
+    "casino": "Sahara",
+    "coordinates": {
+      "lat": 36.1413,
+      "lng": -115.1567
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/casbar_lounge.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:21:05Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

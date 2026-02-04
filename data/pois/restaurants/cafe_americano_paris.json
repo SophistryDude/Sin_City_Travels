@@ -1,0 +1,43 @@
+{
+  "id": "poi_305",
+  "name": "Cafe Americano",
+  "category": "restaurant",
+  "subcategory": "cafe_bakery",
+  "casino_property": "Paris",
+  "location": {
+    "address": "3655 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Paris",
+    "coordinates": {
+      "lat": 36.1125,
+      "lng": -115.1707
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/cafe_americano_at_paris.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "paris",
+    "american",
+    "cafe"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american",
+    "cafe"
+  ],
+  "cuisine_raw": "American, Cafe",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

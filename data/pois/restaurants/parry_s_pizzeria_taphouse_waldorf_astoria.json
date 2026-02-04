@@ -1,0 +1,41 @@
+{
+  "id": "poi_513",
+  "name": "Parry's Pizzeria & Taphouse",
+  "category": "restaurant",
+  "subcategory": "pizza",
+  "casino_property": "Waldorf Astoria",
+  "location": {
+    "address": "3752 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Waldorf Astoria",
+    "coordinates": {
+      "lat": 36.107,
+      "lng": -115.1755
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/parrys_pizzeria_and_taphouse.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "waldorf_astoria",
+    "pizza"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "pizza"
+  ],
+  "cuisine_raw": "Pizza",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

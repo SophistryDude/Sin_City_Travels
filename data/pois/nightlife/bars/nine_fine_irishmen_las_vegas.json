@@ -1,0 +1,40 @@
+{
+  "id": "poi_787",
+  "name": "Nine Fine Irishmen",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "New York New York",
+  "location": {
+    "address": "3790 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "New York New York",
+    "coordinates": {
+      "lat": 36.1022,
+      "lng": -115.1745
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/nine_fine_irishmen.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T21:01:07Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

@@ -3,12 +3,16 @@
   "name": "The Underground at The Mob Museum",
   "category": "nightlife",
   "subcategory": "speakeasy",
-  "casino_property": null,
+  "casino_property": "Off-Strip",
   "location": {
     "address": "300 Stewart Ave, Las Vegas, NV 89101",
-    "coordinates": { "lat": 36.1727, "lng": -115.1413 },
+    "coordinates": {
+      "lat": 36.1725,
+      "lng": -115.1412
+    },
     "level": "basement",
-    "area": "Downtown"
+    "area": "Off-Strip",
+    "casino": "Off-Strip"
   },
   "contact": {
     "phone": "(702) 229-2734",
@@ -47,7 +51,10 @@
     "recommended",
     "hidden_gem"
   ],
-  "data_sources": ["mob_museum_website", "yelp"],
+  "data_sources": [
+    "mob_museum_website",
+    "yelp"
+  ],
   "created_at": "2026-02-03T23:30:00Z",
   "updated_at": "2026-02-03T23:30:00Z"
 }

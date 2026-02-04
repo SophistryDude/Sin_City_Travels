@@ -1,0 +1,47 @@
+{
+  "id": "poi_304",
+  "name": "Brioche",
+  "category": "restaurant",
+  "subcategory": "quick_bites",
+  "casino_property": "Paris",
+  "location": {
+    "address": "3655 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Paris",
+    "coordinates": {
+      "lat": 36.1125,
+      "lng": -115.1707
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/brioche_at_paris.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "quick_service",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "paris",
+    "quickbites",
+    "cafe",
+    "french"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "quickbites",
+    "cafe",
+    "french"
+  ],
+  "cuisine_raw": "Quickbites, Cafe, French",
+  "pricing": {
+    "price_range": "$"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "poi_186",
+  "name": "Komodo",
+  "category": "restaurant",
+  "subcategory": "asian",
+  "casino_property": "Fontainebleau",
+  "location": {
+    "address": "2777 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Fontainebleau",
+    "coordinates": {
+      "lat": 36.1361,
+      "lng": -115.1568
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/komodo.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "fontainebleau",
+    "asian"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "asian"
+  ],
+  "cuisine_raw": "Asian",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

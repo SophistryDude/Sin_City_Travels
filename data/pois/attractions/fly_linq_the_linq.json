@@ -1,0 +1,39 @@
+{
+  "id": "poi_929",
+  "name": "Fly LINQ",
+  "category": "attraction",
+  "subcategory": "aerial_experience",
+  "casino_property": "The LINQ",
+  "location": {
+    "address": "3535 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The LINQ",
+    "coordinates": {
+      "lat": 36.1176,
+      "lng": -115.171
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/attractions/fly_linq.aspx"
+  },
+  "description": "",
+  "features": [
+    "attraction",
+    "experience"
+  ],
+  "tags": [
+    "aerial experience",
+    "attraction",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:54:09Z",
+  "updated_at": "2026-02-04T19:54:09Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

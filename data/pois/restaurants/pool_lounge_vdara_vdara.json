@@ -1,0 +1,41 @@
+{
+  "id": "poi_510",
+  "name": "Pool & Lounge Vdara",
+  "category": "restaurant",
+  "subcategory": "american",
+  "casino_property": "Vdara",
+  "location": {
+    "address": "2600 W Harmon Ave, Las Vegas, NV 89158",
+    "casino": "Vdara",
+    "coordinates": {
+      "lat": 36.108,
+      "lng": -115.1773
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/pool_and_lounge_vdara.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "vdara",
+    "american"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "american"
+  ],
+  "cuisine_raw": "American",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "poi_523",
+  "name": "Four Sixes Steakhouse",
+  "category": "restaurant",
+  "subcategory": "steakhouse",
+  "casino_property": "Wynn",
+  "location": {
+    "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Wynn",
+    "coordinates": {
+      "lat": 36.1264,
+      "lng": -115.166
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/four_sixes_ranch_steakhouse.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "wynn",
+    "american",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:24:33Z",
+  "cuisine": [
+    "american",
+    "steak"
+  ],
+  "cuisine_raw": "American, Steak",
+  "pricing": {
+    "price_range": "$$$$"
+  }
+}

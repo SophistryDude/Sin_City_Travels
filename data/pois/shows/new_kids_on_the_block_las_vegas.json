@@ -1,0 +1,41 @@
+{
+  "id": "poi_541",
+  "name": "New Kids on The Block",
+  "category": "entertainment",
+  "subcategory": "show",
+  "casino_property": "Park MGM",
+  "location": {
+    "address": "3770 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Park MGM",
+    "coordinates": {
+      "lat": 36.1028,
+      "lng": -115.1709
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/new_kids_on_the_block/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "show",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:12:16Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

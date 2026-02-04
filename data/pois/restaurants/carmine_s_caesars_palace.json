@@ -1,0 +1,43 @@
+{
+  "id": "poi_094",
+  "name": "Carmine's",
+  "category": "restaurant",
+  "subcategory": "italian",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/carmines.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "caesars_palace",
+    "italian"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:18Z",
+  "updated_at": "2026-02-04T20:22:24Z",
+  "cuisine": [
+    "italian"
+  ],
+  "cuisine_raw": "Italian",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

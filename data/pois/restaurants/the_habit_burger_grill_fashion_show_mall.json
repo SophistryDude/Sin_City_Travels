@@ -1,0 +1,44 @@
+{
+  "id": "poi_167",
+  "name": "The Habit Burger Grill",
+  "category": "restaurant",
+  "subcategory": "quick_bites",
+  "casino_property": "Fashion Show Mall",
+  "location": {
+    "address": "3200 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Fashion Show Mall",
+    "coordinates": {
+      "lat": 36.1268,
+      "lng": -115.17
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/the_habit_burger_grill.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "quick_service"
+  ],
+  "tags": [
+    "fashion_show_mall",
+    "quickbites",
+    "american"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "quickbites",
+    "american"
+  ],
+  "cuisine_raw": "Quickbites, American",
+  "pricing": {
+    "price_range": "$"
+  }
+}

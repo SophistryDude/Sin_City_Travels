@@ -1,0 +1,41 @@
+{
+  "id": "poi_565",
+  "name": "Gordie Brown",
+  "category": "entertainment",
+  "subcategory": "show",
+  "casino_property": "Golden Nugget",
+  "location": {
+    "address": "129 E Fremont St, Las Vegas, NV 89101",
+    "casino": "Golden Nugget",
+    "coordinates": {
+      "lat": 36.1708,
+      "lng": -115.1445
+    },
+    "level": "ground",
+    "area": "Downtown"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/shows/gordie_brown/ticketsdiscounts.aspx"
+  },
+  "description": "",
+  "features": [
+    "show",
+    "entertainment",
+    "live_performance"
+  ],
+  "tags": [
+    "show",
+    "show",
+    "las_vegas_entertainment"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:40Z",
+  "updated_at": "2026-02-04T20:11:35Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

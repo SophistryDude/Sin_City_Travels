@@ -1,0 +1,44 @@
+{
+  "id": "poi_093",
+  "name": "Cafe Americano",
+  "category": "restaurant",
+  "subcategory": "cafe_bakery",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/cafe_americano_at_caesars_palace.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "caesars_palace",
+    "american",
+    "cafe"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:18Z",
+  "updated_at": "2026-02-04T20:21:54Z",
+  "cuisine": [
+    "american",
+    "cafe"
+  ],
+  "cuisine_raw": "American, Cafe",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

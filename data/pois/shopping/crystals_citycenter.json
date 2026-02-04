@@ -3,13 +3,13 @@
   "name": "The Shops at Crystals",
   "category": "shopping",
   "subcategory": "ultra_luxury_mall",
-  "casino_property": "CityCenter (Aria)",
+  "casino_property": "Aria",
   "location": {
-    "address": "3720 Las Vegas Blvd S, Las Vegas, NV 89158",
-    "casino": "CityCenter Complex",
+    "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Aria",
     "coordinates": {
-      "lat": 36.1089,
-      "lng": -115.1750
+      "lat": 36.1067,
+      "lng": -115.1761
     },
     "level": "multiple_levels",
     "area": "Mid Strip"

@@ -1,0 +1,45 @@
+{
+  "id": "poi_527",
+  "name": "Sartiano's",
+  "category": "restaurant",
+  "subcategory": "italian",
+  "casino_property": "Wynn",
+  "location": {
+    "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Wynn",
+    "coordinates": {
+      "lat": 36.1264,
+      "lng": -115.166
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/sartianos.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "wynn",
+    "italian",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:30:17Z",
+  "cuisine": [
+    "italian",
+    "steak"
+  ],
+  "cuisine_raw": "Italian, Steak",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

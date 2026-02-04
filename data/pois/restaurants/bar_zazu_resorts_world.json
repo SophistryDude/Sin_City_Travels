@@ -1,0 +1,41 @@
+{
+  "id": "poi_360",
+  "name": "Bar Zazu",
+  "category": "restaurant",
+  "subcategory": "spanish",
+  "casino_property": "Resorts World",
+  "location": {
+    "address": "3000 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Resorts World",
+    "coordinates": {
+      "lat": 36.138,
+      "lng": -115.1652
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/bar_zazu.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "resorts_world",
+    "tapas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T19:53:19Z",
+  "cuisine": [
+    "tapas"
+  ],
+  "cuisine_raw": "Tapas",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

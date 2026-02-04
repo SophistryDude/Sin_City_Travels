@@ -1,0 +1,43 @@
+{
+  "id": "poi_083",
+  "name": "Prime Steakhouse",
+  "category": "restaurant",
+  "subcategory": "steakhouse",
+  "casino_property": "Bellagio",
+  "location": {
+    "address": "3600 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Bellagio",
+    "coordinates": {
+      "lat": 36.1127,
+      "lng": -115.1765
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/prime_steakhouse.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "bellagio",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:18Z",
+  "updated_at": "2026-02-04T20:29:40Z",
+  "cuisine": [
+    "steak"
+  ],
+  "cuisine_raw": "Steak",
+  "pricing": {
+    "price_range": "$$$$"
+  }
+}

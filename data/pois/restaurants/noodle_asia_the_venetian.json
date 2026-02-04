@@ -1,0 +1,44 @@
+{
+  "id": "poi_484",
+  "name": "Noodle Asia",
+  "category": "restaurant",
+  "subcategory": "chinese",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3355 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Venetian",
+    "coordinates": {
+      "lat": 36.1212,
+      "lng": -115.1697
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/noodle_asia.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining"
+  ],
+  "tags": [
+    "the_venetian",
+    "asian",
+    "chinese"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:19Z",
+  "updated_at": "2026-02-04T20:28:27Z",
+  "cuisine": [
+    "asian",
+    "chinese"
+  ],
+  "cuisine_raw": "Asian, Chinese",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

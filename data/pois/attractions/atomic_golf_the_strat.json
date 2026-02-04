@@ -1,0 +1,39 @@
+{
+  "id": "poi_913",
+  "name": "Atomic Golf",
+  "category": "attraction",
+  "subcategory": "golf",
+  "casino_property": "The STRAT",
+  "location": {
+    "address": "2000 Las Vegas Blvd S, Las Vegas, NV 89104",
+    "casino": "The STRAT",
+    "coordinates": {
+      "lat": 36.1474,
+      "lng": -115.1557
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/attractions/atomic_golf.aspx"
+  },
+  "description": "",
+  "features": [
+    "attraction",
+    "experience"
+  ],
+  "tags": [
+    "golf",
+    "attraction",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:54:09Z",
+  "updated_at": "2026-02-04T19:54:09Z",
+  "pricing": {
+    "price_range": "$$"
+  }
+}

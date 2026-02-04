@@ -1,0 +1,40 @@
+{
+  "id": "poi_645",
+  "name": "AMP'D",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "M Resort",
+  "location": {
+    "address": "12300 Las Vegas Blvd S, Henderson, NV 89044",
+    "casino": "M Resort",
+    "coordinates": {
+      "lat": 36.0125,
+      "lng": -115.1559
+    },
+    "level": "ground",
+    "area": "Off-Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/ampd.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:57:21Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

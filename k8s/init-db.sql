@@ -17,31 +17,8 @@ CREATE TYPE poi_category AS ENUM (
     'hotel'
 );
 
-CREATE TYPE poi_subcategory AS ENUM (
-    'fine_dining_steakhouse',
-    'fine_dining_italian',
-    'fine_dining_french',
-    'fine_dining_japanese',
-    'fine_dining_chinese',
-    'fine_dining_american',
-    'fine_dining_spanish',
-    'fine_dining_mediterranean',
-    'fine_dining_asian',
-    'fine_dining_supper_club',
-    'casual_asian',
-    'casual_mexican',
-    'luxury_mall',
-    'ultra_luxury_mall',
-    'lifestyle_mall',
-    'cirque_du_soleil_show',
-    'nightclub',
-    'bar',
-    'lounge',
-    'speakeasy',
-    'craft_cocktail_bar',
-    'tiki_bar',
-    'cocktail_lounge'
-);
+-- Note: subcategory is VARCHAR(100) instead of ENUM to support the wide variety
+-- of venue types across restaurants, nightlife, shows, and attractions.
 
 CREATE TYPE price_range AS ENUM ('$', '$$', '$$$', '$$$$', '$$$$+');
 
@@ -50,7 +27,7 @@ CREATE TABLE pois (
     id VARCHAR(20) PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     category poi_category NOT NULL,
-    subcategory poi_subcategory,
+    subcategory VARCHAR(100),
     casino_property VARCHAR(100),
 
     -- Location data
@@ -270,17 +247,94 @@ CREATE TRIGGER update_pois_updated_at BEFORE UPDATE ON pois
 CREATE TRIGGER update_properties_updated_at BEFORE UPDATE ON properties
     FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
 
--- Insert initial property data (8 major casinos we have POI data for)
+-- Insert property data for all properties with POIs
+-- Names MUST match the casino_property field in POI JSON files exactly
 INSERT INTO properties (name, location, area, owner, has_floor_plan) VALUES
-('MGM Grand', ST_SetSRID(ST_MakePoint(-115.1698, 36.1024), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE),
-('Park MGM', ST_SetSRID(ST_MakePoint(-115.1709, 36.1028), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE),
-('Bellagio', ST_SetSRID(ST_MakePoint(-115.1765, 36.1127), 4326)::geography, 'Mid Strip', 'MGM Resorts International', TRUE),
-('Caesars Palace', ST_SetSRID(ST_MakePoint(-115.1744, 36.1162), 4326)::geography, 'Mid Strip', 'Caesars Entertainment', TRUE),
-('Aria Resort Casino', ST_SetSRID(ST_MakePoint(-115.1761, 36.1067), 4326)::geography, 'Mid Strip', 'MGM Resorts International', TRUE),
-('The Venetian', ST_SetSRID(ST_MakePoint(-115.1697, 36.1212), 4326)::geography, 'North Strip', 'Las Vegas Sands', TRUE),
-('The Cosmopolitan', ST_SetSRID(ST_MakePoint(-115.1742, 36.1095), 4326)::geography, 'Mid Strip', 'MGM Resorts International', TRUE),
-('Wynn Las Vegas', ST_SetSRID(ST_MakePoint(-115.1657, 36.1278), 4326)::geography, 'North Strip', 'Wynn Resorts', TRUE),
-('Mandalay Bay', ST_SetSRID(ST_MakePoint(-115.1743, 36.0909), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE);
+-- ═══════════════════════════════════════════════════════════════
+-- SOUTH STRIP (Tropicana to Mandalay Bay)
+-- ═══════════════════════════════════════════════════════════════
+('Mandalay Bay',       ST_SetSRID(ST_MakePoint(-115.1743, 36.0909), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE),
+('Four Seasons',       ST_SetSRID(ST_MakePoint(-115.1753, 36.0909), 4326)::geography, 'South Strip', 'MGM Resorts International', FALSE),
+('Luxor',              ST_SetSRID(ST_MakePoint(-115.1761, 36.0955), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE),
+('Excalibur',          ST_SetSRID(ST_MakePoint(-115.1754, 36.0987), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE),
+('Tropicana',          ST_SetSRID(ST_MakePoint(-115.1730, 36.1012), 4326)::geography, 'South Strip', 'Bally''s Corporation', FALSE),
+('New York New York',  ST_SetSRID(ST_MakePoint(-115.1745, 36.1022), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE),
+('MGM Grand',          ST_SetSRID(ST_MakePoint(-115.1698, 36.1024), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE),
+('The Signature',      ST_SetSRID(ST_MakePoint(-115.1665, 36.1024), 4326)::geography, 'South Strip', 'MGM Resorts International', FALSE),
+('Park MGM',           ST_SetSRID(ST_MakePoint(-115.1709, 36.1028), 4326)::geography, 'South Strip', 'MGM Resorts International', TRUE),
+('NoMad',              ST_SetSRID(ST_MakePoint(-115.1709, 36.1028), 4326)::geography, 'South Strip', 'MGM Resorts International', FALSE),
+
+-- ═══════════════════════════════════════════════════════════════
+-- MID STRIP (Aria to Flamingo)
+-- ═══════════════════════════════════════════════════════════════
+('Aria',               ST_SetSRID(ST_MakePoint(-115.1761, 36.1067), 4326)::geography, 'Mid Strip', 'MGM Resorts International', TRUE),
+('Waldorf Astoria',    ST_SetSRID(ST_MakePoint(-115.1755, 36.1070), 4326)::geography, 'Mid Strip', 'Hilton Hotels', FALSE),
+('Vdara',              ST_SetSRID(ST_MakePoint(-115.1773, 36.1080), 4326)::geography, 'Mid Strip', 'MGM Resorts International', FALSE),
+('Cosmopolitan',       ST_SetSRID(ST_MakePoint(-115.1742, 36.1095), 4326)::geography, 'Mid Strip', 'MGM Resorts International', TRUE),
+('Planet Hollywood',   ST_SetSRID(ST_MakePoint(-115.1708, 36.1097), 4326)::geography, 'Mid Strip', 'Caesars Entertainment', TRUE),
+('Paris',              ST_SetSRID(ST_MakePoint(-115.1707, 36.1125), 4326)::geography, 'Mid Strip', 'Caesars Entertainment', TRUE),
+('Bellagio',           ST_SetSRID(ST_MakePoint(-115.1765, 36.1127), 4326)::geography, 'Mid Strip', 'MGM Resorts International', TRUE),
+('Caesars Palace',     ST_SetSRID(ST_MakePoint(-115.1744, 36.1162), 4326)::geography, 'Mid Strip', 'Caesars Entertainment', TRUE),
+('Flamingo',           ST_SetSRID(ST_MakePoint(-115.1714, 36.1162), 4326)::geography, 'Mid Strip', 'Caesars Entertainment', TRUE),
+('The Cromwell',       ST_SetSRID(ST_MakePoint(-115.1722, 36.1168), 4326)::geography, 'Mid Strip', 'Caesars Entertainment', FALSE),
+('The LINQ',           ST_SetSRID(ST_MakePoint(-115.1710, 36.1176), 4326)::geography, 'Mid Strip', 'Caesars Entertainment', TRUE),
+('Horseshoe',          ST_SetSRID(ST_MakePoint(-115.1726, 36.1190), 4326)::geography, 'Mid Strip', 'Caesars Entertainment', TRUE),
+('Harrah''s',          ST_SetSRID(ST_MakePoint(-115.1726, 36.1190), 4326)::geography, 'Mid Strip', 'Caesars Entertainment', TRUE),
+('Casino Royale',      ST_SetSRID(ST_MakePoint(-115.1721, 36.1200), 4326)::geography, 'Mid Strip', 'Independent', FALSE),
+
+-- ═══════════════════════════════════════════════════════════════
+-- NORTH STRIP (Venetian to STRAT)
+-- ═══════════════════════════════════════════════════════════════
+('The Venetian',       ST_SetSRID(ST_MakePoint(-115.1697, 36.1212), 4326)::geography, 'North Strip', 'Apollo Global Management', TRUE),
+('The Palazzo',        ST_SetSRID(ST_MakePoint(-115.1693, 36.1228), 4326)::geography, 'North Strip', 'Apollo Global Management', TRUE),
+('Treasure Island',    ST_SetSRID(ST_MakePoint(-115.1709, 36.1247), 4326)::geography, 'North Strip', 'Radisson Hotel Group', TRUE),
+('Fashion Show Mall',  ST_SetSRID(ST_MakePoint(-115.1700, 36.1268), 4326)::geography, 'North Strip', 'Brookfield Properties', FALSE),
+('Wynn',               ST_SetSRID(ST_MakePoint(-115.1660, 36.1264), 4326)::geography, 'North Strip', 'Wynn Resorts', TRUE),
+('Encore',             ST_SetSRID(ST_MakePoint(-115.1650, 36.1289), 4326)::geography, 'North Strip', 'Wynn Resorts', TRUE),
+('Trump',              ST_SetSRID(ST_MakePoint(-115.1686, 36.1270), 4326)::geography, 'North Strip', 'Trump Organization', FALSE),
+('W Las Vegas',        ST_SetSRID(ST_MakePoint(-115.1665, 36.1024), 4326)::geography, 'North Strip', 'Marriott International', FALSE),
+('Fontainebleau',      ST_SetSRID(ST_MakePoint(-115.1568, 36.1361), 4326)::geography, 'North Strip', 'Fontainebleau Development', TRUE),
+('Circus Circus',      ST_SetSRID(ST_MakePoint(-115.1631, 36.1367), 4326)::geography, 'North Strip', 'Phil Ruffin', TRUE),
+('Resorts World',      ST_SetSRID(ST_MakePoint(-115.1652, 36.1380), 4326)::geography, 'North Strip', 'Genting Group', TRUE),
+('Sahara',             ST_SetSRID(ST_MakePoint(-115.1567, 36.1413), 4326)::geography, 'North Strip', 'Meruelo Group', TRUE),
+('The STRAT',          ST_SetSRID(ST_MakePoint(-115.1557, 36.1474), 4326)::geography, 'North Strip', 'Golden Entertainment', TRUE),
+
+-- ═══════════════════════════════════════════════════════════════
+-- DOWNTOWN (Fremont Street)
+-- ═══════════════════════════════════════════════════════════════
+('Downtown Grand',     ST_SetSRID(ST_MakePoint(-115.1424, 36.1699), 4326)::geography, 'Downtown', 'Fifth Street Gaming', FALSE),
+('Golden Nugget',      ST_SetSRID(ST_MakePoint(-115.1445, 36.1708), 4326)::geography, 'Downtown', 'Tilman Fertitta', TRUE),
+('Circa',              ST_SetSRID(ST_MakePoint(-115.1461, 36.1712), 4326)::geography, 'Downtown', 'Derek Stevens', TRUE),
+('Binion''s',          ST_SetSRID(ST_MakePoint(-115.1443, 36.1705), 4326)::geography, 'Downtown', 'TLC Casino Enterprises', FALSE),
+('California',         ST_SetSRID(ST_MakePoint(-115.1415, 36.1697), 4326)::geography, 'Downtown', 'Boyd Gaming', FALSE),
+('The D',              ST_SetSRID(ST_MakePoint(-115.1456, 36.1698), 4326)::geography, 'Downtown', 'Derek Stevens', FALSE),
+('Main Street Station', ST_SetSRID(ST_MakePoint(-115.1411, 36.1712), 4326)::geography, 'Downtown', 'Boyd Gaming', FALSE),
+
+-- ═══════════════════════════════════════════════════════════════
+-- OFF-STRIP (major properties)
+-- ═══════════════════════════════════════════════════════════════
+('Rio',                ST_SetSRID(ST_MakePoint(-115.1878, 36.1167), 4326)::geography, 'Off-Strip', 'Dreamscape Companies', TRUE),
+('Palms',              ST_SetSRID(ST_MakePoint(-115.1848, 36.1145), 4326)::geography, 'Off-Strip', 'San Manuel Band', TRUE),
+('Red Rock',           ST_SetSRID(ST_MakePoint(-115.3120, 36.1696), 4326)::geography, 'Off-Strip', 'Station Casinos', FALSE),
+('Westgate',           ST_SetSRID(ST_MakePoint(-115.1530, 36.1340), 4326)::geography, 'Off-Strip', 'Westgate Resorts', FALSE),
+('Durango',            ST_SetSRID(ST_MakePoint(-115.2797, 36.1464), 4326)::geography, 'Off-Strip', 'Station Casinos', FALSE),
+('M Resort',           ST_SetSRID(ST_MakePoint(-115.1559, 36.0125), 4326)::geography, 'Off-Strip', 'Penn Entertainment', FALSE),
+('Silverton',          ST_SetSRID(ST_MakePoint(-115.1863, 36.0765), 4326)::geography, 'Off-Strip', 'Ed Roski Jr.', FALSE),
+('The Orleans',        ST_SetSRID(ST_MakePoint(-115.1973, 36.1012), 4326)::geography, 'Off-Strip', 'Boyd Gaming', FALSE),
+('Gold Coast',         ST_SetSRID(ST_MakePoint(-115.1880, 36.1117), 4326)::geography, 'Off-Strip', 'Boyd Gaming', FALSE),
+('Ellis Island',       ST_SetSRID(ST_MakePoint(-115.1680, 36.1151), 4326)::geography, 'Off-Strip', 'Ellis Island Hotel', FALSE),
+('OYO',                ST_SetSRID(ST_MakePoint(-115.1529, 36.1012), 4326)::geography, 'Off-Strip', 'OYO Hotels & Homes', FALSE),
+('Tuscany Suites',     ST_SetSRID(ST_MakePoint(-115.1594, 36.1095), 4326)::geography, 'Off-Strip', 'Independent', FALSE),
+('Silver Sevens',      ST_SetSRID(ST_MakePoint(-115.1528, 36.1110), 4326)::geography, 'Off-Strip', 'Affinity Gaming', FALSE),
+('Aliante',            ST_SetSRID(ST_MakePoint(-115.1262, 36.2873), 4326)::geography, 'Off-Strip', 'Boyd Gaming', FALSE),
+('Cannery',            ST_SetSRID(ST_MakePoint(-115.0962, 36.2178), 4326)::geography, 'Off-Strip', 'Boyd Gaming', FALSE),
+
+-- Station Casinos
+('Sam''s Town',        ST_SetSRID(ST_MakePoint(-115.0562, 36.1143), 4326)::geography, 'Off-Strip', 'Boyd Gaming', FALSE),
+('Boulder Station',    ST_SetSRID(ST_MakePoint(-115.0720, 36.1514), 4326)::geography, 'Off-Strip', 'Station Casinos', FALSE),
+('Green Valley Ranch', ST_SetSRID(ST_MakePoint(-115.0630, 36.0467), 4326)::geography, 'Off-Strip', 'Station Casinos', FALSE),
+('Santa Fe Station',   ST_SetSRID(ST_MakePoint(-115.2395, 36.2309), 4326)::geography, 'Off-Strip', 'Station Casinos', FALSE),
+('Sunset Station',     ST_SetSRID(ST_MakePoint(-115.0634, 36.0713), 4326)::geography, 'Off-Strip', 'Station Casinos', FALSE);
 
 -- Pre-calculated distances between casino properties
 CREATE TABLE property_distances (
@@ -346,5 +400,5 @@ BEGIN
     RAISE NOTICE 'Tables created: pois, properties, navigation_nodes, navigation_edges, synthetic_routes';
     RAISE NOTICE 'Spatial indexes created';
     RAISE NOTICE 'Helper functions created';
-    RAISE NOTICE '9 properties inserted';
+    RAISE NOTICE '63 properties inserted (Strip, Downtown, Off-Strip)';
 END $$;

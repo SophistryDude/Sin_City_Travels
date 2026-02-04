@@ -1,0 +1,40 @@
+{
+  "id": "poi_893",
+  "name": "Unknown",
+  "category": "nightlife",
+  "subcategory": "bar_lounge",
+  "casino_property": "Palms",
+  "location": {
+    "address": "4321 W Flamingo Rd, Las Vegas, NV 89103",
+    "casino": "Palms",
+    "coordinates": {
+      "lat": 36.1145,
+      "lng": -115.1848
+    },
+    "level": "ground",
+    "area": "Off-Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/nightlife/bars/unknown.aspx"
+  },
+  "description": "",
+  "features": [
+    "bar",
+    "lounge",
+    "cocktails"
+  ],
+  "tags": [
+    "bar lounge",
+    "nightlife",
+    "las_vegas"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-04T19:53:50Z",
+  "updated_at": "2026-02-04T20:26:39Z",
+  "pricing": {
+    "price_range": "$$$"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "poi_071",
+  "name": "Toca Madera",
+  "category": "restaurant",
+  "subcategory": "mexican",
+  "casino_property": "Aria",
+  "location": {
+    "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Aria",
+    "coordinates": {
+      "lat": 36.1067,
+      "lng": -115.1761
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "website": "https://www.smartervegas.com/dining/restaurant/toca_madera.aspx"
+  },
+  "description": "",
+  "features": [
+    "dining",
+    "sit_down_dining"
+  ],
+  "tags": [
+    "aria",
+    "mexican",
+    "steak"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "web_search_2026-02",
+    "smartervegas_enriched"
+  ],
+  "created_at": "2026-02-04T19:53:18Z",
+  "updated_at": "2026-02-04T20:31:56Z",
+  "cuisine": [
+    "mexican",
+    "steak"
+  ],
+  "cuisine_raw": "Mexican, Steak",
+  "pricing": {
+    "price_range": "$$"
+  }
+}
