@@ -75,6 +75,7 @@ export DB_USER="${DB_USER}"
 export DB_PASSWORD="${DB_PASS}"
 
 cd "${REPO_DIR}"
+pip3 install -q psycopg2-binary
 python3 scripts/import_pois.py
 
 echo ""
