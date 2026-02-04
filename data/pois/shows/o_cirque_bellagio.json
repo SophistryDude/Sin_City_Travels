@@ -1,0 +1,66 @@
+{
+  "id": "poi_042",
+  "name": "\"O\" by Cirque du Soleil",
+  "category": "entertainment",
+  "subcategory": "cirque_du_soleil_show",
+  "casino_property": "Bellagio",
+  "location": {
+    "address": "3600 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Bellagio Hotel & Casino",
+    "venue": "Bellagio Theatre",
+    "coordinates": {
+      "lat": 36.1127,
+      "lng": -115.1765
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 693-8866",
+    "website": "https://www.cirquedusoleil.com/o",
+    "ticketing": "https://www.bellagio.com/en/entertainment/o-by-cirque-du-soleil.html"
+  },
+  "showtimes": {
+    "wednesday": "7:00 PM, 9:30 PM",
+    "thursday": "7:00 PM, 9:30 PM",
+    "friday": "7:00 PM, 9:30 PM",
+    "saturday": "7:00 PM, 9:30 PM",
+    "sunday": "7:00 PM, 9:30 PM",
+    "monday": "Dark",
+    "tuesday": "Dark"
+  },
+  "description": "Aquatic masterpiece by Cirque du Soleil featuring world-class acrobats and synchronized swimmers performing in, on, and above a 1.5-million-gallon water stage. A dreamlike adventure combining surrealist spectacle with elaborate staging and international cast.",
+  "features": [
+    "aquatic_acrobatics",
+    "water_stage",
+    "world_class_divers",
+    "synchronized_swimming",
+    "theatrical_experience",
+    "resident_show",
+    "family_friendly"
+  ],
+  "venue_details": {
+    "capacity": "~1,800 seats",
+    "stage": "1.5 million gallon pool",
+    "theatre": "Custom-built aquatic theatre"
+  },
+  "pricing": {
+    "price_range": "$$$-$$$$",
+    "typical_range": "$125-$275"
+  },
+  "tags": [
+    "cirque_du_soleil",
+    "aquatic_show",
+    "acrobatics",
+    "iconic",
+    "must_see",
+    "water_theatre"
+  ],
+  "data_sources": [
+    "cirquedusoleil_website",
+    "bellagio_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T23:00:00Z",
+  "updated_at": "2026-02-03T23:00:00Z"
+}

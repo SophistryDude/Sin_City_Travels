@@ -1,0 +1,71 @@
+{
+  "id": "poi_039",
+  "name": "Grand Canal Shoppes",
+  "category": "shopping",
+  "subcategory": "luxury_mall",
+  "casino_property": "The Venetian",
+  "location": {
+    "address": "3377 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "The Venetian Resort",
+    "coordinates": {
+      "lat": 36.1212,
+      "lng": -115.1697
+    },
+    "level": "multiple_levels",
+    "area": "North Strip"
+  },
+  "contact": {
+    "phone": "(702) 414-4525",
+    "website": "https://www.grandcanalshoppes.com"
+  },
+  "hours": {
+    "sunday": "10:00 AM - 11:00 PM",
+    "monday": "10:00 AM - 11:00 PM",
+    "tuesday": "10:00 AM - 11:00 PM",
+    "wednesday": "10:00 AM - 11:00 PM",
+    "thursday": "10:00 AM - 11:00 PM",
+    "friday": "10:00 AM - 11:00 PM",
+    "saturday": "10:00 AM - 11:00 PM"
+  },
+  "description": "Venetian-inspired 875,000-square-foot shopping mall featuring cobblestone walkways, illuminated painted sky ceilings, and gondolas that drift down the quarter-mile-long Grand Canal. Includes 160 signature stores, world-class dining, and unique entertainment.",
+  "features": [
+    "luxury_shopping",
+    "160_signature_stores",
+    "venetian_theme",
+    "indoor_grand_canal",
+    "gondola_rides",
+    "painted_sky_ceilings",
+    "cobblestone_walkways",
+    "live_entertainment"
+  ],
+  "size": {
+    "square_feet": 875000,
+    "store_count": "160",
+    "canal_length": "quarter_mile"
+  },
+  "attractions": [
+    "Gondola rides with singing gondoliers",
+    "KAMU Ultra Karaoke",
+    "Museum of Dream Space",
+    "Madame Tussauds Las Vegas"
+  ],
+  "recent_openings": [
+    "Auntie Anne's (food court)",
+    "Häagen-Dazs (food court)"
+  ],
+  "tags": [
+    "shopping_mall",
+    "luxury",
+    "venetian_theme",
+    "gondola_rides",
+    "tourist_attraction",
+    "entertainment"
+  ],
+  "data_sources": [
+    "grandcanalshoppes_website",
+    "venetian_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T22:30:00Z",
+  "updated_at": "2026-02-03T22:30:00Z"
+}

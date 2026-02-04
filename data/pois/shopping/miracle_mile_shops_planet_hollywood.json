@@ -1,0 +1,71 @@
+{
+  "id": "poi_041",
+  "name": "Miracle Mile Shops",
+  "category": "shopping",
+  "subcategory": "lifestyle_mall",
+  "casino_property": "Planet Hollywood",
+  "location": {
+    "address": "3663 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Planet Hollywood Resort & Casino",
+    "coordinates": {
+      "lat": 36.1097,
+      "lng": -115.1708
+    },
+    "level": "multiple_levels",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 866-0703",
+    "website": "https://www.miraclemileshopslv.com"
+  },
+  "hours": {
+    "sunday": "10:00 AM - 11:00 PM",
+    "monday": "10:00 AM - 11:00 PM",
+    "tuesday": "10:00 AM - 11:00 PM",
+    "wednesday": "10:00 AM - 11:00 PM",
+    "thursday": "10:00 AM - 11:00 PM",
+    "friday": "10:00 AM - 11:00 PM",
+    "saturday": "10:00 AM - 11:00 PM"
+  },
+  "description": "Mile-long shopping destination featuring 150+ shops, restaurants and entertainment venues. Formerly Desert Passage at the Aladdin (opened 2000), rebranded in 2007 as Miracle Mile Shops. The epicenter of fashion, food and fun on the Las Vegas Strip.",
+  "features": [
+    "150_plus_stores",
+    "mile_long",
+    "lifestyle_shopping",
+    "dining",
+    "entertainment",
+    "indoor_mall"
+  ],
+  "size": {
+    "length_miles": 1.2,
+    "store_count": "150-170"
+  },
+  "notable_retailers": [
+    "H&M",
+    "GUESS",
+    "lululemon",
+    "JD Sports",
+    "Victoria's Secret (Nevada's biggest)",
+    "Sephora (Nevada's biggest)",
+    "Morphe",
+    "Pop Mart"
+  ],
+  "history": {
+    "opened": "2000 (as Desert Passage at Aladdin)",
+    "rebranded": "2007 (as Miracle Mile Shops)"
+  },
+  "tags": [
+    "shopping_mall",
+    "lifestyle",
+    "fashion",
+    "indoor_mall",
+    "mile_long"
+  ],
+  "data_sources": [
+    "miraclemileshops_website",
+    "planet_hollywood_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T22:45:00Z",
+  "updated_at": "2026-02-03T22:45:00Z"
+}

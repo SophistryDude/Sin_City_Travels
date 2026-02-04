@@ -1,0 +1,66 @@
+{
+  "id": "poi_043",
+  "name": "KÀ by Cirque du Soleil",
+  "category": "entertainment",
+  "subcategory": "cirque_du_soleil_show",
+  "casino_property": "MGM Grand",
+  "location": {
+    "address": "3799 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "MGM Grand Hotel & Casino",
+    "venue": "KÀ Theatre",
+    "coordinates": {
+      "lat": 36.1024,
+      "lng": -115.1698
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "phone": "(702) 531-3826",
+    "website": "https://www.cirquedusoleil.com/ka",
+    "ticketing": "https://www.mgmgrand.com/en/entertainment/ka-cirque-du-soleil.html"
+  },
+  "showtimes": {
+    "saturday": "7:00 PM, 9:30 PM",
+    "sunday": "7:00 PM, 9:30 PM",
+    "monday": "Dark",
+    "tuesday": "Dark",
+    "wednesday": "7:00 PM, 9:30 PM",
+    "thursday": "7:00 PM, 9:30 PM",
+    "friday": "7:00 PM, 9:30 PM"
+  },
+  "description": "Theatrical masterpiece featuring a dynamic vertical stage and an epic tale of love and conflict. Features martial arts-inspired aerial combat, pyrotechnics, and advanced stage technology with moving platforms.",
+  "features": [
+    "vertical_stage",
+    "martial_arts",
+    "aerial_combat",
+    "pyrotechnics",
+    "epic_storyline",
+    "advanced_stage_technology",
+    "moving_platforms",
+    "resident_show"
+  ],
+  "venue_details": {
+    "capacity": "~1,900 seats",
+    "stage": "Dynamic vertical and rotating platforms"
+  },
+  "pricing": {
+    "price_range": "$$$-$$$$",
+    "typical_range": "$105-$245"
+  },
+  "tags": [
+    "cirque_du_soleil",
+    "martial_arts",
+    "acrobatics",
+    "theatrical",
+    "storyline",
+    "vertical_stage"
+  ],
+  "data_sources": [
+    "cirquedusoleil_website",
+    "mgm_grand_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T23:00:00Z",
+  "updated_at": "2026-02-03T23:00:00Z"
+}

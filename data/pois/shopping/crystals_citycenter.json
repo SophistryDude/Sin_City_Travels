@@ -1,0 +1,74 @@
+{
+  "id": "poi_040",
+  "name": "The Shops at Crystals",
+  "category": "shopping",
+  "subcategory": "ultra_luxury_mall",
+  "casino_property": "CityCenter (Aria)",
+  "location": {
+    "address": "3720 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "CityCenter Complex",
+    "coordinates": {
+      "lat": 36.1089,
+      "lng": -115.1750
+    },
+    "level": "multiple_levels",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 590-9299",
+    "website": "https://www.simon.com/mall/the-shops-at-crystals"
+  },
+  "hours": {
+    "sunday": "10:00 AM - 10:00 PM",
+    "monday": "10:00 AM - 10:00 PM",
+    "tuesday": "10:00 AM - 10:00 PM",
+    "wednesday": "10:00 AM - 10:00 PM",
+    "thursday": "10:00 AM - 10:00 PM",
+    "friday": "10:00 AM - 10:00 PM",
+    "saturday": "10:00 AM - 10:00 PM"
+  },
+  "description": "Ultra-luxury 500,000 square foot retail and dining district with uniquely angular architecture by Daniel Libeskind. Features more than 50 of the world's finest luxury brands, including the largest Louis Vuitton store in the United States.",
+  "features": [
+    "ultra_luxury_shopping",
+    "50_plus_luxury_brands",
+    "daniel_libeskind_architecture",
+    "flagship_stores",
+    "worlds_largest_stores",
+    "free_valet_parking",
+    "valet_only_parking",
+    "architectural_masterpiece"
+  ],
+  "size": {
+    "square_feet": 500000,
+    "store_count": "50+"
+  },
+  "notable_retailers": [
+    "Louis Vuitton (largest in US)",
+    "Christian Dior",
+    "Bulgari",
+    "Roberto Cavalli",
+    "Versace",
+    "Tom Ford",
+    "Dolce & Gabbana"
+  ],
+  "parking": {
+    "type": "valet_only",
+    "cost": "free"
+  },
+  "architect": "Daniel Libeskind",
+  "tags": [
+    "shopping_mall",
+    "ultra_luxury",
+    "flagship_stores",
+    "architecture",
+    "high_end",
+    "exclusive"
+  ],
+  "data_sources": [
+    "simon_malls",
+    "crystals_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T22:30:00Z",
+  "updated_at": "2026-02-03T22:30:00Z"
+}

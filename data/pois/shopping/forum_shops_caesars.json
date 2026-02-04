@@ -1,0 +1,74 @@
+{
+  "id": "poi_038",
+  "name": "The Forum Shops at Caesars Palace",
+  "category": "shopping",
+  "subcategory": "luxury_mall",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3500 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace Hotel & Casino",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "multiple_levels",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 893-4800",
+    "website": "https://www.simon.com/mall/the-forum-shops-at-caesars"
+  },
+  "hours": {
+    "sunday": "10:00 AM - 11:00 PM",
+    "monday": "10:00 AM - 11:00 PM",
+    "tuesday": "10:00 AM - 11:00 PM",
+    "wednesday": "10:00 AM - 11:00 PM",
+    "thursday": "10:00 AM - 11:00 PM",
+    "friday": "10:00 AM - 11:00 PM",
+    "saturday": "10:00 AM - 11:00 PM"
+  },
+  "description": "America's highest grossing mall designed to resemble Ancient Rome, featuring over 160 specialty stores, spiral escalators, ornate fountains, and a faux sky ceiling with moving clouds. More than a shopping center, it's a major attraction.",
+  "features": [
+    "luxury_shopping",
+    "160_plus_stores",
+    "ancient_rome_theme",
+    "animatronic_fountain_shows",
+    "50000_gallon_aquarium",
+    "changing_sky_ceiling",
+    "spiral_escalators",
+    "free_shows"
+  ],
+  "size": {
+    "square_feet": 675000,
+    "store_count": "160+"
+  },
+  "notable_retailers": [
+    "Christian Louboutin",
+    "Hugo Boss",
+    "Burberry",
+    "Ted Baker",
+    "Victoria's Secret",
+    "Jimmy Choo",
+    "Fendi"
+  ],
+  "attractions": [
+    "Two free animatronic fountain shows",
+    "50,000-gallon saltwater aquarium",
+    "Sky ceiling (dawn to dusk cycle every hour)"
+  ],
+  "tags": [
+    "shopping_mall",
+    "luxury",
+    "ancient_rome",
+    "tourist_attraction",
+    "high_end",
+    "entertainment"
+  ],
+  "data_sources": [
+    "simon_malls",
+    "caesars_palace_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T22:30:00Z",
+  "updated_at": "2026-02-03T22:30:00Z"
+}
