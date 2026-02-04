@@ -1,0 +1,1899 @@
+{
+  "restaurants": [],
+  "shops": [],
+  "attractions": [
+    {
+      "name": "Skylofts at MGM Grand",
+      "type": "node",
+      "tags": {
+        "addr:postcode": "89109",
+        "air_conditioning": "yes",
+        "name": "Skylofts at MGM Grand",
+        "opening_hours": "24/7",
+        "phone": "+1-877-646-5638",
+        "tourism": "hotel",
+        "website": "http://www.skyloftsmgmgrand.com"
+      }
+    },
+    {
+      "name": "Monterey Grand Manor",
+      "type": "node",
+      "tags": {
+        "name": "Monterey Grand Manor",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Las Vegas Hilton at Resorts World",
+      "type": "node",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "999",
+        "addr:state": "NV",
+        "addr:street": "Resorts World Avenue",
+        "air_conditioning": "yes",
+        "brand": "Hilton",
+        "brand:wikidata": "Q598884",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Las Vegas Hilton at Resorts World",
+        "rooms": "1774",
+        "tourism": "hotel",
+        "website": "https://www.hilton.com/en/hotels/lashhhh-las-vegas-hilton-at-resorts-world/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Conrad Las Vegas at Resorts World",
+      "type": "node",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "999",
+        "addr:state": "NV",
+        "addr:street": "Resorts World Avenue",
+        "air_conditioning": "yes",
+        "brand": "Conrad",
+        "brand:wikidata": "Q855525",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Conrad Las Vegas at Resorts World",
+        "rooms": "1496",
+        "tourism": "hotel",
+        "website": "https://www.hilton.com/en/hotels/lascdci-conrad-las-vegas-at-resorts-world/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Crockfords Las Vegas",
+      "type": "node",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "333",
+        "addr:state": "NV",
+        "addr:street": "West Resorts World Drive",
+        "air_conditioning": "yes",
+        "brand": "LXR",
+        "brand:wikidata": "Q64605184",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Crockfords Las Vegas",
+        "rooms": "236",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Days Inn",
+      "type": "node",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "5075",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "Koval Lane",
+        "branch": "Las Vegas Airport Near the Strip",
+        "brand": "Days Inn",
+        "brand:wikidata": "Q1047239",
+        "name": "Days Inn",
+        "official_name": "Days Inn by Wyndham",
+        "phone": "+1 702-736-3600",
+        "ref": "13700",
+        "tourism": "hotel",
+        "website": "https://www.wyndhamhotels.com/days-inn/las-vegas-nevada/days-inn-las-vegas-airport-near-the-strip/overview"
+      }
+    },
+    {
+      "name": "Bellagio Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3600",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "building": "yes",
+        "building:colour": "#b4AAA7",
+        "building:levels": "34",
+        "height": "120",
+        "name": "Bellagio Las Vegas",
+        "name:en": "Bellagio Las Vegas",
+        "name:zh": "百樂宮飯店",
+        "operator": "MGM Resorts International",
+        "operator:wikidata": "Q568532",
+        "operator:wikipedia": "en:MGM Resorts International",
+        "phone": "+1-888-987-6667",
+        "rooms": "3950",
+        "tourism": "hotel",
+        "website": "https://bellagio.mgmresorts.com/en.html",
+        "wikidata": "Q25007",
+        "wikipedia": "en:Bellagio (resort)"
+      }
+    },
+    {
+      "name": "Park MGM",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3770",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "alt_name": "NoMad Las Vegas",
+        "building": "yes",
+        "building:levels": "32",
+        "height": "110 m",
+        "layer": "1",
+        "name": "Park MGM",
+        "phone": "+1-702-730-7777",
+        "rooms": "2700",
+        "tourism": "hotel",
+        "website": "https://parkmgm.mgmresorts.com",
+        "wikidata": "Q1854509",
+        "wikipedia": "en:Park MGM"
+      }
+    },
+    {
+      "name": "Luxor Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3900",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "casino",
+        "building": "yes",
+        "building:colour": "black",
+        "building:material": "glass",
+        "ele": "655",
+        "gnis:feature_id": "2473139",
+        "height": "111",
+        "internet_access": "wlan",
+        "name": "Luxor Las Vegas",
+        "name:en": "Luxor Las Vegas",
+        "name:ko": "스핑크스 호텔",
+        "name:zh": "盧克索飯店;卢克索酒店",
+        "name:zh-Hans": "卢克索酒店",
+        "name:zh-Hant": "盧克索飯店",
+        "opening_hours": "24/7",
+        "phone": "+1 702-262-4000",
+        "roof:colour": "black",
+        "roof:height": "111",
+        "roof:material": "glass",
+        "roof:shape": "pyramidal",
+        "start_date": "1993",
+        "tourism": "hotel",
+        "website": "https://www.luxor.com/en.html?ecid=GMB_Hotel_Luxor#/",
+        "wheelchair": "yes",
+        "wikidata": "Q637389",
+        "wikipedia": "en:Luxor Las Vegas"
+      }
+    },
+    {
+      "name": "Mandalay Bay Resort & Casino",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3950",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "brand": "MGM Resorts",
+        "building": "yes",
+        "building:colour": "#FFD700",
+        "building:levels": "44",
+        "building:material": "glass",
+        "height": "146",
+        "internet_access": "wlan",
+        "layer": "3",
+        "name": "Mandalay Bay Resort & Casino",
+        "phone": "+1-877-632-7700",
+        "roof:shape": "flat",
+        "tourism": "hotel",
+        "website": "https://mandalaybay.mgmresorts.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Jockey Club",
+      "type": "way",
+      "tags": {
+        "building": "yes",
+        "building:levels": "12",
+        "name": "Jockey Club",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Hilton Vacation Club Polo Towers Las Vegas",
+      "type": "way",
+      "tags": {
+        "alt_name": "Polo Towers",
+        "brand": "Hilton",
+        "brand:wikidata": "Q598884",
+        "building": "hotel",
+        "building:levels": "18",
+        "check_date": "2024-12-15",
+        "name": "Hilton Vacation Club Polo Towers Las Vegas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Encore Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:state": "NV",
+        "building": "commercial",
+        "building:colour": "#B8860B",
+        "building:levels": "52",
+        "building:material": "glass",
+        "height": "192",
+        "layer": "1",
+        "name": "Encore Las Vegas",
+        "roof:colour": "#B8860B",
+        "tourism": "hotel",
+        "wikidata": "Q1340132",
+        "wikipedia": "en:Encore Las Vegas"
+      }
+    },
+    {
+      "name": "Treasure Island Hotel and Casino",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3300",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard South",
+        "amenity": "casino",
+        "building": "yes",
+        "ele": "636",
+        "email": "ti-general@treasureisland.com",
+        "gnis:feature_id": "2472799",
+        "name": "Treasure Island Hotel and Casino",
+        "phone": "+1-702-894-7111",
+        "roof:colour": "grey",
+        "roof:material": "concrete",
+        "roof:shape": "flat",
+        "tourism": "hotel",
+        "website": "https://www.treasureisland.com/",
+        "wikidata": "Q1360313",
+        "wikipedia": "en:Treasure Island Hotel and Casino"
+      }
+    },
+    {
+      "name": "Mardi Gras Hotel & Casino",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3500",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "building": "hotel",
+        "leisure": "adult_gaming_centre",
+        "name": "Mardi Gras Hotel & Casino",
+        "phone": "+1-702-731-2020",
+        "tourism": "hotel",
+        "website": "https://www.mardigrasinn.com/"
+      }
+    },
+    {
+      "name": "Paris Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3655",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard South",
+        "amenity": "casino",
+        "building": "retail",
+        "building:levels": "5",
+        "ele": "642",
+        "gnis:feature_id": "2472755",
+        "name": "Paris Las Vegas",
+        "name:etymology:wikidata": "Q90",
+        "name:etymology:wikipedia": "en:Paris",
+        "tourism": "hotel",
+        "website": "http://www.parislasvegas.com",
+        "wikidata": "Q691491",
+        "wikipedia": "en:Paris Las Vegas"
+      }
+    },
+    {
+      "name": "Aria Resort & Casino",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3730",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard",
+        "amenity": "casino",
+        "building": "yes",
+        "height": "20 m",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Aria Resort & Casino",
+        "name:en": "Aria Resort & Casino",
+        "name:zh": "阿麗雅賭場酒店",
+        "start_date": "2009",
+        "tourism": "hotel",
+        "website": "http://www.arialasvegas.com/",
+        "wikidata": "Q654279",
+        "wikipedia": "en:Aria Resort and Casino"
+      }
+    },
+    {
+      "name": "Waldorf Astoria Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3752",
+        "addr:postcode": "89158",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard South",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "brand": "Waldorf Astoria",
+        "brand:wikidata": "Q3239392",
+        "building": "yes",
+        "email": "LASWD.Hotel@waldorfastoria.com",
+        "fax": "+1-702-590-8800",
+        "internet_access": "wlan",
+        "name": "Waldorf Astoria Las Vegas",
+        "operator": "Hilton Worldwide",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:diners_club": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-702-590-8888",
+        "smoking": "no",
+        "tourism": "hotel",
+        "website": "https://www.waldorfastorialasvegas.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "The Cromwell Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3595",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "building": "hotel",
+        "building:levels": "5",
+        "name": "The Cromwell Las Vegas",
+        "toilets:wheelchair": "yes",
+        "tourism": "hotel",
+        "website": "https://www.thecromwell.com",
+        "wheelchair": "yes",
+        "wikidata": "Q2903098",
+        "wikipedia": "en:The Cromwell Las Vegas"
+      }
+    },
+    {
+      "name": "The Carriage House",
+      "type": "way",
+      "tags": {
+        "addr:housenumber": "105",
+        "addr:state": "NV",
+        "addr:street": "East Harmon Avenue",
+        "building": "yes",
+        "building:levels": "8",
+        "name": "The Carriage House",
+        "phone": "+1-702-798-1020",
+        "tourism": "hotel",
+        "url": "www.carriagehouselasvegas.com"
+      }
+    },
+    {
+      "name": "Harrah's Las Vegas",
+      "type": "way",
+      "tags": {
+        "building": "yes",
+        "building:levels": "35",
+        "check_date": "2025-10-30",
+        "height": "109 m",
+        "name": "Harrah's Las Vegas",
+        "start_date": "1983",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Trump International Hotel Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2000",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Fashion Show Drive",
+        "building": "yes",
+        "building:levels": "64",
+        "name": "Trump International Hotel Las Vegas",
+        "name:etymology:wikidata": "Q22686",
+        "name:etymology:wikipedia": "en:Donald Trump",
+        "start_date": "2008",
+        "tourism": "hotel",
+        "website": "https://www.trumphotels.com/las-vegas",
+        "wikidata": "Q1281171",
+        "wikipedia": "en:Trump International Hotel Las Vegas"
+      }
+    },
+    {
+      "name": "Bellagio Conservatory & Botanical Gardens",
+      "type": "way",
+      "tags": {
+        "building": "hotel",
+        "building:levels": "5",
+        "name": "Bellagio Conservatory & Botanical Gardens",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Park MGM",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3770",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard South",
+        "amenity": "casino",
+        "building": "yes",
+        "building:levels": "3",
+        "ele": "650",
+        "gnis:feature_id": "2472735",
+        "location": "surface",
+        "name": "Park MGM",
+        "name:en": "Park MGM",
+        "name:zh": "蒙地卡羅賭場度假村",
+        "tourism": "hotel",
+        "website": "https://parkmgm.mgmresorts.com",
+        "wikidata": "Q1854509",
+        "wikipedia": "en:Park MGM"
+      }
+    },
+    {
+      "name": "New York New York Hotel and Casino",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3790",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "alt_name": "New York New York",
+        "amenity": "casino",
+        "building": "commercial",
+        "building:levels": "2",
+        "check_date": "2024-12-12",
+        "ele": "650",
+        "gambling": "slot_machines;casino",
+        "gnis:feature_id": "2472739",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "MGMResorts-WiFi",
+        "name": "New York New York Hotel and Casino",
+        "name:en": "New York New York Hotel and Casino",
+        "name:ko": "자유의 여신상 호텔",
+        "opening_hours": "24/7",
+        "operator": "MGM International",
+        "phone": "+1-866-815-4365",
+        "rooms": "2024",
+        "source": "survey",
+        "start_date": "1997",
+        "tourism": "hotel",
+        "website": "https://newyorknewyork.mgmresorts.com",
+        "wheelchair": "yes",
+        "wikidata": "Q1429071",
+        "wikipedia": "en:New York-New York Hotel and Casino"
+      }
+    },
+    {
+      "name": "Caesars Palace",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3570",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard",
+        "amenity": "casino",
+        "building": "hotel",
+        "building:levels": "2",
+        "ele": "644",
+        "gnis:feature_id": "2472987",
+        "layer": "1",
+        "name": "Caesars Palace",
+        "name:en": "Caesars Palace",
+        "name:zh": "凱薩宮酒店",
+        "tourism": "hotel",
+        "website": "http://www.caesarspalace.com",
+        "wheelchair": "yes",
+        "wikidata": "Q569978",
+        "wikipedia": "en:Caesars Palace"
+      }
+    },
+    {
+      "name": "Hilton Grand Vacations at the Flamingo",
+      "type": "way",
+      "tags": {
+        "brand": "Hilton Grand Vacations",
+        "brand:wikidata": "Q13636126",
+        "building": "yes",
+        "building:levels": "16",
+        "name": "Hilton Grand Vacations at the Flamingo",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "The LINQ",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3535",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard South",
+        "amenity": "casino",
+        "building": "hotel",
+        "building:levels": "5",
+        "ele": "641",
+        "name": "The LINQ",
+        "phone": "+1-800-634-6441",
+        "tourism": "hotel",
+        "website": "https://www.caesars.com/linq",
+        "wheelchair": "yes",
+        "wikidata": "Q779373",
+        "wikipedia": "en:The Linq"
+      }
+    },
+    {
+      "name": "Mandalay Bay",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3950",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "casino",
+        "building": "yes",
+        "ele": "656",
+        "gambling": "slot_machines",
+        "gnis:feature_id": "2473142",
+        "internet_access": "wlan",
+        "layer": "2",
+        "location": "surface",
+        "name": "Mandalay Bay",
+        "name:en": "Mandalay Bay",
+        "name:zh": "曼德勒海灣拉斯維加斯德拉諾度假飯店",
+        "opening_hours": "24/7",
+        "phone": "+1-702-632-7777",
+        "smoking": "separated",
+        "start_date": "1999",
+        "tourism": "hotel",
+        "website": "https://mandalaybay.mgmresorts.com",
+        "wheelchair": "yes",
+        "wikidata": "Q1368043",
+        "wikipedia": "en:Mandalay Bay"
+      }
+    },
+    {
+      "name": "Flamingo Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3555",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "casino",
+        "building": "hotel",
+        "building:levels": "4",
+        "ele": "642",
+        "gnis:feature_id": "2473077",
+        "location": "surface",
+        "name": "Flamingo Las Vegas",
+        "name:en": "Flamingo Las Vegas",
+        "name:zh": "火鶴飯店",
+        "tourism": "hotel",
+        "website": "http://www.flamingolasvegas.com",
+        "wheelchair": "yes",
+        "wikidata": "Q1426968",
+        "wikipedia": "en:Flamingo Las Vegas"
+      }
+    },
+    {
+      "name": "Hotel MGM Grand Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3799",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "casino",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:phone": "+1 877-880-0880",
+        "ele": "646",
+        "gambling": "slot_machines;table_games",
+        "gnis:feature_id": "2472729",
+        "internet_access": "wlan",
+        "name": "Hotel MGM Grand Las Vegas",
+        "name:en": "Hotel MGM Grand Las Vegas",
+        "opening_hours": "24/7",
+        "roof:colour": "grey",
+        "roof:shape": "flat",
+        "smoking": "separated",
+        "tourism": "hotel",
+        "website": "http://www.mgmgrand.com",
+        "wheelchair": "yes",
+        "wikidata": "Q713960",
+        "wikipedia": "en:MGM Grand Las Vegas"
+      }
+    },
+    {
+      "name": "Horseshoe Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3645",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "casino",
+        "building": "hotel",
+        "building:levels": "3",
+        "ele": "640",
+        "gnis:feature_id": "2472977",
+        "name": "Horseshoe Las Vegas",
+        "tourism": "hotel",
+        "website": "https://www.caesars.com/horseshoe-las-vegas",
+        "wikidata": "Q805467"
+      }
+    },
+    {
+      "name": "W Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3940",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "brand": "W Hotels",
+        "brand:short": "W",
+        "brand:wikidata": "Q7958488",
+        "building": "yes",
+        "building:colour": "#FFD700",
+        "building:levels": "45",
+        "building:material": "glass",
+        "fax": "+1-702-632-7108",
+        "height": "148",
+        "internet_access": "wlan",
+        "name": "W Las Vegas",
+        "opening_hours": "24/7",
+        "payment:credit_cards": "yes",
+        "phone": "+1-702-632-7888",
+        "roof:shape": "flat",
+        "short_name": "W",
+        "smoking": "no",
+        "start_date": "2003",
+        "tourism": "hotel",
+        "website": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+        "wheelchair": "yes",
+        "wikidata": "Q2297323",
+        "wikipedia": "en:W Las Vegas"
+      }
+    },
+    {
+      "name": "Oyo Casino Hotel",
+      "type": "way",
+      "tags": {
+        "brand": "OYO",
+        "brand:wikidata": "Q24906315",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Oyo Casino Hotel",
+        "tourism": "hotel",
+        "website": "https://www.hooterscasinohotel.com/",
+        "wikidata": "Q616726",
+        "wikipedia": "en:Oyo Hotel & Casino"
+      }
+    },
+    {
+      "name": "Holiday Inn Express & Suites Las Vegas - E Tropicana",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "175",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "East Tropicana Avenue",
+        "branch": "Las Vegas - East Tropicana",
+        "brand": "Holiday Inn Express & Suites",
+        "brand:wikidata": "Q5880423",
+        "building": "yes",
+        "name": "Holiday Inn Express & Suites Las Vegas - E Tropicana",
+        "phone": "+1 702-795-3311",
+        "ref": "LASTA",
+        "tourism": "hotel",
+        "website": "https://www.ihg.com/holidayinnexpress/hotels/us/en/las-vegas/lasta/hoteldetail"
+      }
+    },
+    {
+      "name": "Candlewood Suites Las Vegas - E Tropicana",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "185",
+        "addr:postcode": "89103",
+        "addr:state": "NV",
+        "addr:street": "East Tropicana Avenue",
+        "brand": "Candlewood Suites",
+        "brand:wikidata": "Q5032010",
+        "building": "yes",
+        "name": "Candlewood Suites Las Vegas - E Tropicana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Octavius Tower",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3570",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "building": "yes",
+        "building:levels": "23",
+        "height": "107",
+        "name": "Octavius Tower",
+        "start_date": "2009",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Harrah's Showroom",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3475",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard South",
+        "amenity": "casino",
+        "building": "yes",
+        "ele": "641",
+        "gnis:feature_id": "2473086",
+        "name": "Harrah's Showroom",
+        "name:en": "Harrah's Las Vegas",
+        "tourism": "hotel",
+        "website": "http://www.harrahslasvegas.com",
+        "wikidata": "Q1580067",
+        "wikipedia": "en:Harrah's Las Vegas"
+      }
+    },
+    {
+      "name": "Virgin Hotels Las Vegas, Curio Collection by Hilton",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4455",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "brand": "Virgin Hotels",
+        "brand:wikidata": "Q17101817",
+        "building": "commercial",
+        "internet_access": "yes",
+        "name": "Virgin Hotels Las Vegas, Curio Collection by Hilton",
+        "phone": "+1-702-693-5000",
+        "tourism": "hotel",
+        "website": "https://virginhotelslv.com/",
+        "wikidata": "Q96414036",
+        "wikipedia": "en:Virgin Hotels Las Vegas"
+      }
+    },
+    {
+      "name": "Bluegreen Vacations Club 36, an Ascend Collection Resort",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "372",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "East Tropicana Avenue",
+        "building": "hotel",
+        "name": "Bluegreen Vacations Club 36, an Ascend Collection Resort",
+        "phone": "+17029974922",
+        "short_name": "Bluegreen Club 36",
+        "tourism": "hotel",
+        "website": "https://www.choicehotels.com/nevada/las-vegas/ascend-hotels/nv105?mc=llgoxxpx"
+      }
+    },
+    {
+      "name": "Fontainebleau Resort & Casino",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2777",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "architect": "Bergaman Walls & Associates",
+        "building": "yes",
+        "internet_access": "yes",
+        "name": "Fontainebleau Resort & Casino",
+        "phone": "+1 833 702 7070",
+        "tourism": "hotel",
+        "website": "https://www.fontainebleaulasvegas.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "The Cosmopolitan of Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3708",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "building": "yes",
+        "building:levels": "51",
+        "check_date": "2024-12-08",
+        "dog": "yes",
+        "height": "184 m",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "MGMResorts-WiFi",
+        "name": "The Cosmopolitan of Las Vegas",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-702-698-7000",
+        "rooms": "3027",
+        "source": "survey",
+        "tourism": "hotel",
+        "website": "https://www.cosmopolitanlasvegas.com",
+        "wikidata": "Q1436845",
+        "wikipedia": "en:Cosmopolitan of Las Vegas"
+      }
+    },
+    {
+      "name": "Planet Hollywood Resort and Casino",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:county": "Clark",
+        "addr:housenumber": "3667",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "building": "commercial",
+        "building:levels": "39",
+        "ele": "642",
+        "gnis:feature_id": "2472971",
+        "height": "122",
+        "layer": "2",
+        "name": "Planet Hollywood Resort and Casino",
+        "old_name": "Aladdin Resort and Casino",
+        "opening_hours": "24/7",
+        "operator": "Caesars Entertainment Corporation",
+        "phone": "+1-877-785-5525",
+        "rooms": "2567",
+        "tourism": "hotel",
+        "website": "https://www.caesars.com/planet-hollywood",
+        "wheelchair": "yes",
+        "wikidata": "Q1342565",
+        "wikipedia": "en:Planet Hollywood Las Vegas"
+      }
+    },
+    {
+      "name": "Julius Tower",
+      "type": "way",
+      "tags": {
+        "building": "yes",
+        "building:levels": "16",
+        "height": "52 m",
+        "name": "Julius Tower",
+        "start_date": "1966",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Julius Tower Extension",
+      "type": "way",
+      "tags": {
+        "building": "yes",
+        "building:levels": "14",
+        "height": "45 m",
+        "name": "Julius Tower Extension",
+        "start_date": "1970",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Forum Tower",
+      "type": "way",
+      "tags": {
+        "building": "yes",
+        "building:levels": "22",
+        "height": "71 m",
+        "name": "Forum Tower",
+        "start_date": "1979",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Nobu Hotel at Caesars Palace",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3570",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "brand": "Nobu",
+        "brand:wikidata": "Q104840749",
+        "building": "yes",
+        "building:levels": "13",
+        "height": "40 m",
+        "name": "Nobu Hotel at Caesars Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "The Westin Las Vegas Hotel",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:housenumber": "160",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "East Flamingo Road",
+        "brand": "Westin",
+        "brand:wikidata": "Q1969162",
+        "building": "yes",
+        "name": "The Westin Las Vegas Hotel",
+        "toilets:wheelchair": "yes",
+        "tourism": "hotel",
+        "website": "http://www.westinvegas.com/",
+        "wheelchair": "yes",
+        "wikidata": "Q7988922"
+      }
+    },
+    {
+      "name": "The Signature at MGM Grand",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "145",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "East Harmon Avenue",
+        "check_date": "2024-06-11",
+        "landuse": "retail",
+        "name": "The Signature at MGM Grand",
+        "rooms": "1728",
+        "start_date": "2006-05-12",
+        "tourism": "hotel",
+        "wikidata": "Q916673",
+        "wikipedia": "en:The Signature at MGM Grand"
+      }
+    },
+    {
+      "name": "Platinum Hotel and Spa",
+      "type": "way",
+      "tags": {
+        "building": "yes",
+        "name": "Platinum Hotel and Spa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Circus Circus Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2880",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "casino",
+        "building": "hotel",
+        "contact:facebook": "https://www.facebook.com/circuscircus/",
+        "contact:instagram": "https://www.instagram.com/circusvegas/",
+        "contact:twitter": "https://twitter.com/CircusVegas",
+        "email": "GuestRelations@CircusCircus.com",
+        "name": "Circus Circus Las Vegas",
+        "name:zh": "馬戲城賭場飯店",
+        "phone": "+1 702 734 0410",
+        "start_date": "1968",
+        "tourism": "hotel",
+        "website": "https://www.circuscircus.com/",
+        "wikidata": "Q1092961",
+        "wikipedia": "en:Circus Circus Las Vegas"
+      }
+    },
+    {
+      "name": "Sahara Las Vegas Hotel & Casino",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2535",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "casino",
+        "building": "hotel",
+        "internet_access": "wlan",
+        "layer": "1",
+        "name": "Sahara Las Vegas Hotel & Casino",
+        "opening_hours": "24/7",
+        "phone": "+1-702-761-7000",
+        "tourism": "hotel",
+        "website": "https://saharalasvegas.com/",
+        "wikidata": "Q1147483",
+        "wikipedia": "en:Sahara Las Vegas"
+      }
+    },
+    {
+      "name": "The Strat",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2000",
+        "addr:postcode": "89104",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "casino",
+        "building": "hotel",
+        "contact:phone": "+1 702-380-7777",
+        "location": "surface",
+        "name": "The Strat",
+        "official_name": "Strat Hotel, Casino, and Tower",
+        "opening_hours": "24/7",
+        "tourism": "hotel",
+        "website": "https://stratospherehotel.com/",
+        "wheelchair": "yes",
+        "wikidata": "Q845846",
+        "wikipedia": "en:The Strat"
+      }
+    },
+    {
+      "name": "Candlewood Suites Las Vegas",
+      "type": "way",
+      "tags": {
+        "brand": "Candlewood Suites",
+        "brand:wikidata": "Q5032010",
+        "building": "yes",
+        "level": "4",
+        "name": "Candlewood Suites Las Vegas",
+        "roof:shape": "hipped",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "The Palazzo",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3325",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "casino",
+        "building": "hotel",
+        "internet_access": "wlan",
+        "name": "The Palazzo",
+        "operator": "Las Vegas Sands",
+        "phone": "+1-702-607-7777",
+        "tourism": "hotel",
+        "website": "https://www.palazzo.com/",
+        "wikidata": "Q1514587",
+        "wikipedia": "en:The Palazzo"
+      }
+    },
+    {
+      "name": "Best Western Plus Casino Royale-Center Strip",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3411",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "branch": "Casino Royale–Center Strip",
+        "brand": "Best Western Plus",
+        "brand:wikidata": "Q38623383",
+        "building": "yes",
+        "name": "Best Western Plus Casino Royale-Center Strip",
+        "operator": "Best Western",
+        "phone": "+1 702-737-3500",
+        "ref": "29087",
+        "source": "Bing",
+        "tourism": "hotel",
+        "website": "https://www.bestwestern.com/en_US/book/hotels-in-las-vegas/best-western-plus-casino-royale%e2%80%93center-strip/propertyCode.29087.html",
+        "wikidata": "Q2941108"
+      }
+    },
+    {
+      "name": "Residence Inn Las Vegas Hughes Center",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "370",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "Hughes Center Drive",
+        "branch": "Las Vegas Hughes Center",
+        "brand": "Residence Inn",
+        "brand:wikidata": "Q7315394",
+        "building": "yes",
+        "building:levels": "11",
+        "name": "Residence Inn Las Vegas Hughes Center",
+        "official_name": "Residence Inn by Marriott",
+        "phone": "+1 702-650-0040",
+        "ref": "LASHH",
+        "tourism": "hotel",
+        "website": "https://www.marriott.com/lashh"
+      }
+    },
+    {
+      "name": "Wynn Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3131",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Wynn Las Vegas",
+        "air_conditioning": "yes",
+        "building": "commercial",
+        "building:colour": "brown",
+        "building:material": "mirror",
+        "height": "187",
+        "internet_access": "wlan",
+        "layer": "1",
+        "level": "45",
+        "name": "Wynn Las Vegas",
+        "opening_hours": "24/7",
+        "rooms": "2716",
+        "tourism": "hotel",
+        "website": "https://www.wynnlasvegas.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Marriott's Grand Chateau",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "75",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "East Harmon Avenue",
+        "brand": "Marriott Vacation Club",
+        "brand:wikidata": "Q6772996",
+        "building": "yes",
+        "building:levels": "38",
+        "height": "128",
+        "name": "Marriott's Grand Chateau",
+        "operator": "Marriott Vacation Club",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.marriott.com/hotels/travel/lasvg-marriotts-grand-chateau/",
+        "wikidata": "Q6772971"
+      }
+    },
+    {
+      "name": "Las Vegas Marriott",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "brand": "Marriott",
+        "brand:wikidata": "Q3918608",
+        "building": "hotel",
+        "name": "Las Vegas Marriott",
+        "operator": "Marriott",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Springhill Suites by Marriott Las Vegas Convention Center",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:housenumber": "2989",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "air_conditioning": "yes",
+        "branch": "Las Vegas Convention Center",
+        "brand": "SpringHill Suites",
+        "brand:wikidata": "Q7580351",
+        "building": "yes",
+        "designation": "tourism",
+        "fax": "+1 702-433-5161",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Springhill Suites by Marriott Las Vegas Convention Center",
+        "official_name": "SpringHill Suites by Marriott",
+        "phone": "+1 702-433-5880",
+        "ref": "LASPR",
+        "rooms": "299",
+        "smoking": "no",
+        "tourism": "hotel",
+        "website": "https://www.marriott.com/hotels/travel/laspr-springhill-suites-las-vegas-convention-center/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Embassy Suites by Hilton Convention Center Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3600",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "air_conditioning": "yes",
+        "branch": "Convention Center Las Vegas",
+        "brand": "Embassy Suites",
+        "brand:wikidata": "Q5369524",
+        "fax": "+1 702-893-0378",
+        "name": "Embassy Suites by Hilton Convention Center Las Vegas",
+        "official_name": "Embassy Suites by Hilton",
+        "phone": "+1 702-893-8000",
+        "ref": "LASCCES",
+        "tourism": "hotel",
+        "website": "https://www.hilton.com/en/hotels/lascces-embassy-suites-convention-center-las-vegas/"
+      }
+    },
+    {
+      "name": "Courtyard Las Vegas Convention Center",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3275",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "branch": "Las Vegas Convention Center",
+        "brand": "Courtyard",
+        "brand:wikidata": "Q1053170",
+        "building": "yes",
+        "name": "Courtyard Las Vegas Convention Center",
+        "official_name": "Courtyard by Marriott",
+        "operator": "Marriot",
+        "phone": "+1 702-791-3600",
+        "ref": "LASCH",
+        "tourism": "hotel",
+        "website": "https://www.marriott.com/lasch"
+      }
+    },
+    {
+      "name": "Las Vegas Desert Club Resort",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3950",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Koval Lane",
+        "brand": "Holiday Inn Club Vacations",
+        "brand:wikidata": "Q111485843",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "landuse": "commercial",
+        "name": "Las Vegas Desert Club Resort",
+        "operator": "Holiday Inn Club Vacations",
+        "phone": "+1 702-731-6100",
+        "tourism": "hotel",
+        "website": "https://m.ihg.com/hotels/holidayinnclubvacations/us/en/hoteldetail/lascv"
+      }
+    },
+    {
+      "name": "Travelodge Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2830",
+        "addr:postcode": "89104-2530",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "branch": "Las Vegas",
+        "brand": "Travelodge",
+        "brand:wikidata": "Q7836087",
+        "building": "yes",
+        "name": "Travelodge Las Vegas",
+        "phone": "+1 702-735-4222",
+        "ref": "07025",
+        "tourism": "hotel",
+        "website": "https://www.wyndhamhotels.com/travelodge/las-vegas-nevada/travelodge-las-vegas/overview",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "name": "Nirvana Hotel",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3961",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "building": "commercial",
+        "name": "Nirvana Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Tuscany Suites & Casino",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "255",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "East Flamingo Road",
+        "amenity": "casino",
+        "building": "hotel",
+        "building:levels": "3",
+        "name": "Tuscany Suites & Casino",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Siegel Suites Select Convention Center",
+      "type": "way",
+      "tags": {
+        "building": "yes",
+        "name": "Siegel Suites Select Convention Center",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Four Seasons Hotel Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3960",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "brand": "Four Seasons",
+        "brand:wikidata": "Q1424786",
+        "building": "yes",
+        "layer": "3",
+        "name": "Four Seasons Hotel Las Vegas",
+        "opening_hours": "24/7",
+        "phone": "+1-702-632-5000",
+        "smoking": "no",
+        "tourism": "hotel",
+        "website": "https://www.fourseasons.com/lasvegas/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Fortune Hotel & Suites",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "325",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "East Flamingo Road",
+        "building": "yes",
+        "name": "Fortune Hotel & Suites",
+        "operator": "Fortune Hotel",
+        "phone": "+1 702-830-4010",
+        "tourism": "hotel",
+        "website": "http://www.fortunelasvegas.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Fairfield Inn",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3850",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "air_conditioning": "yes",
+        "alt_name": "Fairfield by Marriott",
+        "brand": "Fairfield Inn",
+        "brand:wikidata": "Q5430314",
+        "building": "yes",
+        "building:levels": "4",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Fairfield Inn",
+        "official_name": "Fairfield by Marriott",
+        "opening_hours": "24/7",
+        "ref": "LASFI",
+        "tourism": "hotel",
+        "website": "https://www.marriott.com/lasfi",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Ahern",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "300",
+        "addr:postcode": "89102",
+        "addr:state": "NV",
+        "addr:street": "West Sahara Avenue",
+        "building": "yes",
+        "building:levels": "9",
+        "check_date": "2025-11-06",
+        "name": "Ahern",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Palace Station",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2411",
+        "addr:postcode": "89102",
+        "addr:state": "NV",
+        "addr:street": "West Sahara Avenue",
+        "air_conditioning": "yes",
+        "brand": "Station Casinos",
+        "brand:wikipedia": "en:Station Casinos",
+        "internet_access": "wlan",
+        "name": "Palace Station",
+        "phone": "+1-702-367-2411",
+        "tourism": "hotel",
+        "wheelchair": "yes",
+        "wikidata": "Q1795050",
+        "wikipedia": "en:Palace Station"
+      }
+    },
+    {
+      "name": "Jockey Club",
+      "type": "way",
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Jockey Club",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Serene",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "455",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "East Harmon Avenue",
+        "leisure": "resort",
+        "name": "Serene",
+        "phone": "+1-702-369-2281",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Resorts World Las Vegas",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3000",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "casino",
+        "building": "hotel",
+        "internet_access": "wlan",
+        "name": "Resorts World Las Vegas",
+        "tourism": "hotel",
+        "website": "https://www.rwlasvegas.com",
+        "wheelchair": "yes",
+        "wikidata": "Q14705265",
+        "wikipedia": "en:Resorts World Las Vegas"
+      }
+    },
+    {
+      "name": "Augustus Tower",
+      "type": "way",
+      "tags": {
+        "building": "yes",
+        "building:levels": "26",
+        "height": "111",
+        "name": "Augustus Tower",
+        "start_date": "2005",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Americana Apartments",
+      "type": "way",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "335",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "East Harmon Avenue",
+        "landuse": "residential",
+        "name": "Americana Apartments",
+        "residential": "apartments",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Emerald Suites",
+      "type": "way",
+      "tags": {
+        "landuse": "residential",
+        "name": "Emerald Suites",
+        "residential": "apartments",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "name": "Bellagio",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3600",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "casino",
+        "building": "hotel",
+        "building:levels": "3",
+        "ele": "646",
+        "gnis:feature_id": "2472978",
+        "layer": "0",
+        "name": "Bellagio",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.bellagio.com",
+        "wikidata": "Q25007",
+        "wikipedia": "en:Bellagio (resort)"
+      }
+    },
+    {
+      "name": "Desert Rose Resort",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "5051",
+        "addr:postcode": "89119",
+        "addr:street": "Duke Ellington Way",
+        "building": "yes",
+        "name": "Desert Rose Resort",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.shellhospitality.com/Desert-Rose-Resort"
+      }
+    },
+    {
+      "name": "The Rita Suites",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "344",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "East Wilbur Clark D.I. Road",
+        "building": "hotel",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Rita Suites",
+        "phone": "+1 702-792-2222",
+        "stars": "3",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://ritasuites.vegas/"
+      }
+    },
+    {
+      "name": "Elara, a Hilton Grand Vacations Club",
+      "type": "relation",
+      "tags": {
+        "building": "yes",
+        "building:levels": "46",
+        "height": "183",
+        "layer": "2",
+        "name": "Elara, a Hilton Grand Vacations Club",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.phtowers.com/"
+      }
+    },
+    {
+      "name": "The Mansion at MGM Grand",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3799",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "building": "hotel",
+        "name": "The Mansion at MGM Grand",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "name": "Aztec Inn",
+      "type": "relation",
+      "tags": {
+        "building": "yes",
+        "name": "Aztec Inn",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "wikidata": "Q27588878"
+      }
+    },
+    {
+      "name": "Hilton Grand Vacations on the Boulevard",
+      "type": "relation",
+      "tags": {
+        "brand": "Hilton Grand Vacations",
+        "brand:wikidata": "Q13636126",
+        "building": "yes",
+        "building:levels": "39",
+        "height": "123",
+        "name": "Hilton Grand Vacations on the Boulevard",
+        "start_date": "2006",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "name": "Residence Inn Las Vegas Convention Center;Residence Inn",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3225",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "branch": "Las Vegas Convention Center",
+        "brand": "Residence Inn",
+        "brand:wikidata": "Q7315394",
+        "building": "yes",
+        "name": "Residence Inn Las Vegas Convention Center;Residence Inn",
+        "official_name": "Residence Inn by Marriott",
+        "phone": "+1 702-796-9300",
+        "ref": "LASNV",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.marriott.com/lasnv"
+      }
+    },
+    {
+      "name": "Wyndham Grand Desert",
+      "type": "relation",
+      "tags": {
+        "brand": "Wyndham Grand",
+        "brand:wikidata": "Q112144849",
+        "building": "yes",
+        "name": "Wyndham Grand Desert",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "name": "Howard Johnson Tropicana",
+      "type": "relation",
+      "tags": {
+        "brand": "Howard Johnson",
+        "brand:wikidata": "Q5919997",
+        "building": "yes",
+        "name": "Howard Johnson Tropicana",
+        "official_name": "Howard Johnson by Wyndham",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "name": "Travelodge Las Vegas Airport North/Near the Strip",
+      "type": "relation",
+      "tags": {
+        "brand": "Travelodge",
+        "brand:wikidata": "Q7836087",
+        "building": "yes",
+        "name": "Travelodge Las Vegas Airport North/Near the Strip",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "name": "La Quinta Inn & Suites Las Vegas Airport N Conv.",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3970",
+        "addr:postcode": "89104-2530",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "brand": "La Quinta Inn & Suites",
+        "brand:wikidata": "Q6464734",
+        "building": "yes",
+        "name": "La Quinta Inn & Suites Las Vegas Airport N Conv.",
+        "official_name": "La Quinta Inn & Suites by Wyndham",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "name": "The Venetian Las Vegas",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:county": "Clark",
+        "addr:housenumber": "3355",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard South",
+        "amenity": "casino",
+        "building": "yes",
+        "ele": "638",
+        "gnis:feature_id": "2472802",
+        "internet_access": "wlan",
+        "name": "The Venetian Las Vegas",
+        "name:ko": "베네치안호텔 테마여행",
+        "opening_hours": "24/7",
+        "operator": "Las Vegas Sands",
+        "rooms": "4049",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.venetian.com/",
+        "wheelchair": "yes",
+        "wikidata": "Q1049209",
+        "wikipedia": "en:The Venetian Las Vegas"
+      }
+    },
+    {
+      "name": "Excalibur Hotel & Casino",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3850",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "casino",
+        "building": "yes",
+        "check_date": "2024-12-08",
+        "contact:phone": "+1-877-750-5464",
+        "gambling": "slot_machines;casino",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "MGMResorts-WiFi",
+        "name": "Excalibur Hotel & Casino",
+        "name:en": "Excalibur Hotel & Casino",
+        "name:zh": "神劍飯店",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "smoking": "separated",
+        "source": "survey",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.excalibur.com/",
+        "wikidata": "Q1064873",
+        "wikipedia": "en:Excalibur Hotel and Casino"
+      }
+    },
+    {
+      "name": "Fontainebleau Las Vegas",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2777",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "brand": "Fountainebleau",
+        "leisure": "resort",
+        "name": "Fontainebleau Las Vegas",
+        "site": "retail",
+        "tourism": "hotel",
+        "type": "site",
+        "website": "https://nubizsolution.wixstudio.com/bwaltd/project-detail/fontainebleau-las-vegas",
+        "wikidata": "Q278380",
+        "wikipedia": "en:Fontainebleau Las Vegas"
+      }
+    },
+    {
+      "name": "Renaissance Las Vegas Hotel",
+      "type": "relation",
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:housenumber": "3400",
+        "addr:postcode": "89169",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "brand": "Renaissance",
+        "brand:wikidata": "Q2143252",
+        "building": "hotel",
+        "name": "Renaissance Las Vegas Hotel",
+        "phone": "+1 702-784-5700",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.marriott.com/en-us/hotels/lasbr-renaissance-las-vegas-hotel/overview/"
+      }
+    }
+  ],
+  "bars": [],
+  "other": []
+}
