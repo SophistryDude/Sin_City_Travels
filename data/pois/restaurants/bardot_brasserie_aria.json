@@ -1,0 +1,60 @@
+{
+  "id": "poi_017",
+  "name": "Bardot Brasserie",
+  "category": "restaurant",
+  "subcategory": "fine_dining_french",
+  "casino_property": "Aria Resort Casino",
+  "location": {
+    "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Aria Resort & Casino",
+    "coordinates": {
+      "lat": 36.1067,
+      "lng": -115.1761
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 590-8610",
+    "website": "https://www.aria.com/en/restaurants/bardot-brasserie.html",
+    "reservations": "https://www.opentable.com/bardot-brasserie"
+  },
+  "hours": {
+    "sunday": "9:00 AM - 2:00 PM",
+    "monday": "Closed",
+    "tuesday": "5:00 PM - 10:00 PM",
+    "wednesday": "5:00 PM - 10:00 PM",
+    "thursday": "5:00 PM - 10:00 PM",
+    "friday": "9:00 AM - 10:00 PM",
+    "saturday": "9:00 AM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$",
+    "average_per_person": "$50-$100"
+  },
+  "description": "Classic French cuisine with a contemporary twist by Chef Michael Mina. Features weekend brunch and traditional brasserie dishes.",
+  "cuisine": ["french", "brasserie", "contemporary_french"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "weekend_brunch",
+    "french_classics",
+    "reservations_recommended"
+  ],
+  "chef": "Michael Mina",
+  "dress_code": "smart_casual",
+  "tags": [
+    "celebrity_chef",
+    "french_cuisine",
+    "brasserie",
+    "brunch",
+    "upscale"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "aria_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:00:00Z",
+  "updated_at": "2026-02-03T21:00:00Z"
+}

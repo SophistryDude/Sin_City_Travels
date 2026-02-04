@@ -1,0 +1,63 @@
+{
+  "id": "poi_018",
+  "name": "Din Tai Fung",
+  "category": "restaurant",
+  "subcategory": "casual_asian",
+  "casino_property": "Aria Resort Casino",
+  "location": {
+    "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Aria Resort & Casino",
+    "coordinates": {
+      "lat": 36.1067,
+      "lng": -115.1761
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 590-8650",
+    "website": "https://www.aria.com/en/restaurants/din-tai-fung.html"
+  },
+  "hours": {
+    "sunday": "10:30 AM - 10:30 PM",
+    "monday": "11:00 AM - 10:00 PM",
+    "tuesday": "11:00 AM - 10:00 PM",
+    "wednesday": "11:00 AM - 10:00 PM",
+    "thursday": "11:00 AM - 10:00 PM",
+    "friday": "10:30 AM - 10:30 PM",
+    "saturday": "10:30 AM - 10:30 PM"
+  },
+  "pricing": {
+    "price_range": "$$",
+    "average_per_person": "$30-$50"
+  },
+  "description": "World-renowned Taiwanese restaurant famous for Shanghai-style soup dumplings (xiaolongbao) made with Kurobuta pork. International chain with Michelin recognition.",
+  "cuisine": ["taiwanese", "chinese", "dumplings", "asian"],
+  "features": [
+    "famous_dumplings",
+    "soup_dumplings",
+    "international_chain",
+    "handmade_noodles",
+    "casual_dining"
+  ],
+  "dress_code": "casual",
+  "tags": [
+    "taiwanese_cuisine",
+    "dumplings",
+    "soup_dumplings",
+    "casual",
+    "popular",
+    "international"
+  ],
+  "signature_dishes": [
+    "Xiaolongbao (soup dumplings)",
+    "Kurobuta pork dumplings"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "aria_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:00:00Z",
+  "updated_at": "2026-02-03T21:00:00Z"
+}

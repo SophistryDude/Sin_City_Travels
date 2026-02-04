@@ -1,0 +1,59 @@
+{
+  "id": "poi_014",
+  "name": "Carbone",
+  "category": "restaurant",
+  "subcategory": "fine_dining_italian",
+  "casino_property": "Aria Resort Casino",
+  "location": {
+    "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Aria Resort & Casino",
+    "coordinates": {
+      "lat": 36.1067,
+      "lng": -115.1761
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 590-7111",
+    "website": "https://www.aria.com/en/restaurants/carbone.html",
+    "reservations": "https://www.opentable.com/carbone-aria"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 10:30 PM",
+    "monday": "5:00 PM - 10:30 PM",
+    "tuesday": "5:00 PM - 10:30 PM",
+    "wednesday": "5:00 PM - 10:30 PM",
+    "thursday": "5:00 PM - 10:30 PM",
+    "friday": "5:00 PM - 11:00 PM",
+    "saturday": "5:00 PM - 11:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$100-$200"
+  },
+  "description": "Italian-American restaurant featuring elevated classic dishes with theatrical tableside service. Known for its mid-century New York atmosphere and exceptional cuisine.",
+  "cuisine": ["italian", "italian_american", "contemporary"],
+  "features": [
+    "fine_dining",
+    "tableside_service",
+    "reservations_recommended",
+    "theatrical_experience",
+    "classic_italian_american"
+  ],
+  "dress_code": "business_casual",
+  "tags": [
+    "italian_cuisine",
+    "upscale",
+    "tableside_service",
+    "popular",
+    "new_york_style"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "aria_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:00:00Z",
+  "updated_at": "2026-02-03T21:00:00Z"
+}

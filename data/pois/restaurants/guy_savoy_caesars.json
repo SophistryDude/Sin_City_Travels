@@ -1,0 +1,71 @@
+{
+  "id": "poi_011",
+  "name": "Restaurant Guy Savoy",
+  "category": "restaurant",
+  "subcategory": "fine_dining_french",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace Hotel & Casino",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 731-7286",
+    "website": "https://www.caesars.com/caesars-palace/restaurants/restaurant-guy-savoy",
+    "reservations": "https://www.opentable.com/restaurant-guy-savoy"
+  },
+  "hours": {
+    "sunday": "Closed",
+    "monday": "Closed",
+    "tuesday": "5:00 PM - 9:00 PM",
+    "wednesday": "5:00 PM - 9:00 PM",
+    "thursday": "5:00 PM - 9:00 PM",
+    "friday": "5:00 PM - 9:00 PM",
+    "saturday": "5:00 PM - 9:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$+",
+    "average_per_person": "$300-$500"
+  },
+  "ratings": {
+    "michelin": {
+      "stars": 2,
+      "year": 2024
+    }
+  },
+  "description": "Michelin two-star fine dining restaurant offering exquisite French cuisine by Chef Guy Savoy. One of the most prestigious dining experiences in Las Vegas.",
+  "cuisine": ["french", "haute_cuisine", "contemporary_french"],
+  "features": [
+    "michelin_starred",
+    "celebrity_chef",
+    "fine_dining",
+    "tasting_menu",
+    "wine_pairing",
+    "reservations_required",
+    "dress_code_enforced",
+    "private_dining_available"
+  ],
+  "chef": "Guy Savoy",
+  "dress_code": "formal",
+  "tags": [
+    "michelin_star",
+    "celebrity_chef",
+    "french_cuisine",
+    "luxury",
+    "special_occasion",
+    "award_winning",
+    "prestigious"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "caesars_palace_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T20:45:00Z",
+  "updated_at": "2026-02-03T20:45:00Z"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "poi_010",
+  "name": "Nobu",
+  "category": "restaurant",
+  "subcategory": "fine_dining_japanese",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace Hotel & Casino (Nobu Hotel)",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 785-6628",
+    "website": "https://www.caesars.com/caesars-palace/restaurants/nobu",
+    "reservations": "https://www.opentable.com/nobu-caesars-palace"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 10:00 PM",
+    "monday": "5:00 PM - 10:00 PM",
+    "tuesday": "5:00 PM - 10:00 PM",
+    "wednesday": "5:00 PM - 10:00 PM",
+    "thursday": "5:00 PM - 10:00 PM",
+    "friday": "5:00 PM - 11:00 PM",
+    "saturday": "5:00 PM - 11:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$100-$200"
+  },
+  "description": "World-renowned Nobu restaurant spanning 11,200 sq ft with teppan tables and signature Japanese-Peruvian fusion cuisine. Part of the Nobu Hotel at Caesars Palace.",
+  "cuisine": ["japanese", "sushi", "peruvian_fusion", "contemporary"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "teppan_tables",
+    "sushi_bar",
+    "reservations_recommended",
+    "hotel_restaurant",
+    "signature_dishes"
+  ],
+  "chef": "Chef Nobu Matsuhisa",
+  "dress_code": "business_casual",
+  "tags": [
+    "celebrity_chef",
+    "japanese_cuisine",
+    "sushi",
+    "upscale",
+    "world_renowned",
+    "fusion"
+  ],
+  "special_features": {
+    "size": "11,200 sq ft",
+    "teppan_tables": true
+  },
+  "data_sources": [
+    "smartervegas",
+    "caesars_palace_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T20:45:00Z",
+  "updated_at": "2026-02-03T20:45:00Z"
+}

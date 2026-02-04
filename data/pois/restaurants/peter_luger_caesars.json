@@ -1,0 +1,65 @@
+{
+  "id": "poi_013",
+  "name": "Peter Luger Steakhouse",
+  "category": "restaurant",
+  "subcategory": "fine_dining_steakhouse",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace Hotel & Casino",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 735-4663",
+    "website": "https://www.caesars.com/caesars-palace/restaurants/peter-luger",
+    "reservations": "https://www.opentable.com/peter-luger-caesars-palace"
+  },
+  "hours": {
+    "sunday": "11:30 AM - 10:00 PM",
+    "monday": "5:00 PM - 10:00 PM",
+    "tuesday": "5:00 PM - 10:00 PM",
+    "wednesday": "11:30 AM - 10:00 PM",
+    "thursday": "11:30 AM - 10:00 PM",
+    "friday": "11:30 AM - 10:00 PM",
+    "saturday": "11:30 AM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$100-$200"
+  },
+  "description": "Legendary Brooklyn steakhouse with over 135 years of history brings its iconic USDA prime dry-aged steaks to Las Vegas. First U.S. location outside New York.",
+  "cuisine": ["steakhouse", "american", "traditional"],
+  "features": [
+    "fine_dining",
+    "dry_aged_steaks",
+    "usda_prime",
+    "iconic_restaurant",
+    "reservations_recommended",
+    "historic_brand"
+  ],
+  "dress_code": "business_casual",
+  "tags": [
+    "steakhouse",
+    "iconic",
+    "new_york_style",
+    "upscale",
+    "special_occasion",
+    "legendary"
+  ],
+  "special_features": {
+    "established": "Over 135 years",
+    "first_location_outside_ny": true
+  },
+  "data_sources": [
+    "smartervegas",
+    "caesars_palace_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T20:45:00Z",
+  "updated_at": "2026-02-03T20:45:00Z"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "poi_016",
+  "name": "CATCH",
+  "category": "restaurant",
+  "subcategory": "fine_dining_japanese",
+  "casino_property": "Aria Resort Casino",
+  "location": {
+    "address": "3730 Las Vegas Blvd S, Las Vegas, NV 89158",
+    "casino": "Aria Resort & Casino",
+    "coordinates": {
+      "lat": 36.1067,
+      "lng": -115.1761
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 590-5757",
+    "website": "https://www.aria.com/en/restaurants/catch.html",
+    "reservations": "https://www.opentable.com/catch-aria"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 10:30 PM",
+    "monday": "5:00 PM - 10:30 PM",
+    "tuesday": "5:00 PM - 10:30 PM",
+    "wednesday": "5:00 PM - 10:30 PM",
+    "thursday": "5:00 PM - 10:30 PM",
+    "friday": "5:00 PM - 10:30 PM",
+    "saturday": "5:00 PM - 10:30 PM"
+  },
+  "pricing": {
+    "price_range": "$$$",
+    "average_per_person": "$60-$120"
+  },
+  "description": "Asian-influenced sushi and seafood restaurant popular with celebrities. Features contemporary Japanese cuisine in a stylish, high-energy atmosphere.",
+  "cuisine": ["japanese", "sushi", "seafood", "asian_fusion"],
+  "features": [
+    "fine_dining",
+    "sushi_bar",
+    "celebrity_hotspot",
+    "contemporary_japanese",
+    "reservations_recommended",
+    "high_energy"
+  ],
+  "dress_code": "smart_casual",
+  "tags": [
+    "japanese_cuisine",
+    "sushi",
+    "celebrity_hotspot",
+    "upscale",
+    "trendy",
+    "seafood"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "aria_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:00:00Z",
+  "updated_at": "2026-02-03T21:00:00Z"
+}

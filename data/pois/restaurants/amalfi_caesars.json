@@ -1,0 +1,62 @@
+{
+  "id": "poi_012",
+  "name": "Amalfi by Bobby Flay",
+  "category": "restaurant",
+  "subcategory": "fine_dining_italian",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace Hotel & Casino",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 731-7731",
+    "website": "https://www.caesars.com/caesars-palace/restaurants/amalfi",
+    "reservations": "https://www.opentable.com/amalfi-caesars-palace"
+  },
+  "hours": {
+    "sunday": "4:30 PM - 10:00 PM",
+    "monday": "4:30 PM - 10:00 PM",
+    "tuesday": "4:30 PM - 10:00 PM",
+    "wednesday": "4:30 PM - 10:00 PM",
+    "thursday": "4:30 PM - 10:00 PM",
+    "friday": "4:30 PM - 10:30 PM",
+    "saturday": "4:30 PM - 10:30 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$80-$150"
+  },
+  "description": "Bobby Flay's Mediterranean-inspired Italian restaurant offering coastal Italian cuisine with fresh seafood and handmade pastas in an elegant setting.",
+  "cuisine": ["italian", "mediterranean", "seafood", "coastal"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "handmade_pasta",
+    "fresh_seafood",
+    "mediterranean_inspired",
+    "reservations_recommended"
+  ],
+  "chef": "Bobby Flay",
+  "dress_code": "business_casual",
+  "tags": [
+    "celebrity_chef",
+    "bobby_flay",
+    "italian_cuisine",
+    "mediterranean",
+    "upscale",
+    "coastal_italian"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "caesars_palace_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T20:45:00Z",
+  "updated_at": "2026-02-03T20:45:00Z"
+}

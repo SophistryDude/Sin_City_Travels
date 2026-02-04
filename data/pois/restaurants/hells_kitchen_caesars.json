@@ -1,0 +1,63 @@
+{
+  "id": "poi_009",
+  "name": "Gordon Ramsay Hell's Kitchen",
+  "category": "restaurant",
+  "subcategory": "fine_dining_american",
+  "casino_property": "Caesars Palace",
+  "location": {
+    "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Caesars Palace Hotel & Casino",
+    "coordinates": {
+      "lat": 36.1162,
+      "lng": -115.1744
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 731-7373",
+    "website": "https://www.caesars.com/caesars-palace/restaurants/hells-kitchen",
+    "reservations": "https://www.opentable.com/hells-kitchen-caesars-palace"
+  },
+  "hours": {
+    "sunday": "11:00 AM - 11:30 PM",
+    "monday": "11:00 AM - 11:30 PM",
+    "tuesday": "11:00 AM - 11:30 PM",
+    "wednesday": "11:00 AM - 11:30 PM",
+    "thursday": "11:00 AM - 11:30 PM",
+    "friday": "11:00 AM - 11:30 PM",
+    "saturday": "11:00 AM - 11:30 PM"
+  },
+  "pricing": {
+    "price_range": "$$$",
+    "average_per_person": "$70-$120"
+  },
+  "description": "Inspired by Gordon Ramsay's hit TV series, featuring the iconic red and blue kitchens, contemporary American cuisine, and Strip views. Experience dishes from the show in an immersive dining environment.",
+  "cuisine": ["american", "contemporary", "steakhouse"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "tv_show_concept",
+    "strip_views",
+    "open_kitchen",
+    "red_blue_kitchens",
+    "reservations_recommended"
+  ],
+  "chef": "Gordon Ramsay",
+  "dress_code": "smart_casual",
+  "tags": [
+    "celebrity_chef",
+    "gordon_ramsay",
+    "tv_show",
+    "upscale",
+    "tourist_attraction",
+    "popular"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "caesars_palace_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T20:45:00Z",
+  "updated_at": "2026-02-03T20:45:00Z"
+}
