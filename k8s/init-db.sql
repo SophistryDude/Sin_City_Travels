@@ -5,6 +5,16 @@
 CREATE EXTENSION IF NOT EXISTS postgis;
 CREATE EXTENSION IF NOT EXISTS postgis_topology;
 
+-- Drop existing objects for clean re-initialization
+DROP TABLE IF EXISTS property_distances CASCADE;
+DROP TABLE IF EXISTS synthetic_routes CASCADE;
+DROP TABLE IF EXISTS navigation_edges CASCADE;
+DROP TABLE IF EXISTS navigation_nodes CASCADE;
+DROP TABLE IF EXISTS pois CASCADE;
+DROP TABLE IF EXISTS properties CASCADE;
+DROP TYPE IF EXISTS poi_category CASCADE;
+DROP TYPE IF EXISTS price_range CASCADE;
+
 -- Create enum types
 CREATE TYPE poi_category AS ENUM (
     'restaurant',
