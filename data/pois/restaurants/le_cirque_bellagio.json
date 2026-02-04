@@ -1,0 +1,72 @@
+{
+  "id": "poi_008",
+  "name": "Le Cirque",
+  "category": "restaurant",
+  "subcategory": "fine_dining_french",
+  "casino_property": "Bellagio",
+  "location": {
+    "address": "3600 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Bellagio Hotel & Casino",
+    "coordinates": {
+      "lat": 36.1127,
+      "lng": -115.1765
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 693-8100",
+    "website": "https://www.bellagio.com/en/restaurants/le-cirque.html",
+    "reservations": "https://www.opentable.com/le-cirque-las-vegas"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 10:00 PM",
+    "monday": "5:00 PM - 10:00 PM",
+    "tuesday": "Closed",
+    "wednesday": "Closed",
+    "thursday": "5:00 PM - 10:00 PM",
+    "friday": "5:00 PM - 10:00 PM",
+    "saturday": "5:00 PM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$150-$300"
+  },
+  "ratings": {
+    "aaa": {
+      "diamonds": 5,
+      "year": 2024
+    }
+  },
+  "description": "AAA Five-Diamond rated French fine dining with lakeside setting. Features an extensive wine selection with 900+ bottles and classic French cuisine in an elegant atmosphere.",
+  "cuisine": ["french", "contemporary_french", "european"],
+  "features": [
+    "aaa_five_diamond",
+    "fine_dining",
+    "lakeside_views",
+    "extensive_wine_list",
+    "reservations_required",
+    "dress_code_enforced",
+    "private_dining_available"
+  ],
+  "dress_code": "formal",
+  "tags": [
+    "french_cuisine",
+    "luxury",
+    "special_occasion",
+    "romantic",
+    "award_winning",
+    "wine_focused"
+  ],
+  "wine_list": {
+    "bottles": "900+",
+    "focus": "French wines and international selections"
+  },
+  "data_sources": [
+    "smartervegas",
+    "bellagio_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T20:15:00Z",
+  "updated_at": "2026-02-03T20:15:00Z"
+}

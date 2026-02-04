@@ -1,0 +1,57 @@
+{
+  "id": "poi_003",
+  "name": "Craftsteak",
+  "category": "restaurant",
+  "subcategory": "fine_dining_steakhouse",
+  "casino_property": "MGM Grand",
+  "location": {
+    "address": "3799 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "MGM Grand Hotel & Casino",
+    "coordinates": {
+      "lat": 36.1024,
+      "lng": -115.1698
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "phone": "(702) 891-7318",
+    "website": "https://www.mgmgrand.com/en/restaurants/craftsteak.html"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 10:00 PM",
+    "monday": "5:00 PM - 10:00 PM",
+    "tuesday": "5:00 PM - 10:00 PM",
+    "wednesday": "5:00 PM - 10:00 PM",
+    "thursday": "5:00 PM - 10:00 PM",
+    "friday": "5:00 PM - 10:00 PM",
+    "saturday": "5:00 PM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$75-$150"
+  },
+  "description": "Tom Colicchio's Craftsteak uses the purest ingredients and a philosophy that simpler is better, featuring premium steaks and seafood.",
+  "cuisine": ["steakhouse", "seafood", "american"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "reservations_recommended",
+    "private_dining_available"
+  ],
+  "chef": "Tom Colicchio",
+  "dress_code": "business_casual",
+  "tags": [
+    "celebrity_chef",
+    "steakhouse",
+    "upscale",
+    "special_occasion"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "mgm_resorts_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T20:15:00Z",
+  "updated_at": "2026-02-03T20:15:00Z"
+}

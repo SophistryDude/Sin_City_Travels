@@ -1,0 +1,58 @@
+{
+  "id": "poi_005",
+  "name": "Bavette's Steakhouse & Bar",
+  "category": "restaurant",
+  "subcategory": "fine_dining_steakhouse",
+  "casino_property": "Park MGM",
+  "location": {
+    "address": "3770 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Park MGM",
+    "coordinates": {
+      "lat": 36.1028,
+      "lng": -115.1709
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "phone": "(702) 730-7605",
+    "website": "https://www.parkmgm.com/en/restaurants/bavettes-steakhouse.html"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 10:00 PM",
+    "monday": "5:00 PM - 10:00 PM",
+    "tuesday": "5:00 PM - 10:00 PM",
+    "wednesday": "5:00 PM - 10:00 PM",
+    "thursday": "5:00 PM - 10:00 PM",
+    "friday": "5:00 PM - 11:00 PM",
+    "saturday": "5:00 PM - 11:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$80-$150"
+  },
+  "description": "Fine dining steakhouse with French influences featuring red leather banquettes, glowing chandeliers, and lively jazz. Premium steaks and fresh seafood in an elegant atmosphere.",
+  "cuisine": ["steakhouse", "seafood", "french", "american"],
+  "features": [
+    "fine_dining",
+    "live_jazz",
+    "reservations_recommended",
+    "private_dining_available",
+    "extensive_wine_list"
+  ],
+  "dress_code": "business_casual",
+  "tags": [
+    "steakhouse",
+    "upscale",
+    "special_occasion",
+    "jazz_music",
+    "french_influence"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "mgm_resorts_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T20:15:00Z",
+  "updated_at": "2026-02-03T20:15:00Z"
+}

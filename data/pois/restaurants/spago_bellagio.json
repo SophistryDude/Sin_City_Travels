@@ -1,0 +1,64 @@
+{
+  "id": "poi_007",
+  "name": "Spago",
+  "category": "restaurant",
+  "subcategory": "fine_dining_american",
+  "casino_property": "Bellagio",
+  "location": {
+    "address": "3600 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Bellagio Hotel & Casino",
+    "coordinates": {
+      "lat": 36.1127,
+      "lng": -115.1765
+    },
+    "level": "ground",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 693-8181",
+    "website": "https://www.bellagio.com/en/restaurants/spago.html",
+    "reservations": "https://www.opentable.com/spago-las-vegas"
+  },
+  "hours": {
+    "sunday": "4:30 PM - 10:00 PM",
+    "monday": "4:30 PM - 10:00 PM",
+    "tuesday": "4:30 PM - 10:00 PM",
+    "wednesday": "4:30 PM - 10:00 PM",
+    "thursday": "4:30 PM - 10:00 PM",
+    "friday": "4:30 PM - 10:00 PM",
+    "saturday": "4:30 PM - 10:00 PM",
+    "brunch": "Friday-Sunday 11:00 AM - 2:30 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$100-$200"
+  },
+  "description": "Wolfgang Puck's legendary flagship fine dining restaurant is recognized for igniting Las Vegas's dining scene into a culinary epicenter. Beautifully situated for al fresco dining in front of the Bellagio Fountains.",
+  "cuisine": ["american", "california", "contemporary", "variety"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "fountain_views",
+    "al_fresco_dining",
+    "weekend_brunch",
+    "reservations_recommended",
+    "outdoor_patio"
+  ],
+  "chef": "Wolfgang Puck",
+  "dress_code": "smart_casual",
+  "tags": [
+    "celebrity_chef",
+    "iconic_restaurant",
+    "fountain_views",
+    "upscale",
+    "special_occasion",
+    "brunch"
+  ],
+  "data_sources": [
+    "smartervegas",
+    "bellagio_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T20:15:00Z",
+  "updated_at": "2026-02-03T20:15:00Z"
+}
