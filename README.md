@@ -15,9 +15,11 @@ Sin City Travels helps visitors navigate the complex layouts of Las Vegas casino
 ## Current Status
 
 **Phase 1: Data Collection** (In Progress)
-- Collecting virtual maps and floor plans of Las Vegas properties
-- Building database of attractions, hotels, and casinos
-- Researching 3D mapping technologies
+- ✅ Downloaded floor plans for 31 major casino properties (7.3 MB)
+- ✅ Collected OpenStreetMap data for Las Vegas Strip (94 hotels, 36 casinos)
+- ✅ Created POI collection infrastructure with Yelp API integration
+- 🚧 Collecting restaurant, bar, and attraction POI data (8 POIs created, 60+ documented)
+- 📋 Researching 3D mapping technologies
 
 ## Features (Planned)
 
@@ -52,27 +54,74 @@ Sin City Travels helps visitors navigate the complex layouts of Las Vegas casino
 - Photogrammetry / LiDAR scanning
 - Crowdsourced mapping data
 
+## Data Collection Progress
+
+### Floor Plans & Maps
+- **31 casino properties** with PDF floor plans downloaded
+- **Tier 1**: Caesars Palace, Bellagio, MGM Grand, Aria (1.5MB - 133KB each)
+- **Tier 2 & 3**: Venetian, Palazzo, Wynn, Cosmopolitan, and 23 more properties
+- **Source**: SmarterVegas.com property maps
+
+### OpenStreetMap Data
+- **94 hotels** and **36 casinos** with building footprints
+- Geographic coordinates for all major Strip properties
+- Downloaded via Overpass API (523 KB GeoJSON)
+
+### Points of Interest (POIs)
+- **8 restaurant POIs** created with complete data:
+  - Golden Steer Steakhouse (off-Strip)
+  - Hakkasan (MGM Grand) - Michelin-starred
+  - Craftsteak (MGM Grand) - Tom Colicchio
+  - Morimoto (MGM Grand) - Japanese/Sushi
+  - Bavette's (Park MGM) - French steakhouse
+  - Picasso (Bellagio) - AAA 5-Diamond
+  - Spago (Bellagio) - Wolfgang Puck
+  - Le Cirque (Bellagio) - AAA 5-Diamond
+
+- **60+ restaurants documented** across MGM Grand, Park MGM, Bellagio
+- **Bulk collection script** ready for Yelp API (targets 500-1,500 POIs)
+
+See [docs/](docs/) for detailed guides on Yelp API setup, POI collection plan, and data tracking.
+
 ## Project Structure
 
 ```
 sin-city-travels/
-├── data/              # Raw data, maps, floor plans
-│   ├── maps/          # Vector/raster maps
-│   ├── attractions/   # Attraction metadata
-│   └── hotels/        # Hotel/casino data
-├── frontend/          # Mobile app (React Native)
-├── backend/           # API server
-├── models/            # 3D models and assets
-└── docs/              # Documentation
+├── data/
+│   ├── maps/                    # Vector/raster maps (OSM data)
+│   ├── attractions/             # Casino floor plans (31 properties)
+│   ├── pois/
+│   │   ├── restaurants/         # Restaurant POI JSON files
+│   │   ├── shopping/            # Shopping venues
+│   │   ├── shows/               # Entertainment venues
+│   │   └── raw/                 # Bulk import raw data
+│   └── LAS_VEGAS_DATA_TRACKING.csv
+├── scripts/
+│   ├── bulk_collect_pois.js     # Yelp API bulk collection
+│   └── README.md                # Scripts documentation
+├── docs/
+│   ├── DATA_COLLECTION_PLAN.md
+│   ├── YELP_API_SETUP.md
+│   ├── POI_COLLECTION_PLAN.md
+│   └── OSM_DATA_SUMMARY.md
+├── frontend/                    # Mobile app (React Native)
+├── backend/                     # API server
+└── models/                      # 3D models and assets
 ```
 
 ## Roadmap
 
 ### Phase 1: Data Collection (Current)
-- [ ] Compile list of all major Las Vegas properties
-- [ ] Collect publicly available floor plans and maps
+- [x] Compile list of all major Las Vegas properties (40+ properties tracked)
+- [x] Collect publicly available floor plans and maps (31 casinos, 32 PDFs)
+- [x] Download OpenStreetMap data for Las Vegas Strip
+- [x] Set up POI collection infrastructure (Yelp API integration)
+- [x] Create POI JSON schema and sample data (8 restaurants)
+- [ ] Bulk collect 500-1,500 POIs (restaurants, bars, shops, attractions)
 - [ ] Research indoor mapping APIs and SDKs
 - [ ] Evaluate 3D modeling options
+- [ ] Georeference floor plans to real-world coordinates
+- [ ] Vectorize floor plans (convert raster to vector)
 
 ### Phase 2: MVP Development
 - [ ] Basic 2D indoor maps for 5-10 major casinos
