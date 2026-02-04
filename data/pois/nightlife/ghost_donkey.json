@@ -1,0 +1,52 @@
+{
+  "id": "poi_046",
+  "name": "Ghost Donkey",
+  "category": "nightlife",
+  "subcategory": "speakeasy",
+  "casino_property": "The Cosmopolitan",
+  "location": {
+    "address": "3708 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "coordinates": { "lat": 36.1095, "lng": -115.1737 },
+    "level": "Level 2",
+    "area": "Mid Strip"
+  },
+  "contact": {
+    "phone": "(702) 698-7000",
+    "website": "https://www.cosmopolitanlasvegas.com/restaurants/ghost-donkey"
+  },
+  "hours": {
+    "monday": "5:00 PM - 12:00 AM",
+    "tuesday": "5:00 PM - 12:00 AM",
+    "wednesday": "5:00 PM - 12:00 AM",
+    "thursday": "5:00 PM - 1:00 AM",
+    "friday": "5:00 PM - 1:00 AM",
+    "saturday": "5:00 PM - 1:00 AM",
+    "sunday": "5:00 PM - 12:00 AM"
+  },
+  "pricing": {
+    "price_range": "$$$",
+    "average_per_person": "$25-$50"
+  },
+  "description": "Unmarked mezcal and tequila speakeasy tucked inside The Cosmopolitan. Look for the donkey logo on an unmarked door near Block 16. Features an extensive agave spirits menu with creative Mexican-inspired cocktails in a colorful, intimate space.",
+  "features": [
+    "hidden_entrance",
+    "mezcal_bar",
+    "tequila_bar",
+    "agave_spirits",
+    "intimate_setting",
+    "colorful_decor"
+  ],
+  "tags": [
+    "speakeasy",
+    "mezcal",
+    "tequila",
+    "hidden_gem",
+    "cosmopolitan",
+    "mid_strip",
+    "recommended",
+    "secret_bar"
+  ],
+  "data_sources": ["cosmopolitan_website", "yelp"],
+  "created_at": "2026-02-03T23:30:00Z",
+  "updated_at": "2026-02-03T23:30:00Z"
+}

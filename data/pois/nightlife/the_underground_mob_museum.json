@@ -1,0 +1,53 @@
+{
+  "id": "poi_048",
+  "name": "The Underground at The Mob Museum",
+  "category": "nightlife",
+  "subcategory": "speakeasy",
+  "casino_property": null,
+  "location": {
+    "address": "300 Stewart Ave, Las Vegas, NV 89101",
+    "coordinates": { "lat": 36.1727, "lng": -115.1413 },
+    "level": "basement",
+    "area": "Downtown"
+  },
+  "contact": {
+    "phone": "(702) 229-2734",
+    "website": "https://themobmuseum.org/the-underground/"
+  },
+  "hours": {
+    "monday": "12:00 PM - 12:00 AM",
+    "tuesday": "12:00 PM - 12:00 AM",
+    "wednesday": "12:00 PM - 12:00 AM",
+    "thursday": "12:00 PM - 12:00 AM",
+    "friday": "12:00 PM - 2:00 AM",
+    "saturday": "12:00 PM - 2:00 AM",
+    "sunday": "12:00 PM - 12:00 AM"
+  },
+  "pricing": {
+    "price_range": "$$",
+    "average_per_person": "$15-$35"
+  },
+  "description": "Authentic Prohibition-era speakeasy in the basement of The Mob Museum. Features a real working distillery, craft cocktails made with house-distilled spirits, and period-accurate decor. Enter through a separate entrance or from the museum. Live jazz on select nights.",
+  "features": [
+    "prohibition_era_speakeasy",
+    "working_distillery",
+    "house_spirits",
+    "craft_cocktails",
+    "live_jazz",
+    "museum_access",
+    "historic_building"
+  ],
+  "tags": [
+    "speakeasy",
+    "prohibition",
+    "distillery",
+    "downtown",
+    "historic",
+    "live_music",
+    "recommended",
+    "hidden_gem"
+  ],
+  "data_sources": ["mob_museum_website", "yelp"],
+  "created_at": "2026-02-03T23:30:00Z",
+  "updated_at": "2026-02-03T23:30:00Z"
+}

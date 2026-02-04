@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sin City Travels</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header id="app-header">
+        <div class="header-left">
+            <h1>SIN CITY TRAVELS</h1>
+            <span class="tagline">Navigate Vegas Like a Pro</span>
+        </div>
+        <div class="header-stats" id="header-stats"></div>
+    </header>
+
+    <div id="app-container">
+        <aside id="sidebar">
+            <!-- Category Filters -->
+            <div class="panel" id="filter-panel">
+                <h3>Categories</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="restaurant">
+                        <span class="dot" style="background:#e74c3c"></span>
+                        Restaurants <span class="count" id="count-restaurant">0</span>
+                    </button>
+                    <button class="filter-btn active" data-category="shopping">
+                        <span class="dot" style="background:#f39c12"></span>
+                        Shopping <span class="count" id="count-shopping">0</span>
+                    </button>
+                    <button class="filter-btn active" data-category="entertainment">
+                        <span class="dot" style="background:#9b59b6"></span>
+                        Entertainment <span class="count" id="count-entertainment">0</span>
+                    </button>
+                    <button class="filter-btn active" data-category="nightlife">
+                        <span class="dot" style="background:#1abc9c"></span>
+                        Nightlife <span class="count" id="count-nightlife">0</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Recommended Spots -->
+            <div class="panel" id="recommended-panel">
+                <h3>Recommended Spots</h3>
+                <p class="panel-subtitle">Speakeasies, local favorites &amp; hidden gems</p>
+                <div id="recommended-list"></div>
+            </div>
+
+            <!-- Navigate -->
+            <div class="panel" id="route-panel">
+                <h3>Navigate</h3>
+                <div class="route-form">
+                    <label>From</label>
+                    <select id="route-start"><option value="">Select start...</option></select>
+                    <label>To</label>
+                    <select id="route-end"><option value="">Select destination...</option></select>
+                    <button class="btn-primary" id="btn-find-route">&#9654; Navigate</button>
+                    <button class="btn-secondary" id="btn-clear-route">Clear</button>
+                </div>
+                <div id="nav-result" class="hidden"></div>
+            </div>
+
+            <!-- Find Nearby -->
+            <div class="panel" id="nearby-panel">
+                <h3>Find Nearby</h3>
+                <div class="nearby-form">
+                    <label>Radius: <span id="radius-value">500</span>m</label>
+                    <input type="range" id="radius-slider" min="100" max="1000" step="50" value="500">
+                    <button class="btn-primary" id="btn-find-nearby">Search From Map Center</button>
+                </div>
+                <div id="nearby-results" class="hidden"></div>
+            </div>
+
+            <!-- POI Detail (shown on click) -->
+            <div class="panel hidden" id="detail-panel">
+                <button class="btn-close" id="btn-close-detail">&times;</button>
+                <div id="detail-content"></div>
+            </div>
+        </aside>
+
+        <div id="map"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>const MAP_CONFIG = {{ map_config | tojson }};</script>
+    <script src="{{ url_for('static', filename='js/api.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/navigate.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

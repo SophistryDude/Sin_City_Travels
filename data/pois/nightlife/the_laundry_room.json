@@ -1,0 +1,52 @@
+{
+  "id": "poi_044",
+  "name": "The Laundry Room",
+  "category": "nightlife",
+  "subcategory": "speakeasy",
+  "casino_property": null,
+  "location": {
+    "address": "525 E Fremont St, Las Vegas, NV 89101",
+    "coordinates": { "lat": 36.1692, "lng": -115.1363 },
+    "level": "ground",
+    "area": "Downtown / Fremont East"
+  },
+  "contact": {
+    "phone": "(702) 701-1466",
+    "website": "https://www.thelaundryroom.com/"
+  },
+  "hours": {
+    "monday": "Closed",
+    "tuesday": "6:00 PM - 2:00 AM",
+    "wednesday": "6:00 PM - 2:00 AM",
+    "thursday": "6:00 PM - 2:00 AM",
+    "friday": "6:00 PM - 2:00 AM",
+    "saturday": "6:00 PM - 2:00 AM",
+    "sunday": "6:00 PM - 2:00 AM"
+  },
+  "pricing": {
+    "price_range": "$$$",
+    "average_per_person": "$25-$50"
+  },
+  "description": "Hidden behind Commonwealth bar on Fremont East, this intimate 27-seat speakeasy is accessed by texting a secret number. Classic craft cocktails served in a Prohibition-era setting with vintage decor and personal bartender service.",
+  "features": [
+    "hidden_entrance",
+    "text_for_entry",
+    "craft_cocktails",
+    "intimate_setting",
+    "prohibition_era_decor",
+    "personal_bartender"
+  ],
+  "tags": [
+    "speakeasy",
+    "hidden_gem",
+    "craft_cocktails",
+    "downtown",
+    "fremont_east",
+    "secret_bar",
+    "recommended",
+    "local_favorite"
+  ],
+  "data_sources": ["official_website", "yelp"],
+  "created_at": "2026-02-03T23:30:00Z",
+  "updated_at": "2026-02-03T23:30:00Z"
+}

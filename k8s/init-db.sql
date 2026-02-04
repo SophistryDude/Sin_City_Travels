@@ -36,7 +36,11 @@ CREATE TYPE poi_subcategory AS ENUM (
     'cirque_du_soleil_show',
     'nightclub',
     'bar',
-    'lounge'
+    'lounge',
+    'speakeasy',
+    'craft_cocktail_bar',
+    'tiki_bar',
+    'cocktail_lounge'
 );
 
 CREATE TYPE price_range AS ENUM ('$', '$$', '$$$', '$$$$', '$$$$+');
