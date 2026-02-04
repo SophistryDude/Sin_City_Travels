@@ -1,0 +1,67 @@
+{
+  "id": "poi_037",
+  "name": "Aureole",
+  "category": "restaurant",
+  "subcategory": "fine_dining_american",
+  "casino_property": "Mandalay Bay",
+  "location": {
+    "address": "3950 Las Vegas Blvd S, Las Vegas, NV 89119",
+    "casino": "Mandalay Bay Resort & Casino",
+    "coordinates": {
+      "lat": 36.0909,
+      "lng": -115.1743
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "phone": "(702) 632-7401",
+    "website": "https://www.mandalaybay.com/en/restaurants/aureole.html",
+    "reservations": "https://www.opentable.com/aureole-las-vegas"
+  },
+  "hours": {
+    "sunday": "5:30 PM - 10:00 PM",
+    "monday": "Closed",
+    "tuesday": "Closed",
+    "wednesday": "5:30 PM - 10:00 PM",
+    "thursday": "5:30 PM - 10:00 PM",
+    "friday": "5:30 PM - 10:00 PM",
+    "saturday": "5:30 PM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$150-$250"
+  },
+  "description": "Iconic Wolfgang Puck restaurant featuring progressive American cuisine with a dramatic four-story wine tower where wine angels retrieve bottles via harness.",
+  "cuisine": ["american", "contemporary_american", "progressive"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "wine_tower",
+    "wine_angels",
+    "progressive_american",
+    "iconic",
+    "reservations_required"
+  ],
+  "chef": "Wolfgang Puck",
+  "dress_code": "business_casual",
+  "tags": [
+    "celebrity_chef",
+    "wolfgang_puck",
+    "american_cuisine",
+    "wine_tower",
+    "iconic",
+    "upscale"
+  ],
+  "special_features": {
+    "wine_tower": "Four-story wine tower",
+    "wine_angels": "Harness-suspended wine retrieval"
+  },
+  "data_sources": [
+    "mandalay_bay_website",
+    "opentable",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T22:00:00Z",
+  "updated_at": "2026-02-03T22:00:00Z"
+}

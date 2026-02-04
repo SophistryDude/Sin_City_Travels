@@ -1,0 +1,61 @@
+{
+  "id": "poi_032",
+  "name": "Sinatra",
+  "category": "restaurant",
+  "subcategory": "fine_dining_italian",
+  "casino_property": "Wynn Las Vegas",
+  "location": {
+    "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Encore at Wynn Las Vegas",
+    "coordinates": {
+      "lat": 36.1308,
+      "lng": -115.1656
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "phone": "(702) 770-5320",
+    "website": "https://www.wynnlasvegas.com/dining/fine-dining/sinatra",
+    "reservations": "https://www.opentable.com/sinatra-wynn"
+  },
+  "hours": {
+    "sunday": "5:30 PM - 10:00 PM",
+    "monday": "5:30 PM - 10:00 PM",
+    "tuesday": "Closed",
+    "wednesday": "5:30 PM - 10:00 PM",
+    "thursday": "5:30 PM - 10:00 PM",
+    "friday": "5:30 PM - 10:00 PM",
+    "saturday": "5:30 PM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$100-$200"
+  },
+  "description": "A tribute to Ol' Blue Eyes serving modern twists on classic Italian cooking, from osso bucco to spaghetti and clams. Features memorabilia from Frank Sinatra's personal collection.",
+  "cuisine": ["italian", "classic_italian", "contemporary_italian"],
+  "features": [
+    "fine_dining",
+    "frank_sinatra_tribute",
+    "memorabilia",
+    "classic_italian",
+    "modern_twists",
+    "reservations_recommended"
+  ],
+  "dress_code": "business_casual",
+  "tags": [
+    "italian_cuisine",
+    "frank_sinatra",
+    "upscale",
+    "classic",
+    "memorabilia",
+    "special_occasion"
+  ],
+  "data_sources": [
+    "wynn_website",
+    "opentable",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:45:00Z",
+  "updated_at": "2026-02-03T21:45:00Z"
+}

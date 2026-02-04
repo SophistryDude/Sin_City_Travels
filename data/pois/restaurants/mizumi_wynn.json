@@ -1,0 +1,61 @@
+{
+  "id": "poi_030",
+  "name": "Mizumi",
+  "category": "restaurant",
+  "subcategory": "fine_dining_japanese",
+  "casino_property": "Wynn Las Vegas",
+  "location": {
+    "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "Wynn Las Vegas",
+    "coordinates": {
+      "lat": 36.1278,
+      "lng": -115.1657
+    },
+    "level": "ground",
+    "area": "North Strip"
+  },
+  "contact": {
+    "phone": "(702) 770-3320",
+    "website": "https://www.wynnlasvegas.com/dining/fine-dining/mizumi",
+    "reservations": "https://www.opentable.com/mizumi-wynn"
+  },
+  "hours": {
+    "sunday": "5:30 PM - 10:00 PM",
+    "monday": "5:30 PM - 10:00 PM",
+    "tuesday": "5:30 PM - 10:00 PM",
+    "wednesday": "5:30 PM - 10:00 PM",
+    "thursday": "5:30 PM - 10:00 PM",
+    "friday": "5:30 PM - 10:00 PM",
+    "saturday": "5:30 PM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$100-$200"
+  },
+  "description": "Serves pristine sushi and sashimi, robatayaki bar specialties and modern Japanese cuisine, with a teppanyaki room where chefs cook tableside.",
+  "cuisine": ["japanese", "sushi", "teppanyaki", "robatayaki"],
+  "features": [
+    "fine_dining",
+    "sushi_bar",
+    "teppanyaki_room",
+    "robatayaki_bar",
+    "tableside_cooking",
+    "modern_japanese",
+    "reservations_recommended"
+  ],
+  "dress_code": "business_casual",
+  "tags": [
+    "japanese_cuisine",
+    "sushi",
+    "teppanyaki",
+    "upscale",
+    "tableside_cooking"
+  ],
+  "data_sources": [
+    "wynn_website",
+    "opentable",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T21:45:00Z",
+  "updated_at": "2026-02-03T21:45:00Z"
+}

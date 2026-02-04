@@ -1,0 +1,60 @@
+{
+  "id": "poi_034",
+  "name": "STRIPSTEAK",
+  "category": "restaurant",
+  "subcategory": "fine_dining_steakhouse",
+  "casino_property": "Mandalay Bay",
+  "location": {
+    "address": "3950 Las Vegas Blvd S, Las Vegas, NV 89119",
+    "casino": "Mandalay Bay Resort & Casino",
+    "coordinates": {
+      "lat": 36.0909,
+      "lng": -115.1743
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "phone": "(702) 632-7414",
+    "website": "https://www.mandalaybay.com/en/restaurants/stripsteak.html",
+    "reservations": "https://www.opentable.com/stripsteak"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 10:00 PM",
+    "monday": "5:00 PM - 10:00 PM",
+    "tuesday": "5:00 PM - 10:00 PM",
+    "wednesday": "5:00 PM - 10:00 PM",
+    "thursday": "5:00 PM - 10:00 PM",
+    "friday": "5:00 PM - 10:00 PM",
+    "saturday": "5:00 PM - 10:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$100-$200"
+  },
+  "description": "Chef Michael Mina elevates the traditional American steakhouse to new heights with premium cuts and innovative preparations.",
+  "cuisine": ["steakhouse", "american", "contemporary"],
+  "features": [
+    "celebrity_chef",
+    "fine_dining",
+    "premium_steaks",
+    "innovative_preparations",
+    "reservations_recommended"
+  ],
+  "chef": "Michael Mina",
+  "dress_code": "business_casual",
+  "tags": [
+    "celebrity_chef",
+    "michael_mina",
+    "steakhouse",
+    "upscale",
+    "contemporary"
+  ],
+  "data_sources": [
+    "mandalay_bay_website",
+    "opentable",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T22:00:00Z",
+  "updated_at": "2026-02-03T22:00:00Z"
+}

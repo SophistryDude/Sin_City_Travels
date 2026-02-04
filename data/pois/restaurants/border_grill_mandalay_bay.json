@@ -1,0 +1,62 @@
+{
+  "id": "poi_036",
+  "name": "Border Grill",
+  "category": "restaurant",
+  "subcategory": "casual_mexican",
+  "casino_property": "Mandalay Bay",
+  "location": {
+    "address": "3950 Las Vegas Blvd S, Las Vegas, NV 89119",
+    "casino": "Mandalay Bay Resort & Casino",
+    "coordinates": {
+      "lat": 36.0909,
+      "lng": -115.1743
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "phone": "(702) 632-7403",
+    "website": "https://www.mandalaybay.com/en/restaurants/border-grill.html",
+    "reservations": "https://www.opentable.com/border-grill-mandalay-bay"
+  },
+  "hours": {
+    "sunday": "11:00 AM - 10:00 PM",
+    "monday": "11:00 AM - 10:00 PM",
+    "tuesday": "11:00 AM - 10:00 PM",
+    "wednesday": "11:00 AM - 10:00 PM",
+    "thursday": "11:00 AM - 10:00 PM",
+    "friday": "11:00 AM - 11:00 PM",
+    "saturday": "11:00 AM - 11:00 PM"
+  },
+  "pricing": {
+    "price_range": "$$",
+    "average_per_person": "$30-$60"
+  },
+  "description": "Modern Mexican restaurant by celebrity Chefs Mary Sue Milliken and Susan Feniger overlooking the Lazy River with two floors of patio dining.",
+  "cuisine": ["mexican", "modern_mexican", "contemporary"],
+  "features": [
+    "celebrity_chef",
+    "casual_dining",
+    "lazy_river_views",
+    "patio_dining",
+    "two_floors",
+    "modern_mexican"
+  ],
+  "chef": "Mary Sue Milliken & Susan Feniger",
+  "dress_code": "casual",
+  "tags": [
+    "celebrity_chef",
+    "mexican_cuisine",
+    "casual",
+    "patio",
+    "lazy_river_views",
+    "two_floors"
+  ],
+  "data_sources": [
+    "mandalay_bay_website",
+    "opentable",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T22:00:00Z",
+  "updated_at": "2026-02-03T22:00:00Z"
+}
