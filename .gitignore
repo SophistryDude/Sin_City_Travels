@@ -85,3 +85,12 @@ models/raw_scans/
 tmp/
 temp/
 *.tmp
+
+# Claude Code
+.claude/
+
+# Windows artifacts
+nul
+
+# Local deployment scripts (contain IP/key paths)
+ssh-ec2.sh
