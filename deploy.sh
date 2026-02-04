@@ -142,7 +142,7 @@ echo "► Step 7: Configuring Nginx..."
 
 cat > /etc/nginx/sites-available/sincitytravels <<NGXEOF
 server {
-    listen 80;
+    listen 8080;
     server_name _;
 
     # Sin City Travels demo
@@ -180,12 +180,12 @@ echo ""
 echo "══════════════════════════════════════════════════"
 echo "  Deployment complete!"
 echo ""
-echo "  App URL:     http://$(curl -s ifconfig.me 2>/dev/null || echo '<your-ec2-ip>')/"
+echo "  App URL:     http://$(curl -s ifconfig.me 2>/dev/null || echo '<your-ec2-ip>'):8080/"
 echo "  DB Password: ${DB_PASS}"
 echo "  Service:     sudo systemctl status sincitytravels"
 echo "  Logs:        sudo journalctl -u sincitytravels -f"
 echo ""
 echo "  IMPORTANT: Save the DB password above!"
-echo "  IMPORTANT: Make sure port 80 is open in your"
+echo "  IMPORTANT: Make sure port 8080 is open in your"
 echo "             EC2 security group."
 echo "══════════════════════════════════════════════════"
