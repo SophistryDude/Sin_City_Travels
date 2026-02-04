@@ -1,0 +1,67 @@
+{
+  "id": "poi_001",
+  "name": "Golden Steer Steakhouse",
+  "category": "restaurant",
+  "subcategory": "fine_dining_steakhouse",
+  "casino_property": null,
+  "location": {
+    "address": "308 W Sahara Ave, Las Vegas, NV 89102",
+    "coordinates": {
+      "lat": 36.1441,
+      "lng": -115.1486
+    },
+    "level": "ground",
+    "area": "Off-Strip"
+  },
+  "contact": {
+    "phone": "(702) 384-4470",
+    "website": "https://goldensteer.com/",
+    "yelp": "https://www.yelp.com/biz/golden-steer-steakhouse-las-vegas-las-vegas",
+    "opentable": "https://www.opentable.com/golden-steer-steakhouse"
+  },
+  "hours": {
+    "monday": "4:30 PM - 9:45 PM",
+    "tuesday": "4:30 PM - 9:45 PM",
+    "wednesday": "4:30 PM - 9:45 PM",
+    "thursday": "4:30 PM - 9:45 PM",
+    "friday": "4:30 PM - 9:45 PM",
+    "saturday": "4:30 PM - 9:45 PM",
+    "sunday": "4:30 PM - 9:45 PM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$80-$150"
+  },
+  "ratings": {
+    "opentable": {
+      "score": 4.8,
+      "count": 12889,
+      "updated": "2026-02"
+    }
+  },
+  "description": "Las Vegas' oldest and most iconic steakhouse, serving guests since 1958. Classic Vegas ambiance with red leather booths named after celebrities like Frank Sinatra and Marilyn Monroe. Known for tableside Caesar salad preparation, flaming desserts, and USDA Prime Certified Beef.",
+  "cuisine": ["steakhouse", "american", "classic_vegas"],
+  "features": [
+    "historic_landmark",
+    "celebrity_booths",
+    "tableside_service",
+    "prime_beef",
+    "smart_casual_dress_code"
+  ],
+  "tags": [
+    "established_1958",
+    "iconic",
+    "old_vegas",
+    "celebrity_hangout",
+    "sinatra",
+    "fine_dining"
+  ],
+  "data_sources": [
+    "yelp",
+    "opentable",
+    "official_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T19:30:00Z",
+  "updated_at": "2026-02-03T19:30:00Z"
+}

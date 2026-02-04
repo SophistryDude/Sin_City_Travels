@@ -1,0 +1,67 @@
+{
+  "id": "poi_002",
+  "name": "Hakkasan",
+  "category": "restaurant",
+  "subcategory": "fine_dining_chinese",
+  "casino_property": "MGM Grand",
+  "location": {
+    "address": "3799 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "casino": "MGM Grand Hotel & Casino",
+    "coordinates": {
+      "lat": 36.1024,
+      "lng": -115.1698
+    },
+    "level": "ground",
+    "area": "South Strip"
+  },
+  "contact": {
+    "phone": "(702) 891-3838",
+    "website": "https://hakkasan.com/las-vegas",
+    "reservations": "https://www.opentable.com/hakkasan-las-vegas"
+  },
+  "hours": {
+    "sunday": "5:00 PM - 11:00 PM",
+    "monday": "5:00 PM - 11:00 PM",
+    "tuesday": "Closed",
+    "wednesday": "5:00 PM - 11:00 PM",
+    "thursday": "5:00 PM - 11:00 PM",
+    "friday": "5:00 PM - 12:00 AM",
+    "saturday": "5:00 PM - 12:00 AM"
+  },
+  "pricing": {
+    "price_range": "$$$$",
+    "average_per_person": "$100-$200"
+  },
+  "ratings": {
+    "michelin": {
+      "stars": 1,
+      "year": 2024
+    }
+  },
+  "description": "World-renowned international destination for fine Chinese cuisine under the direction of Michelin-starred Chef Ho Chee Boon, producing delicious dim sum and wok-fired dishes. Features an open kitchen where guests can watch meals being prepared.",
+  "cuisine": ["chinese", "dim_sum", "contemporary_chinese"],
+  "features": [
+    "michelin_starred",
+    "fine_dining",
+    "open_kitchen",
+    "dim_sum",
+    "wok_fired_dishes",
+    "reservations_recommended"
+  ],
+  "chef": "Chef Ho Chee Boon",
+  "dress_code": "smart_casual",
+  "tags": [
+    "michelin_star",
+    "celebrity_chef",
+    "chinese_cuisine",
+    "upscale",
+    "special_occasion"
+  ],
+  "data_sources": [
+    "opentable",
+    "official_website",
+    "web_search_2026-02"
+  ],
+  "created_at": "2026-02-03T19:35:00Z",
+  "updated_at": "2026-02-03T19:35:00Z"
+}
