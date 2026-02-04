@@ -1,6 +1,6 @@
 Property Name,Location,OSM Data,Google Indoor Maps,Floor Plan PDF,Official Website Map,Interactive Map,3D Model,Priority,Data Quality,Sources,Notes,Contact Status
-Caesars Palace,Central Strip,Yes,No,Yes,Yes,No,No,Tier 1,⭐⭐⭐⭐⭐,"SmarterVegas, VegasMaps, Getawayk",Multiple high-quality sources available,Not contacted
-Bellagio,Central Strip,Yes,No,Yes,Yes,Yes,No,Tier 1,⭐⭐⭐⭐⭐,"SmarterVegas, VegasUnzipped, ArcGIS",Has interactive ArcGIS map,Not contacted
+Caesars Palace,Central Strip,Yes,No,Yes,Yes,No,No,Tier 1,⭐⭐⭐⭐⭐,"SmarterVegas, VegasMaps, Getawayk","✅ PDF Downloaded (1.3MB, 2020 data)",Downloaded
+Bellagio,Central Strip,Yes,No,Yes,Yes,Yes,No,Tier 1,⭐⭐⭐⭐⭐,"SmarterVegas, VegasUnzipped, ArcGIS","✅ 2 PDFs Downloaded (2.2MB total, 2023 data) + ArcGIS map available",Downloaded
 MGM Grand,South Strip,Yes,No,Yes,Yes,No,No,Tier 1,⭐⭐⭐⭐,"SmarterVegas, VegasUnzipped",Property maps available,Not contacted
 Aria Resort & Casino,South Strip,Yes,No,Yes,Yes,No,No,Tier 1,⭐⭐⭐⭐,SmarterVegas,Modern property with clear layout,Not contacted
 The Venetian Las Vegas,North Strip,Yes,No,Unknown,Unknown,No,No,Tier 2,Unknown,,Needs verification on SmarterVegas,Not contacted
