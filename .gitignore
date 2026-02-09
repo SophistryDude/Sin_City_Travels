@@ -92,5 +92,8 @@ temp/
 # Windows artifacts
 nul
 
+# Google Directions cache
+demo/.directions_cache/
+
 # Local deployment scripts (contain IP/key paths)
 ssh-ec2.sh

@@ -18,6 +18,7 @@ from config import (
     UBER_RATES, LYFT_RATES, RIDESHARE_AVG_SPEED_MPH
 )
 from db import init_pool, query
+import google_directions
 
 
 class CustomJSONProvider(DefaultJSONProvider):
@@ -709,28 +710,86 @@ def api_navigate():
                                  outdoor_end['lat'], outdoor_end['lng'])
 
         if transport_mode == 'walk':
-            # Outdoor walking leg
-            outdoor_waypoints = [
-                {'lat': outdoor_start['lat'], 'lng': outdoor_start['lng'],
-                 'name': start_ent['node_name'] or start_property, 'node_type': 'entrance'},
-                {'lat': outdoor_end['lat'], 'lng': outdoor_end['lng'],
-                 'name': end_ent['node_name'] or end_property, 'node_type': 'entrance'}
-            ]
-            outdoor_steps = generate_turn_by_turn(outdoor_waypoints)
+            # Try Google Directions for real walking route
+            google_walk = google_directions.get_directions(
+                origin=(outdoor_start['lat'], outdoor_start['lng']),
+                destination=(outdoor_end['lat'], outdoor_end['lng']),
+                mode='walking'
+            )
 
-            legs.append({
-                'leg_type': 'outdoor_walk',
-                'leg_number': 2,
-                'label': f'Walk to {end_property}',
-                'transport': 'walk',
-                'distance_meters': round(outdoor_dist, 1),
-                'estimated_time_seconds': int(outdoor_dist / WALK_SPEED_MPS),
-                'steps': outdoor_steps,
-                'waypoints': outdoor_waypoints
-            })
+            if google_walk:
+                gw = google_walk['waypoints']
+                if gw:
+                    gw[0]['name'] = start_ent['node_name'] or start_property
+                    gw[0]['node_type'] = 'entrance'
+                    gw[-1]['name'] = end_ent['node_name'] or end_property
+                    gw[-1]['node_type'] = 'entrance'
+
+                legs.append({
+                    'leg_type': 'outdoor_walk',
+                    'leg_number': 2,
+                    'label': f'Walk to {end_property}',
+                    'transport': 'walk',
+                    'distance_meters': google_walk['distance_meters'],
+                    'estimated_time_seconds': google_walk['duration_seconds'],
+                    'steps': google_walk['steps'],
+                    'waypoints': gw,
+                    'source': 'google_directions'
+                })
+            else:
+                # Fallback: straight-line route
+                outdoor_waypoints = [
+                    {'lat': outdoor_start['lat'], 'lng': outdoor_start['lng'],
+                     'name': start_ent['node_name'] or start_property, 'node_type': 'entrance'},
+                    {'lat': outdoor_end['lat'], 'lng': outdoor_end['lng'],
+                     'name': end_ent['node_name'] or end_property, 'node_type': 'entrance'}
+                ]
+                outdoor_steps = generate_turn_by_turn(outdoor_waypoints)
+
+                legs.append({
+                    'leg_type': 'outdoor_walk',
+                    'leg_number': 2,
+                    'label': f'Walk to {end_property}',
+                    'transport': 'walk',
+                    'distance_meters': round(outdoor_dist, 1),
+                    'estimated_time_seconds': int(outdoor_dist / WALK_SPEED_MPS),
+                    'steps': outdoor_steps,
+                    'waypoints': outdoor_waypoints,
+                    'source': 'straight_line'
+                })
         else:
-            # Rideshare leg
-            fare_estimates = estimate_rideshare_fare(outdoor_dist)
+            # Rideshare leg — try Google Directions for driving route
+            google_drive = google_directions.get_directions(
+                origin=(outdoor_start['lat'], outdoor_start['lng']),
+                destination=(outdoor_end['lat'], outdoor_end['lng']),
+                mode='driving'
+            )
+
+            if google_drive:
+                actual_distance = google_drive['distance_meters']
+                actual_drive_seconds = google_drive['duration_seconds']
+                ride_waypoints = google_drive['waypoints']
+                if ride_waypoints:
+                    ride_waypoints[0]['name'] = f'{start_property} Pickup'
+                    ride_waypoints[0]['node_type'] = 'rideshare_pickup'
+                    ride_waypoints[-1]['name'] = f'{end_property} Dropoff'
+                    ride_waypoints[-1]['node_type'] = 'rideshare_dropoff'
+                route_source = 'google_directions'
+            else:
+                actual_distance = outdoor_dist
+                actual_drive_seconds = None
+                ride_waypoints = [
+                    {'lat': outdoor_start['lat'], 'lng': outdoor_start['lng'],
+                     'name': f'{start_property} Pickup', 'node_type': 'rideshare_pickup'},
+                    {'lat': outdoor_end['lat'], 'lng': outdoor_end['lng'],
+                     'name': f'{end_property} Dropoff', 'node_type': 'rideshare_dropoff'}
+                ]
+                route_source = 'straight_line'
+
+            fare_estimates = estimate_rideshare_fare(actual_distance)
+            if actual_drive_seconds is not None:
+                fare_estimates['estimated_drive_minutes'] = round(actual_drive_seconds / 60, 1)
+
             deep_links = generate_rideshare_links(
                 outdoor_start['lat'], outdoor_start['lng'],
                 outdoor_end['lat'], outdoor_end['lng'],
@@ -743,7 +802,7 @@ def api_navigate():
                 'leg_number': 2,
                 'label': f'Rideshare to {end_property}',
                 'transport': 'rideshare',
-                'distance_meters': round(outdoor_dist, 1),
+                'distance_meters': round(actual_distance, 1),
                 'estimated_time_seconds': ride_time,
                 'fare_estimates': fare_estimates,
                 'deep_links': deep_links,
@@ -765,15 +824,11 @@ def api_navigate():
                      'distance_meters': 0, 'time_seconds': fare_estimates['uber']['eta_minutes'] * 60,
                      'from': outdoor_start, 'to': outdoor_start},
                     {'instruction': f"Ride to {end_property} ({fare_estimates['distance_miles']} mi)",
-                     'distance_meters': round(outdoor_dist, 1), 'time_seconds': ride_time,
+                     'distance_meters': round(actual_distance, 1), 'time_seconds': ride_time,
                      'from': outdoor_start, 'to': outdoor_end},
                 ],
-                'waypoints': [
-                    {'lat': outdoor_start['lat'], 'lng': outdoor_start['lng'],
-                     'name': f'{start_property} Pickup', 'node_type': 'rideshare_pickup'},
-                    {'lat': outdoor_end['lat'], 'lng': outdoor_end['lng'],
-                     'name': f'{end_property} Dropoff', 'node_type': 'rideshare_dropoff'}
-                ]
+                'waypoints': ride_waypoints,
+                'source': route_source
             })
 
         # ── Leg 3: Indoor arrival ──

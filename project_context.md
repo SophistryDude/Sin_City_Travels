@@ -2,7 +2,7 @@
 
 **Project Type**: Indoor Navigation & Wayfinding App for Las Vegas Casinos
 **Created**: February 3, 2026
-**Status**: Phase 2 Complete - Interactive Web Demo Deployed
+**Status**: Phase 3A Complete - Google Maps Directions API Integration
 **Repository**: https://github.com/SophistryDude/Sin_City_Travels
 **Live Demo**: http://3.140.78.15:8888/
 
@@ -151,6 +151,30 @@ Tables Created:
 - Property name normalization across all POIs
 - Database schema updated: 63 properties, subcategory changed to VARCHAR(100)
 
+### Phase 3A: Google Maps Directions API Integration ✅ COMPLETE
+
+**Outdoor Routing via Google Directions API**:
+- Real walking/driving directions replace straight-line outdoor legs
+- Road-following polylines rendered on Leaflet map (10-50 waypoints per outdoor leg)
+- Accurate Google-sourced distances and walk/drive times
+- Turn-by-turn directions with real street names ("Head north on Las Vegas Blvd")
+- Rideshare fare estimates now use road distance (more accurate than haversine)
+
+**New Module** (`demo/google_directions.py`):
+- Google Directions API client (walking + driving modes)
+- Encoded polyline decoder (Google → lat/lng coordinate arrays)
+- File-based response cache (`.directions_cache/`, 30-day TTL)
+- Graceful fallback to straight-line routing when API unavailable
+- Zero new pip dependencies (uses only Python stdlib)
+
+**Configuration** (`demo/config.py`):
+- `GOOGLE_MAPS_API_KEY` from environment variable
+- Cache directory, TTL, and API timeout settings
+
+**Fallback Behavior**:
+- No API key or API failure → existing straight-line haversine routing (zero breakage)
+- `source` field on outdoor legs indicates `google_directions` or `straight_line`
+
 ---
 
 ## Technology Stack
@@ -165,11 +189,11 @@ Tables Created:
 - **Scripting**: Python 3.x
 - **Spatial Queries**: PostGIS geography/geometry
 - **Connection Management**: psycopg2 connection pooling with retry logic
+- **Outdoor Routing**: Google Maps Directions API (walking + driving)
 
 ### Planned
 - **Mobile App**: React Native (iOS/Android)
 - **3D Visualization**: Three.js / React Three Fiber
-- **Outdoor Navigation**: Google Maps API
 - **Indoor Positioning**: Bluetooth beacons / WiFi triangulation
 - **ML/Pathfinding**: A* algorithm, Dijkstra, or ML-based routing
 - **SSL/HTTPS**: Let's Encrypt for production
@@ -201,8 +225,9 @@ sin-city-travels/
 │   ├── LAS_VEGAS_DATA_TRACKING.csv
 │   └── OSM_DATA_SUMMARY.md
 ├── demo/                     # Interactive web demo (Flask)
-│   ├── app.py                # Flask backend (750 lines, 10+ API endpoints)
-│   ├── config.py             # DB, map, navigation, rideshare config
+│   ├── app.py                # Flask backend (850+ lines, 10+ API endpoints)
+│   ├── config.py             # DB, map, navigation, rideshare, Google API config
+│   ├── google_directions.py  # Google Directions API client with caching
 │   ├── db.py                 # Connection pooling with retry logic
 │   ├── requirements.txt      # flask, gunicorn, psycopg2-binary
 │   ├── templates/
@@ -406,7 +431,7 @@ SELECT calculate_poi_distance('poi_001', 'poi_002');
 
 ### Phase 3: Enhanced Navigation
 
-#### A. Google Maps API Integration
+#### A. Google Maps API Integration ✅ COMPLETE
 **Goal**: Combine indoor + outdoor navigation
 
 **Architecture**:
@@ -636,7 +661,7 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 ## Team & Contributors
 
 **Project Lead**: SophistryDude
-**AI Assistants**: Claude Sonnet 4.5 (Phase 1), Claude Opus 4.5 (Phase 2)
+**AI Assistants**: Claude Sonnet 4.5 (Phase 1), Claude Opus 4.5 (Phase 2), Claude Opus 4.6 (Phase 3)
 
 ---
 
@@ -659,7 +684,7 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 | Feb 4, 2026 | POI expansion: 49 → 994 POIs via SmarterVegas scraping |
 | Feb 4, 2026 | Property expansion: 9 → 63 properties (Strip + Downtown + Off-Strip) |
 | Feb 4, 2026 | Walking directions reviewed for all 63 properties |
-| **TBD** | Google Maps API integration |
+| Feb 8, 2026 | Google Maps Directions API integration (outdoor routing) |
 | **TBD** | ML pathfinding model training |
 | **TBD** | Mobile app MVP |
 | **TBD** | Public beta |
@@ -677,5 +702,5 @@ User Journey: Restaurant at Bellagio → Shopping at Caesars Palace
 
 ---
 
-**Last Updated**: February 4, 2026
-**Version**: 2.5 (Phase 2.5 - POI Expansion: 994 POIs across 63 properties)
+**Last Updated**: February 8, 2026
+**Version**: 3.0 (Phase 3A - Google Maps Directions API Integration)

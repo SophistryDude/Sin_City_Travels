@@ -38,3 +38,10 @@ LYFT_RATES = {
 }
 
 RIDESHARE_AVG_SPEED_MPH = 15  # Las Vegas Strip average
+
+# Google Maps Directions API
+GOOGLE_MAPS_API_KEY = os.getenv('GOOGLE_MAPS_API_KEY', '')
+GOOGLE_DIRECTIONS_BASE_URL = 'https://maps.googleapis.com/maps/api/directions/json'
+DIRECTIONS_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.directions_cache')
+DIRECTIONS_CACHE_TTL_DAYS = 30
+GOOGLE_API_TIMEOUT = 5
